@@ -1,0 +1,172 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.sawlatours.com/#website",
+      "name": "Sawla Tours",
+      "url": "https://www.sawlatours.com/",
+      "description": "Ethiopia-based tour operator designing private, tailor-made Ethiopia journeys.",
+      "publisher": {
+        "@id": "https://www.sawlatours.com/#travelagency"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.sawlatours.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.sawlatours.com/#webpage",
+      "url": "https://www.sawlatours.com/",
+      "name": "Ethiopia Tour Operator | Private Ethiopia Tours | Sawla Tours",
+      "description": "Sawla Tours is an Ethiopia-based tour operator designing private, tailor-made journeys across Lalibela, Simien, Omo Valley, Bale, Danakil, festivals, wildlife areas, and cultural regions.",
+      "isPartOf": {
+        "@id": "https://www.sawlatours.com/#website"
+      },
+      "about": {
+        "@id": "https://www.sawlatours.com/#travelagency"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.sawlatours.com/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": [
+        "TravelAgency",
+        "LocalBusiness"
+      ],
+      "@id": "https://www.sawlatours.com/#travelagency",
+      "name": "Sawla Tours",
+      "description": "Ethiopia-based tour operator designing private, tailor-made Ethiopia journeys across cultural, historic, wildlife, festival, photography, trekking, and remote travel routes.",
+      "url": "https://www.sawlatours.com/",
+      "foundingDate": "2009",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Ethiopia"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Addis Ababa",
+        "addressCountry": "ET"
+      },
+      "email": "explore@sawlatours.com",
+      "telephone": "+25170578306",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+25170578306",
+        "email": "explore@sawlatours.com",
+        "availableLanguage": [
+          "English",
+          "Amharic"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "17:30"
+        }
+      },
+      "sameAs": [
+        "https://www.facebook.com/sawlatours",
+        "https://www.instagram.com/sawlatours"
+      ],
+      "knowsAbout": [
+        "Ethiopia tours",
+        "Lalibela",
+        "Simien Mountains",
+        "Bale Mountains",
+        "Omo Valley",
+        "Danakil Depression",
+        "Tigray",
+        "Ethiopia cultural tours",
+        "Ethiopia wildlife tours",
+        "Ethiopia photography tours",
+        "Ethiopia trekking",
+        "Ethiopia birding",
+        "Ethiopia festival tours",
+        "Ethiopian wolf",
+        "Gelada monkeys",
+        "endemic species Ethiopia",
+        "mobile tented camps Ethiopia",
+        "tailor-made Ethiopia journeys"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.sawlatours.com/#faqpage",
+      "isPartOf": {
+        "@id": "https://www.sawlatours.com/#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What kind of Ethiopia tours does Sawla Tours organise?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sawla Tours organises private, tailor-made Ethiopia tours including cultural journeys, historic routes, wildlife and birding trips, photography tours, festival trips, trekking itineraries, Omo Valley journeys, Danakil expeditions, and remote mobile camp experiences. Every journey is designed around the individual traveler's interests, pace, and comfort level."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Sawla Tours based in Ethiopia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Sawla Tours is an Ethiopia-based tour operator with local travel specialists, guides, drivers, and field teams who plan and operate journeys on the ground. The team is based in Addis Ababa and has been operating since 2009."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Sawla Tours customise a fully private Ethiopia itinerary?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Sawla Tours specialises in private, tailor-made journeys. The planning process starts with your travel interests, preferred pace, comfort level, group size, dates, and destinations. The team then builds a bespoke route around those details, with revisions until the itinerary feels right."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Ethiopia destinations can Sawla Tours include in a tour?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sawla Tours can design trips including Addis Ababa, Lalibela, Gondar, Bahir Dar, Simien Mountains, Bale Mountains, Omo Valley, Danakil Depression, Harar, Tigray and Gheralta rock churches, Rift Valley lakes, Kafa Biosphere Reserve, and other regions depending on current access conditions and the traveler's interests."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Sawla Tours arrange guides, vehicles, and logistics?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Sawla Tours arranges experienced local guides, vehicles, drivers, domestic flight coordination, accommodations, permits where required, mobile camp logistics, and on-the-ground support throughout the journey. All logistics are based on the confirmed itinerary and current local conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Ethiopia suitable for first-time visitors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ethiopia can be deeply rewarding for first-time visitors when the trip is planned carefully. A good first journey typically balances Addis Ababa, the northern historic route, Lalibela, and the Simien Mountains or Bale Mountains. More remote destinations such as Danakil and Omo Valley are better suited to travelers with some prior Africa travel experience or with extra time to prepare."
+          }
+        }
+      ]
+    }
+  ]
+}

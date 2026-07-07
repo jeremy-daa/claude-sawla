@@ -1,0 +1,555 @@
+{
+  "project": "Sawla Tours Website Redesign",
+  "generated": "2026-06-04",
+  "totalPages": 96,
+  "note": "Complete SEO metadata for every page. Use these in Next.js generateMetadata() functions.",
+
+  "homepage": {
+    "url": "/",
+    "title": "Private Ethiopia Tours, Crafted by Local Experts | Sawla Tours",
+    "description": "Sawla Tours is an Ethiopia-based tour operator designing private, tailor-made journeys across Lalibela, Simien, Omo Valley, Bale, Danakil, festivals, wildlife areas, and cultural regions. Licensed tour operator since 2009.",
+    "h1": "Ethiopia, Crafted by the People Who Know It Best",
+    "primaryKeyword": "Ethiopia tour operator",
+    "secondaryKeywords": ["private Ethiopia tours", "tailor-made Ethiopia tours", "Ethiopia travel specialist", "Ethiopia tour company", "Sawla Tours"],
+    "ogImage": "/images/home/home-hero-main.jpg",
+    "robots": "index,follow",
+    "canonical": "https://www.sawlatours.com/"
+  },
+
+  "enquire": {
+    "url": "/enquire",
+    "title": "Plan Your Private Ethiopia Tour | Contact Sawla Tours",
+    "description": "Contact Sawla Tours to plan a private, tailor-made Ethiopia journey. Our Addis Ababa-based team responds within 24 hours on business days. No packages — just a careful first conversation.",
+    "h1": "Plan Your Private Ethiopia Journey",
+    "primaryKeyword": "contact Ethiopia tour operator",
+    "secondaryKeywords": ["Ethiopia tour enquiry", "plan Ethiopia tour", "private Ethiopia tour", "tailor-made Ethiopia", "Ethiopia travel specialist contact"],
+    "robots": "index,follow"
+  },
+
+  "aboutUs": {
+    "url": "/about-us",
+    "title": "About Sawla Tours | Ethiopia-Based Tour Operator Since 2009",
+    "description": "Sawla Tours is an Ethiopia-based tour operator founded in 2009. Meet the local team of travel specialists, guides, and drivers who design and operate every private Ethiopia journey.",
+    "h1": "About Sawla Tours",
+    "primaryKeyword": "Ethiopia tour operator about",
+    "secondaryKeywords": ["Sawla Tours Ethiopia", "Ethiopia local tour operator", "Ethiopian tour company", "Addis Ababa tour operator"]
+  },
+
+  "whyTravel": {
+    "url": "/why-travel-with-sawla-tours",
+    "title": "Why Travel with Sawla Tours | Ethiopia Private Tour Specialists",
+    "description": "What makes Sawla Tours different — local Ethiopian ownership, Sawla Films in-house documentary division, honest planning, and 15 years designing private journeys.",
+    "h1": "Why Travel with Sawla Tours",
+    "primaryKeyword": "why choose Sawla Tours Ethiopia",
+    "secondaryKeywords": ["best Ethiopia tour operator", "Ethiopia private tour specialist", "Ethiopia local guides"]
+  },
+
+  "howWeWork": {
+    "url": "/how-we-work",
+    "title": "How We Plan Your Ethiopia Tour | Sawla Tours Planning Process",
+    "description": "How Sawla Tours plans a private Ethiopia journey — from first conversation to tailor-made itinerary to confirmed trip. Transparent, personal, and locally managed.",
+    "h1": "How We Work",
+    "primaryKeyword": "Ethiopia tour planning process",
+    "secondaryKeywords": ["how to plan Ethiopia trip", "Ethiopia tailor-made tour planning", "private Ethiopia tour planning"]
+  },
+
+  "meetSpecialists": {
+    "url": "/meet-our-travel-specialists",
+    "title": "Meet Our Ethiopia Travel Specialists | Sawla Tours Planning Team",
+    "description": "Meet the Sawla Tours travel specialists who design every private Ethiopia itinerary — local experts who plan routes, manage logistics, and stay in contact throughout your trip.",
+    "h1": "Meet Our Travel Specialists",
+    "primaryKeyword": "Ethiopia travel specialist",
+    "secondaryKeywords": ["Ethiopia tour planner", "local Ethiopia travel expert", "Addis Ababa travel specialist"]
+  },
+
+  "meetGuides": {
+    "url": "/meet-our-guides",
+    "title": "Meet Our Ethiopia Guides | Sawla Tours Local Guide Team",
+    "description": "Meet the Ethiopian guides behind every Sawla Tours journey — licensed specialists in Ethiopian history, wildlife, culture, trekking, and local knowledge.",
+    "h1": "Meet Our Guides",
+    "primaryKeyword": "Ethiopia tour guide",
+    "secondaryKeywords": ["licensed Ethiopia guide", "local Ethiopian guide", "Ethiopian wildlife guide", "Ethiopia cultural guide"]
+  },
+
+  "meetDrivers": {
+    "url": "/meet-our-drivers",
+    "title": "Meet Our Drivers | Sawla Tours Ethiopia Road Team",
+    "description": "Meet the Sawla Tours drivers — experienced Ethiopian road specialists who know the routes, maintain the vehicles, and keep you safe and comfortable throughout your journey.",
+    "h1": "Meet Our Drivers",
+    "primaryKeyword": "Ethiopia tour driver",
+    "secondaryKeywords": ["Ethiopia Land Cruiser tour", "Ethiopia private driver", "Ethiopia road trip logistics"]
+  },
+
+  "mobileCamps": {
+    "url": "/mobile-tented-camps-ethiopia",
+    "title": "Mobile Tented Camps Ethiopia | Sawla Tours Field Expeditions",
+    "description": "Private mobile tented camps for Simien Mountains, Bale, Danakil, and remote Ethiopia. Sawla Tours operates its own camp equipment for comfortable off-grid journeys.",
+    "h1": "Mobile Tented Camps in Ethiopia",
+    "primaryKeyword": "mobile tented camps Ethiopia",
+    "secondaryKeywords": ["Ethiopia camp safari", "Ethiopia remote camping", "Simien Mountains camp", "Danakil camping"]
+  },
+
+  "responsibleTravel": {
+    "url": "/responsible-travel",
+    "title": "Responsible Travel Ethiopia | Sawla Tours Approach",
+    "description": "How Sawla Tours approaches responsible travel in Ethiopia — respectful cultural visits, wildlife conservation, community benefit, photography ethics, and honest planning.",
+    "h1": "Responsible Travel",
+    "primaryKeyword": "responsible travel Ethiopia",
+    "secondaryKeywords": ["ethical Ethiopia tours", "sustainable Ethiopia tourism", "community tourism Ethiopia", "respectful cultural tours Ethiopia"]
+  },
+
+  "faq": {
+    "url": "/faq",
+    "title": "Ethiopia Travel FAQ | Frequently Asked Questions | Sawla Tours",
+    "description": "Answers to common questions about planning an Ethiopia trip with Sawla Tours — safety, visas, best time to visit, private tours, guides, vehicles, and practical travel advice.",
+    "h1": "Frequently Asked Questions",
+    "primaryKeyword": "Ethiopia travel FAQ",
+    "secondaryKeywords": ["Ethiopia travel questions", "Ethiopia trip planning FAQ", "is Ethiopia safe", "Ethiopia visa FAQ"]
+  },
+
+  "destinationsHub": {
+    "url": "/ethiopias-popular-destinations",
+    "title": "Ethiopia Destinations | Lalibela, Simien, Danakil & More | Sawla Tours",
+    "description": "Explore all 16 Ethiopia destinations — from Lalibela rock-hewn churches to Danakil lava lakes, Simien Mountains, Omo Valley, Bale Mountains, Tigray and beyond.",
+    "h1": "16 Ethiopia Destinations",
+    "primaryKeyword": "Ethiopia destinations",
+    "secondaryKeywords": ["Ethiopia travel destinations", "where to go in Ethiopia", "Ethiopia tourist places", "best places Ethiopia"]
+  },
+
+  "destinations": {
+    "lalibela": {
+      "url": "/ethiopias-popular-destinations/lalibela",
+      "title": "Lalibela Ethiopia Tours | Rock-Hewn Churches | Sawla Tours",
+      "description": "Visit Lalibela's 11 rock-hewn churches with Sawla Tours. Private guided tours of Bete Medhane Alem, Bete Giyorgis, and the historic Lalibela circuit with local experts since 2009.",
+      "h1": "Lalibela",
+      "primaryKeyword": "Lalibela Ethiopia tours",
+      "secondaryKeywords": ["Lalibela rock churches", "visit Lalibela Ethiopia", "Lalibela guided tour", "Lalibela travel guide"],
+      "geoArea": "Amhara Region, North Ethiopia"
+    },
+    "simien-mountain-national-park": {
+      "url": "/ethiopias-popular-destinations/simien-mountain-national-park",
+      "title": "Simien Mountains Trekking | Gelada Monkeys & Wildlife | Sawla Tours",
+      "description": "Trek Ethiopia's Simien Mountains with Sawla Tours. See gelada monkeys, Walia ibex on the UNESCO World Heritage escarpment. Private guided trekking from Addis Ababa.",
+      "h1": "Simien Mountains",
+      "primaryKeyword": "Simien Mountains trekking Ethiopia",
+      "secondaryKeywords": ["gelada monkeys Simien", "Simien Mountains trek", "Ethiopia highlands trekking", "Simien Mountains National Park"]
+    },
+    "danakil-depression-tour-packages": {
+      "url": "/ethiopias-popular-destinations/danakil-depression-tour-packages",
+      "title": "Danakil Depression Tours Ethiopia | Erta Ale Lava Lake | Sawla Tours",
+      "description": "Explore the Danakil Depression with Sawla Tours. Visit Erta Ale's active lava lake and Dallol's sulphur springs on a safely managed private expedition from Addis Ababa.",
+      "h1": "Danakil Depression",
+      "primaryKeyword": "Danakil Depression tour Ethiopia",
+      "secondaryKeywords": ["Erta Ale lava lake tour", "Danakil Ethiopia expedition", "Dallol sulphur springs", "Afar Ethiopia tours"]
+    },
+    "omo-valley-tribes": {
+      "url": "/ethiopias-popular-destinations/omo-valley-tribes",
+      "title": "Omo Valley Cultural Tours | Ethiopia Tribal Journeys | Sawla Tours",
+      "description": "Respectful, well-planned Omo Valley tours with Sawla Tours. Visit Hamar, Karo, Mursi, and Daasanach communities with experienced local guides from our Ethiopia-based team.",
+      "h1": "Omo Valley",
+      "primaryKeyword": "Omo Valley tours Ethiopia",
+      "secondaryKeywords": ["Omo Valley tribes visit", "Hamar Karo Mursi tour", "southern Ethiopia cultural tour", "ethical Omo Valley travel"]
+    },
+    "bale-mountains-national-park": {
+      "url": "/ethiopias-popular-destinations/bale-mountains-national-park",
+      "title": "Bale Mountains Wildlife | Ethiopian Wolf Tours | Sawla Tours",
+      "description": "See Ethiopian wolves on the Sanetti Plateau with Sawla Tours. Private wildlife and birding tours in Bale Mountains National Park, Harenna Forest, and afroalpine habitats.",
+      "h1": "Bale Mountains",
+      "primaryKeyword": "Bale Mountains wildlife tours Ethiopia",
+      "secondaryKeywords": ["Ethiopian wolf Bale Mountains", "Bale Mountains National Park", "Ethiopia wildlife safari", "Sanetti Plateau trekking"]
+    },
+    "tigray-rock-hewn-churches-historical-sites": {
+      "url": "/ethiopias-popular-destinations/tigray-rock-hewn-churches-historical-sites",
+      "title": "Tigray Rock Churches | Gheralta Trekking Ethiopia | Sawla Tours",
+      "description": "Visit Tigray's extraordinary cliff-face rock churches including Abuna Yemata Guh with Sawla Tours. Private guided tours through Gheralta's sandstone landscapes and ancient frescoes.",
+      "h1": "Tigray & Gheralta",
+      "primaryKeyword": "Tigray rock churches Ethiopia",
+      "secondaryKeywords": ["Abuna Yemata Guh tour", "Gheralta Ethiopia trekking", "Tigray churches tour", "northern Ethiopia churches"]
+    },
+    "gondar": {
+      "url": "/ethiopias-popular-destinations/gondar",
+      "title": "Gondar Ethiopia Tours | Fasil Ghebbi Castles | Sawla Tours",
+      "description": "Explore Gondar's royal castles, Debre Berhan Selassie Church, and Fasil Ghebbi UNESCO World Heritage Site with Sawla Tours. Private guided tours from local experts.",
+      "h1": "Gondar",
+      "primaryKeyword": "Gondar Ethiopia tours",
+      "secondaryKeywords": ["Fasil Ghebbi Gondar", "Gondar castles Ethiopia", "Debre Berhan Selassie", "northern Ethiopia tour"]
+    },
+    "bahir-dar-lake-tana": {
+      "url": "/ethiopias-popular-destinations/bahir-dar-lake-tana",
+      "title": "Bahir Dar Lake Tana Tours | Island Monasteries | Sawla Tours",
+      "description": "Visit Bahir Dar's Lake Tana island monasteries and Blue Nile Falls with Sawla Tours. Private boat tours on Lake Tana with experienced Ethiopian guides.",
+      "h1": "Bahir Dar & Lake Tana",
+      "primaryKeyword": "Bahir Dar Lake Tana tours",
+      "secondaryKeywords": ["Lake Tana monasteries", "Blue Nile Falls Ethiopia", "Bahir Dar Ethiopia travel", "Ethiopian islands monasteries"]
+    },
+    "axum": {
+      "url": "/ethiopias-popular-destinations/axum",
+      "title": "Axum Ethiopia Tours | Ancient Stelae & History | Sawla Tours",
+      "description": "Discover Axum's ancient obelisks, Church of St Mary of Zion, and the ruins of the Aksumite Empire with Sawla Tours. Private guided tours of Ethiopia's oldest city.",
+      "h1": "Axum",
+      "primaryKeyword": "Axum Ethiopia tours",
+      "secondaryKeywords": ["Axum stelae Ethiopia", "Aksumite Empire tour", "ancient Ethiopia history", "Church Mary Zion Axum"]
+    },
+    "harar": {
+      "url": "/ethiopias-popular-destinations/harar",
+      "title": "Harar Ethiopia Tours | Old City & Hyena Feeding | Sawla Tours",
+      "description": "Explore Harar's ancient walled city Jugol, evening hyena feeding ceremony, and vibrant markets with Sawla Tours. Private guided tours of eastern Ethiopia's cultural capital.",
+      "h1": "Harar",
+      "primaryKeyword": "Harar Ethiopia tours",
+      "secondaryKeywords": ["Harar old city tour", "Harar hyena feeding", "Jugol walled city", "eastern Ethiopia travel"]
+    },
+    "addis-ababa": {
+      "url": "/ethiopias-popular-destinations/addis-ababa",
+      "title": "Addis Ababa Tours | City Guide & Day Trips | Sawla Tours",
+      "description": "Explore Addis Ababa's National Museum, Merkato market, Holy Trinity Cathedral, and coffee culture with Sawla Tours. Private city tours and day trip extensions from the capital.",
+      "h1": "Addis Ababa",
+      "primaryKeyword": "Addis Ababa tour Ethiopia",
+      "secondaryKeywords": ["Addis Ababa city tour", "Ethiopia capital tour", "Merkato market Addis", "National Museum Ethiopia Lucy fossil"]
+    },
+    "rift-valley-lakes": {
+      "url": "/ethiopias-popular-destinations/rift-valley-lakes",
+      "title": "Rift Valley Lakes Ethiopia | Birding & Wildlife | Sawla Tours",
+      "description": "Explore the Ethiopian Rift Valley lakes — Ziway, Langano, Awassa, Abiata-Shala — with flamingos, hippos, and over 300 bird species. Private wildlife and birding tours.",
+      "h1": "Rift Valley Lakes",
+      "primaryKeyword": "Rift Valley Lakes Ethiopia",
+      "secondaryKeywords": ["Ethiopia Rift Valley birding", "Lake Awassa Ethiopia", "flamingos Ethiopia lakes", "Ziway Langano tour"]
+    },
+    "kafa-biosphere-reserve": {
+      "url": "/ethiopias-popular-destinations/kafa-biosphere-reserve",
+      "title": "Kafa Biosphere Reserve | Wild Coffee Origin | Sawla Tours",
+      "description": "Visit the birthplace of coffee in Ethiopia's Kafa Biosphere Reserve with Sawla Tours. Wild coffee forests, waterfalls, and UNESCO-recognised biodiversity in southwest Ethiopia.",
+      "h1": "Kafa Biosphere Reserve",
+      "primaryKeyword": "Kafa Ethiopia coffee origin",
+      "secondaryKeywords": ["wild coffee Ethiopia", "Kafa forest Ethiopia", "coffee origin tour Ethiopia", "southwest Ethiopia travel"]
+    },
+    "gambella": {
+      "url": "/ethiopias-popular-destinations/gambella",
+      "title": "Gambella National Park | Wildlife & Culture | Sawla Tours",
+      "description": "Explore Gambella National Park and the Anuak and Nuer communities of western Ethiopia with Sawla Tours. Remote wildlife travel and cultural encounters.",
+      "h1": "Gambella",
+      "primaryKeyword": "Gambella Ethiopia travel",
+      "secondaryKeywords": ["Gambella National Park", "western Ethiopia tour", "Anuak community tour", "remote Ethiopia wildlife"]
+    },
+    "debre-libanos": {
+      "url": "/ethiopias-popular-destinations/debre-libanos",
+      "title": "Debre Libanos Monastery & Blue Nile Gorge | Sawla Tours",
+      "description": "Visit Debre Libanos monastery and the dramatic Blue Nile Gorge with Sawla Tours. A day trip or extension from Addis Ababa through Ethiopia's highland heartland.",
+      "h1": "Debre Libanos & Blue Nile Gorge",
+      "primaryKeyword": "Debre Libanos monastery Ethiopia",
+      "secondaryKeywords": ["Blue Nile Gorge Ethiopia", "Debre Libanos day trip", "central Ethiopia monasteries", "Ethiopian monasteries tour"]
+    },
+    "yabello-borena": {
+      "url": "/ethiopias-popular-destinations/yabello-borena",
+      "title": "Yabello & Borena | Bushcrow & Wells | Sawla Tours",
+      "description": "Discover Yabello's Stresemann's bushcrow, Borena pastoral culture, and traditional singing wells in southern Ethiopia with Sawla Tours.",
+      "h1": "Yabello & Borena",
+      "primaryKeyword": "Yabello Ethiopia birding",
+      "secondaryKeywords": ["Stresemann bushcrow Ethiopia", "Borena culture Ethiopia", "Borena wells singing", "southern Ethiopia birding"]
+    }
+  },
+
+  "toursHub": {
+    "url": "/tours-by-experience",
+    "title": "Ethiopia Tours by Experience | 36 Itineraries | Sawla Tours",
+    "description": "Choose your Ethiopia journey by experience — Historic, Cultural, Wildlife, Adventure, Festival, and Photography tours. 36 tailor-made itineraries from Sawla Tours.",
+    "h1": "Ethiopia Tours by Experience",
+    "primaryKeyword": "Ethiopia tour styles"
+  },
+
+  "tourStyles": {
+    "historic-and-cultural-tours": {
+      "title": "Historic & Cultural Ethiopia Tours | Lalibela Gondar Axum | Sawla Tours",
+      "description": "Private historic Ethiopia tours covering Lalibela, Gondar, Axum, Bahir Dar, and Addis Ababa. Ancient churches, castles, and the living faith of Ethiopian Orthodox Christianity.",
+      "h1": "Heritage Pilgrimage — Historic & Cultural Ethiopia",
+      "primaryKeyword": "historic Ethiopia tours",
+      "secondaryKeywords": ["Ethiopia cultural tour", "Lalibela Gondar tour", "northern Ethiopia circuit", "Ethiopia UNESCO sites tour"]
+    },
+    "tribal-cultural-ethiopia-tours": {
+      "title": "Omo Valley Tribal Tours | South Ethiopia Cultural Journeys | Sawla Tours",
+      "description": "Private Omo Valley tours visiting Hamar, Karo, Mursi, and Daasanach communities. Respectful cultural encounters with experienced local guides.",
+      "h1": "Tribal Encounters — Southern Ethiopia Cultural Tours",
+      "primaryKeyword": "Omo Valley tribal tours Ethiopia",
+      "secondaryKeywords": ["Ethiopia tribal culture tours", "Hamar Karo Mursi visit", "cultural tours south Ethiopia", "Omo Valley responsible travel"]
+    },
+    "ethiopia-wildlife-tours": {
+      "title": "Ethiopia Wildlife & Birding Tours | Ethiopian Wolf Gelada | Sawla Tours",
+      "description": "Private wildlife and birding tours in Ethiopia — Ethiopian wolf, gelada monkeys, Walia ibex, and 800+ bird species. Specialist guides in Bale and Simien Mountains.",
+      "h1": "Wildlife & Birding Tours in Ethiopia",
+      "primaryKeyword": "Ethiopia wildlife tours",
+      "secondaryKeywords": ["Ethiopian wolf tour", "Ethiopia birding tour", "endemic species Ethiopia tour", "Bale Mountains safari"]
+    },
+    "ethiopia-adventure-tours": {
+      "title": "Ethiopia Adventure Tours | Danakil Trekking Remote Camps | Sawla Tours",
+      "description": "Private adventure tours in Ethiopia — Danakil expeditions, Simien Mountains trekking, Bale wilderness, and mobile tented camp journeys. Remoteness with expert logistics.",
+      "h1": "Frontier Adventure — Ethiopia Expedition Tours",
+      "primaryKeyword": "Ethiopia adventure tours",
+      "secondaryKeywords": ["Danakil Depression expedition", "Ethiopia trekking tours", "remote Ethiopia travel", "Simien trekking tour"]
+    },
+    "ethiopia-festival-tours": {
+      "title": "Ethiopia Festival Tours | Timkat Meskel Enkutatash | Sawla Tours",
+      "description": "Festival-timed Ethiopia tours — Timkat in January, Meskel in September, Enkutatash in October. Private guided tours timed to Ethiopia's most spectacular Orthodox celebrations.",
+      "h1": "Festival Immersion — Ethiopia Festival Tours",
+      "primaryKeyword": "Ethiopia festival tours",
+      "secondaryKeywords": ["Timkat festival Ethiopia tour", "Meskel Ethiopia", "Ethiopian Orthodox festivals", "Gondar Timkat celebration"]
+    },
+    "ethiopia-photography-tours": {
+      "title": "Ethiopia Photography Tours | Sawla Films Production Support | Sawla Tours",
+      "description": "Private photography and filming tours in Ethiopia with Sawla Films production support. Expert logistics for landscape, wildlife, cultural, and festival photography.",
+      "h1": "Cinematic Journey — Ethiopia Photography Tours",
+      "primaryKeyword": "Ethiopia photography tours",
+      "secondaryKeywords": ["Ethiopia filming location tour", "Africa photography expedition", "Ethiopia documentary filming", "Sawla Films Ethiopia"]
+    }
+  },
+
+  "guidesHub": {
+    "url": "/ethiopia-travel-guide",
+    "title": "Ethiopia Travel Guide | Planning Resources | Sawla Tours",
+    "description": "The complete Sawla Tours Ethiopia travel guide — when to visit, safety, visas, packing, costs, wildlife, photography, circuits, and practical advice from a local team.",
+    "h1": "Ethiopia Travel Guide",
+    "primaryKeyword": "Ethiopia travel guide"
+  },
+
+  "fieldGuides": {
+    "when-to-visit-ethiopia": {
+      "title": "Best Time to Visit Ethiopia | Month-by-Month Guide | Sawla Tours",
+      "description": "When is the best time to visit Ethiopia? Complete month-by-month breakdown of seasons, festivals, wildlife viewing, regional conditions, and practical planning advice.",
+      "h1": "When to Visit Ethiopia",
+      "primaryKeyword": "best time to visit Ethiopia",
+      "secondaryKeywords": ["Ethiopia travel seasons", "Ethiopia dry season", "Ethiopia rainy season", "Ethiopia weather guide"]
+    },
+    "how-to-plan-your-trip": {
+      "title": "How to Plan an Ethiopia Trip | Itinerary Guide | Sawla Tours",
+      "description": "A practical guide to planning a custom Ethiopia trip — routes, timing, domestic flights, how to choose between destinations, and how to design an itinerary that works.",
+      "h1": "How to Plan an Ethiopia Trip",
+      "primaryKeyword": "how to plan an Ethiopia trip",
+      "secondaryKeywords": ["Ethiopia itinerary planning", "Ethiopia route guide", "planning Ethiopia holiday", "Ethiopia travel advice"]
+    },
+    "safety-in-ethiopia": {
+      "title": "Safety in Ethiopia | Travel Safety Guide 2026 | Sawla Tours",
+      "description": "Current Ethiopia travel safety information for 2026 — which regions are safe, practical logistics advice, and how Sawla Tours manages routes based on ground conditions.",
+      "h1": "Safety in Ethiopia",
+      "primaryKeyword": "safety in Ethiopia travel",
+      "secondaryKeywords": ["is Ethiopia safe to visit", "Ethiopia travel safety 2026", "safe regions Ethiopia", "Ethiopia travel advisory"]
+    },
+    "ethiopia-visa-guide": {
+      "title": "Ethiopia Visa & Entry Requirements 2026 | Sawla Tours",
+      "description": "Complete Ethiopia visa guide 2026 — eVisa process, requirements, cost, processing time, and entry information for international travelers.",
+      "h1": "Ethiopia Visa & Entry Requirements",
+      "primaryKeyword": "Ethiopia visa requirements",
+      "secondaryKeywords": ["Ethiopia eVisa", "how to get Ethiopia visa", "Ethiopia tourist visa", "Ethiopia entry requirements 2026"]
+    },
+    "what-to-pack-for-ethiopia": {
+      "title": "What to Pack for Ethiopia | Complete Packing List | Sawla Tours",
+      "description": "Complete Ethiopia packing list — clothing for historic routes, trekking gear for Simien and Bale, Danakil essentials, and Omo Valley advice from an experienced local team.",
+      "h1": "What to Pack for Ethiopia",
+      "primaryKeyword": "what to pack for Ethiopia",
+      "secondaryKeywords": ["Ethiopia packing list", "Ethiopia travel essentials", "what to bring Ethiopia", "trekking packing list Ethiopia"]
+    },
+    "ethiopia-travel-costs": {
+      "title": "Ethiopia Travel Costs & Budget Guide | Sawla Tours",
+      "description": "How much does an Ethiopia trip cost? Complete budget guide covering accommodation, tours, domestic flights, meals, and what determines pricing at different comfort levels.",
+      "h1": "Ethiopia Travel Costs & Budgeting",
+      "primaryKeyword": "Ethiopia travel costs",
+      "secondaryKeywords": ["how much does Ethiopia trip cost", "Ethiopia budget travel", "Ethiopia luxury tour prices", "Ethiopia holiday cost"]
+    },
+    "ethiopian-food-coffee": {
+      "title": "Ethiopian Food & Coffee Culture | Complete Guide | Sawla Tours",
+      "description": "A guide to Ethiopian food — injera, kitfo, tibs, coffee ceremonies, tej, and the essential eating and drinking experiences across Ethiopia.",
+      "h1": "Ethiopian Food & Coffee Culture",
+      "primaryKeyword": "Ethiopian food guide",
+      "secondaryKeywords": ["Ethiopian coffee ceremony", "injera Ethiopia food", "Ethiopian cuisine guide", "Ethiopia coffee origin"]
+    },
+    "ethiopia-photography-guide": {
+      "title": "Ethiopia Photography Guide | Tips for Travel Photographers | Sawla Tours",
+      "description": "Photography tips for Ethiopia — best light, location timing, photographing people respectfully, permits for professional equipment, and field advice from Sawla Films.",
+      "h1": "Photography in Ethiopia: A Practical Guide",
+      "primaryKeyword": "Ethiopia photography guide",
+      "secondaryKeywords": ["photographing Ethiopia travel", "Ethiopia camera tips", "Ethiopia professional photography permits", "filming Ethiopia locations"]
+    },
+    "ethiopia-travel-circuits": {
+      "title": "Ethiopia Travel Circuits & Routes | How to Plan | Sawla Tours",
+      "description": "The main Ethiopia travel circuits — Northern Historic, Southern Culture, Wildlife — and how to combine them into a meaningful custom itinerary.",
+      "h1": "Ethiopia Travel Circuits",
+      "primaryKeyword": "Ethiopia travel circuits",
+      "secondaryKeywords": ["northern Ethiopia circuit", "southern Ethiopia route", "Ethiopia itinerary ideas", "Ethiopia historic route"]
+    },
+    "how-to-get-to-ethiopia": {
+      "title": "How to Get to Ethiopia | Flights & Entry Guide | Sawla Tours",
+      "description": "How to fly to Ethiopia — international airports, airlines serving Addis Ababa, transit options, domestic connections, and getting from Addis to your first destination.",
+      "h1": "How to Get to Ethiopia",
+      "primaryKeyword": "flights to Ethiopia",
+      "secondaryKeywords": ["fly to Addis Ababa", "Ethiopian Airlines international", "Addis Ababa airport guide", "Ethiopia international flights"]
+    },
+    "hotels-lodges-ethiopia": {
+      "title": "Hotels & Lodges in Ethiopia | Accommodation Guide | Sawla Tours",
+      "description": "Best hotels, lodges, and eco-camps in Ethiopia — honest guide to accommodation across Lalibela, Simien, Bale, Danakil, Omo Valley, and Addis Ababa.",
+      "h1": "Hotels & Lodges in Ethiopia",
+      "primaryKeyword": "Ethiopia hotels and lodges",
+      "secondaryKeywords": ["best lodge Ethiopia", "where to stay Ethiopia", "Lalibela hotel", "Simien Mountains accommodation", "Bale Mountains lodge"]
+    },
+    "ethiopia-safaris": {
+      "title": "Ethiopia Safari Guide | Wildlife & Game Drives | Sawla Tours",
+      "description": "Planning an Ethiopia wildlife safari — national parks, endemic species, birding routes, and how Ethiopia compares with and differs from East African safari destinations.",
+      "h1": "Ethiopia Safaris & Wildlife Guide",
+      "primaryKeyword": "Ethiopia safari",
+      "secondaryKeywords": ["Ethiopia wildlife safari", "Ethiopia national park safari", "Ethiopia game drive", "Bale Mountains safari", "Simien Mountains wildlife tour"]
+    },
+    "popular-wildlife-ethiopia": {
+      "title": "Popular Wildlife in Ethiopia | Species Travel Guide | Sawla Tours",
+      "description": "The most popular wildlife to see in Ethiopia — Ethiopian wolf, gelada monkey, Walia ibex, mountain nyala, and 20+ endemic bird species. Where and how to see them.",
+      "h1": "Popular Wildlife in Ethiopia",
+      "primaryKeyword": "Ethiopia wildlife species",
+      "secondaryKeywords": ["see Ethiopian wolf", "gelada monkey viewing", "Ethiopia endemic wildlife", "Ethiopia rare animals"]
+    },
+    "why-visit-ethiopia": {
+      "title": "Why Visit Ethiopia | Top Reasons to Travel Here | Sawla Tours",
+      "description": "Why Ethiopia captivates travelers — ancient civilisation, unique wildlife, dramatic landscapes, living culture, and experiences unavailable anywhere else in Africa.",
+      "h1": "Why Ethiopia Captivates Travelers",
+      "primaryKeyword": "why visit Ethiopia",
+      "secondaryKeywords": ["reasons to visit Ethiopia", "Ethiopia travel inspiration", "what is Ethiopia like", "Ethiopia unique travel destination"]
+    },
+    "general-travel-tips": {
+      "title": "Ethiopia Travel Tips | Practical Advice | Sawla Tours",
+      "description": "Practical Ethiopia travel tips — health precautions, currency, communications, altitude, cultural etiquette, photography ethics, and what to expect on the ground.",
+      "h1": "Ethiopia Travel Tips",
+      "primaryKeyword": "Ethiopia travel tips",
+      "secondaryKeywords": ["Ethiopia practical travel guide", "Ethiopia travel advice", "Ethiopia cultural etiquette", "Ethiopia travel health"]
+    }
+  },
+
+  "speciesHub": {
+    "url": "/ethiopia-wildlife/endemic-species",
+    "title": "Ethiopian Endemic Species | Wildlife Library | Sawla Tours",
+    "description": "Ethiopia's endemic species — Ethiopian wolf, gelada monkey, Walia ibex, mountain nyala, and endemic birds found nowhere else on earth. A complete wildlife guide.",
+    "h1": "Ethiopian Wildlife Library — Endemic Species",
+    "primaryKeyword": "Ethiopian endemic species",
+    "secondaryKeywords": ["endemic animals Ethiopia", "Ethiopia unique wildlife", "Ethiopian wolf gelada", "endemic birds Ethiopia"]
+  },
+
+  "species": {
+    "ethiopian-wolf": {
+      "title": "Ethiopian Wolf | Africa's Rarest Canid | Sawla Tours",
+      "description": "The Ethiopian wolf (Canis simensis) — where to see it, best time to visit, conservation status, and how to plan a Bale Mountains wildlife trip with Sawla Tours.",
+      "h1": "Ethiopian Wolf",
+      "primaryKeyword": "Ethiopian wolf",
+      "secondaryKeywords": ["see Ethiopian wolf", "Bale Mountains Ethiopian wolf", "Canis simensis", "Ethiopia rare wildlife"]
+    },
+    "gelada-monkey": {
+      "title": "Gelada Monkey Ethiopia | Simien Mountains Encounter | Sawla Tours",
+      "description": "The gelada monkey (Theropithecus gelada) — the world's only grass-grazing primate. Where to see geladas in Ethiopia, best conditions, and planning a Simien Mountains trip.",
+      "h1": "Gelada Monkey",
+      "primaryKeyword": "gelada monkey Ethiopia",
+      "secondaryKeywords": ["see geladas Ethiopia", "Simien Mountains geladas", "gelada troop encounter", "Theropithecus gelada"]
+    },
+    "walia-ibex": {
+      "title": "Walia Ibex | Ethiopia's Endemic Wild Goat | Sawla Tours",
+      "description": "The Walia ibex (Capra walie) — found only in Ethiopia's Simien Mountains. Where to see them, conservation status, and how to plan your Simien Mountains visit.",
+      "h1": "Walia Ibex",
+      "primaryKeyword": "Walia ibex Ethiopia",
+      "secondaryKeywords": ["Capra walie ibex", "Simien Mountains wildlife", "endemic ibex Ethiopia"]
+    },
+    "mountain-nyala": {
+      "title": "Mountain Nyala | Ethiopia's Largest Endemic Antelope | Sawla Tours",
+      "description": "The mountain nyala (Tragelaphus buxtoni) — found only in Ethiopia's Bale Mountains. Where to see them and how to plan a wildlife trip to Bale.",
+      "h1": "Mountain Nyala",
+      "primaryKeyword": "mountain nyala Ethiopia",
+      "secondaryKeywords": ["Tragelaphus buxtoni", "Bale Mountains nyala", "endemic antelope Ethiopia"]
+    },
+    "bale-monkey": {
+      "title": "Bale Monkey | Harenna Forest Specialist | Sawla Tours",
+      "description": "The Bale monkey (Chlorocebus djamdjamensis) — endemic to Ethiopia's Harenna Forest. Conservation status, where to see them, and planning a Bale Mountains trip.",
+      "h1": "Bale Monkey",
+      "primaryKeyword": "Bale monkey Ethiopia",
+      "secondaryKeywords": ["Harenna Forest monkey", "Chlorocebus djamdjamensis", "endemic monkey Ethiopia"]
+    },
+    "blue-winged-goose": {
+      "title": "Blue-winged Goose | Ethiopian Highland Endemic | Sawla Tours",
+      "description": "The blue-winged goose (Cyanochen cyanoptera) — endemic to Ethiopian highlands. Where to see it and planning a birding trip to Ethiopia with Sawla Tours.",
+      "h1": "Blue-winged Goose",
+      "primaryKeyword": "blue-winged goose Ethiopia",
+      "secondaryKeywords": ["Cyanochen cyanoptera", "endemic goose Ethiopia", "Ethiopian highland birds"]
+    },
+    "stresemanns-bushcrow": {
+      "title": "Stresemann's Bushcrow | Yabello Ethiopia | Sawla Tours",
+      "description": "Stresemann's bushcrow (Zavattariornis stresemanni) — one of the world's strangest corvids, found only near Yabello in southern Ethiopia. Birding tour planning guide.",
+      "h1": "Stresemann's Bushcrow",
+      "primaryKeyword": "Stresemann's bushcrow Ethiopia",
+      "secondaryKeywords": ["Zavattariornis stresemanni", "Yabello birding Ethiopia", "rare birds Ethiopia", "endemic corvid Ethiopia"]
+    },
+    "rougets-rail": {
+      "title": "Rouget's Rail | Ethiopian Wetland Endemic | Sawla Tours",
+      "description": "Rouget's rail — endemic to Ethiopian highland wetlands and grasslands. Where to see it and how to include it in an Ethiopia birding itinerary.",
+      "h1": "Rouget's Rail",
+      "primaryKeyword": "Rouget's rail Ethiopia",
+      "secondaryKeywords": ["endemic rail Ethiopia", "Ethiopian highland birds", "Ethiopia birding wetlands"]
+    },
+    "spot-breasted-lapwing": {
+      "title": "Spot-breasted Lapwing | Ethiopia Highland Endemic | Sawla Tours",
+      "description": "The spot-breasted lapwing — endemic to Ethiopian highlands. Distribution, behaviour, and planning a birding trip to see this distinctive endemic.",
+      "h1": "Spot-breasted Lapwing",
+      "primaryKeyword": "spot-breasted lapwing Ethiopia",
+      "secondaryKeywords": ["endemic lapwing Ethiopia", "highland lapwing Ethiopia", "Ethiopian endemic birds list"]
+    },
+    "yellow-fronted-parrot": {
+      "title": "Yellow-fronted Parrot | Ethiopia Endemic Parrot | Sawla Tours",
+      "description": "The yellow-fronted parrot — endemic to Ethiopian woodlands. Where to see it and how to include it in a comprehensive Ethiopia birding itinerary.",
+      "h1": "Yellow-fronted Parrot",
+      "primaryKeyword": "yellow-fronted parrot Ethiopia",
+      "secondaryKeywords": ["endemic parrot Ethiopia", "Ethiopia woodland birds", "Ethiopian parrot species"]
+    },
+    "ruspolis-turaco": {
+      "title": "Prince Ruspoli's Turaco | Rare Endemic | Sawla Tours",
+      "description": "Prince Ruspoli's turaco — one of Ethiopia's rarest endemics, found in south-central Ethiopian woodlands. Birding tips and tour planning.",
+      "h1": "Prince Ruspoli's Turaco",
+      "primaryKeyword": "Prince Ruspoli turaco Ethiopia",
+      "secondaryKeywords": ["rare turaco Ethiopia", "endemic turaco Ethiopia", "south Ethiopia birding"]
+    },
+    "meneliks-bushbuck": {
+      "title": "Menelik's Bushbuck | Ethiopian Highland Antelope | Sawla Tours",
+      "description": "Menelik's bushbuck — endemic subspecies found in Ethiopia's highland forests. Where to see it and Bale Mountains wildlife planning.",
+      "h1": "Menelik's Bushbuck",
+      "primaryKeyword": "Menelik's bushbuck Ethiopia",
+      "secondaryKeywords": ["endemic bushbuck Ethiopia", "Bale Mountains antelope", "Ethiopia highland forest wildlife"]
+    },
+    "giant-mole-rat": {
+      "title": "Giant Mole-Rat | Sanetti Plateau Endemic | Sawla Tours",
+      "description": "The giant mole-rat — an unusual Ethiopian endemic found only on the Sanetti Plateau in Bale Mountains. Often seen near Ethiopian wolf feeding areas.",
+      "h1": "Giant Mole-Rat",
+      "primaryKeyword": "giant mole-rat Ethiopia",
+      "secondaryKeywords": ["Sanetti Plateau wildlife", "Bale Mountains endemic rodent", "Ethiopian wolf prey species"]
+    }
+  },
+
+  "sawlaMomentsHub": {
+    "url": "/sawla-moments",
+    "title": "Ethiopia Travel Stories & Field Notes | Sawla Moments",
+    "description": "Ethiopia travel stories, field notes, planning insights, wildlife articles, cultural guides, and photography inspiration from Sawla Tours local experts.",
+    "h1": "Sawla Moments",
+    "primaryKeyword": "Ethiopia travel stories",
+    "secondaryKeywords": ["Ethiopia travel blog", "Ethiopia travel inspiration", "Ethiopia field notes", "Ethiopia cultural travel articles"]
+  },
+
+  "sawlaMomentsArticles": {
+    "gelada-monkey-simien-mountains": {
+      "title": "Seeing Gelada Monkeys in Ethiopia's Simien Mountains | Sawla Moments",
+      "description": "What actually happens when you encounter 600 gelada monkeys on a cliff edge in Ethiopia's Simien Mountains — and how to plan a trip that gives you the best chance of witnessing it.",
+      "h1": "What It's Really Like to See a Gelada Monkey in the Simien Mountains",
+      "primaryKeyword": "gelada monkey Ethiopia",
+      "readingTime": 7
+    },
+    "why-ethiopia-not-safari-destination": {
+      "title": "Why Ethiopia Is Not a Safari Destination | Sawla Moments",
+      "description": "Ethiopia doesn't have the Big Five. It has something most of Africa doesn't: ancient civilisation, endemic wildlife found nowhere else, and a culture still entirely its own.",
+      "h1": "Why Ethiopia Is Not a Safari Destination — and Why That's the Point",
+      "primaryKeyword": "why visit Ethiopia",
+      "readingTime": 7
+    },
+    "how-we-plan-custom-ethiopia-journey": {
+      "title": "How We Plan a Custom Ethiopia Journey: A Real Example | Sawla Moments",
+      "description": "A couple from Germany. Ten days. History and the Ethiopian wolf. Here is exactly how the itinerary came together — the decisions, the trade-offs, and the near-miss.",
+      "h1": "How We Plan a Custom Ethiopia Journey: A Real Example",
+      "primaryKeyword": "how to plan a trip to Ethiopia",
+      "readingTime": 8
+    }
+  }
+}
