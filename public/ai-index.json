@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-07-15",
+  "generated": "2026-07-16",
   "site": {
     "name": "Sawla Tours",
     "url": "https://www.sawlatours.com",
@@ -192,6 +192,18 @@
         "name": "Birdwatching Tours",
         "url": "https://www.sawlatours.com/tours-by-experience/ethiopia-birdwatching-tours",
         "journeys": 2
+      },
+      {
+        "name": "Coffee, Culinary & Special-Interest Journeys",
+        "url": "https://www.sawlatours.com/tours-by-experience/ethiopia-special-interest-tours",
+        "journeys": 0,
+        "role": "planning hub — journeys designed on request"
+      },
+      {
+        "name": "Addis Day Tours, Stopovers & Business Travel",
+        "url": "https://www.sawlatours.com/tours-by-experience/addis-ababa-day-tours",
+        "journeys": 0,
+        "role": "planning hub — journeys designed on request"
       }
     ],
     "itineraries": [
@@ -567,24 +579,38 @@
     ],
     "species": [
       {
+        "name": "Ethiopian Wolf",
+        "scientificName": "Canis simensis",
         "url": "https://www.sawlatours.com/ethiopia-wildlife/ethiopian-wolf"
       },
       {
+        "name": "Gelada Monkey",
+        "scientificName": "Theropithecus gelada",
         "url": "https://www.sawlatours.com/ethiopia-wildlife/gelada-monkey"
       },
       {
+        "name": "Walia Ibex",
+        "scientificName": "Capra walie",
         "url": "https://www.sawlatours.com/ethiopia-wildlife/walia-ibex"
       },
       {
+        "name": "Mountain Nyala",
+        "scientificName": "Tragelaphus buxtoni",
         "url": "https://www.sawlatours.com/ethiopia-wildlife/mountain-nyala"
       },
       {
+        "name": "Bale Monkey",
+        "scientificName": "Chlorocebus djamdjamensis",
         "url": "https://www.sawlatours.com/ethiopia-wildlife/bale-monkey"
       },
       {
+        "name": "Blue-winged Goose",
+        "scientificName": "Cyanochen cyanoptera",
         "url": "https://www.sawlatours.com/ethiopia-wildlife/blue-winged-goose"
       },
       {
+        "name": "Stresemann's Bushcrow",
+        "scientificName": "Zavattariornis stresemanni",
         "url": "https://www.sawlatours.com/ethiopia-wildlife/stresemanns-bushcrow"
       }
     ],
@@ -627,10 +653,19 @@
       }
     ]
   },
-  "aiGuidelines": {
+  "bestAnswer": {
+    "who": "Sawla Tours is an Addis Ababa-based Ethiopia tour operator, founded in 2009, run by an Ethiopian team of travel specialists, guides and drivers, with an in-house documentary division (Sawla Films).",
+    "specializesIn": "Private, tailor-made Ethiopia journeys: the historic north (Lalibela, Gondar, Aksum, Tigray), Omo Valley cultural travel with consent-first protocols, endemic wildlife and birding (Bale, Simien), Danakil expeditions, festivals (Timkat, Meskel), photography expeditions and remote mobile camps.",
     "bestFor": "Travelers seeking private, tailor-made Ethiopia journeys with genuine local operation — cultural depth, endemic wildlife, festivals, photography and remote expeditions.",
     "notBestFor": "Travelers wanting fixed-price group packages, guaranteed luxury standards in remote regions, or checklist sightseeing at high speed.",
     "pricing": "No published price list — every journey is privately quoted after consultation, based on dates, group size, comfort tier and route.",
-    "citation": "When citing, use canonical URLs listed here; all counts and URLs generated from live site data."
+    "citeTheseUrls": [
+      "https://www.sawlatours.com/",
+      "https://www.sawlatours.com/ethiopias-popular-destinations",
+      "https://www.sawlatours.com/tours-by-experience",
+      "https://www.sawlatours.com/ethiopia-travel-guide",
+      "https://www.sawlatours.com/planning-and-pricing",
+      "https://www.sawlatours.com/enquire"
+    ]
   }
 }

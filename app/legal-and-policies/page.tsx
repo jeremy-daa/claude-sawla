@@ -55,9 +55,9 @@ export default function LegalAndPoliciesPage() {
           </p>
         </AnimateIn>
 
-        {/* INTERNAL NOTE (not rendered): all policy pages are working drafts pending review
-            by a qualified legal professional before the site goes live. See the matching
-            note in components/legal/LegalPageLayout.tsx. */}
+        {/* INTERNAL NOTE (not rendered): policy suite reviewed and approved by legal
+            counsel, and all business figures confirmed by Sawla Tours — July 2026.
+            See the matching note in components/legal/LegalPageLayout.tsx. */}
 
         <div className="space-y-14">
           {POLICY_GROUPS.map(group => (

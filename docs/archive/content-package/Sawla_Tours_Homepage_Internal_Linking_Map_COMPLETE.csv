@@ -1,0 +1,43 @@
+section,subsection,target_url,anchor_text,link_type,seo_purpose,priority
+Hero,Primary CTA,/enquire,Start Planning Your Journey,Button - Primary CTA,Conversion,Critical
+Hero,Secondary CTA,/ethiopias-popular-destinations,Explore Ethiopia,Button - Secondary,Destination discovery,High
+Opening Declaration,Team reference,/about-us,Meet Our Team,Inline text link,Brand trust + About Us authority,High
+Why Sawla,Card 1 - Local team,/meet-our-travel-specialists,Meet our specialists,Card CTA,Expertise proof - dept page,High
+Why Sawla,Card 3 - Process,/how-we-work,How we work,Card CTA,Process transparency - dept page,High
+Tour Styles,Heritage Pilgrimage card,/tours-by-experience/historic-and-cultural-tours,Explore Heritage Pilgrimage,Card CTA,Hub-spoke SEO - historic tours,High
+Tour Styles,Tribal Encounters card,/tours-by-experience/tribal-cultural-ethiopia-tours,Explore Tribal Encounters,Card CTA,Hub-spoke SEO - Omo Valley,High
+Tour Styles,Wildlife & Birding card,/tours-by-experience/ethiopia-wildlife-tours,Explore Wildlife & Birding,Card CTA,Hub-spoke SEO - wildlife tours,High
+Tour Styles,Frontier Adventure card,/tours-by-experience/ethiopia-adventure-tours,Explore Frontier Adventure,Card CTA,Hub-spoke SEO - adventure tours,High
+Tour Styles,Festival Immersion card,/tours-by-experience/ethiopia-festival-tours,Explore Festival Immersion,Card CTA,Hub-spoke SEO - festival tours,High
+Tour Styles,Cinematic Journey card,/tours-by-experience/ethiopia-photography-tours,Explore Cinematic Journeys,Card CTA,Hub-spoke SEO - photography tours,High
+Tour Styles,Below grid CTA,/tours-by-experience,See all 36 itineraries,Text link,Tour hub authority,Medium
+Destinations,Lalibela card,/ethiopias-popular-destinations/lalibela,Discover Lalibela,Card CTA,Destination hub-spoke,High
+Destinations,Simien Mountains card,/ethiopias-popular-destinations/simien-mountain-national-park,Discover Simien Mountains,Card CTA,Destination hub-spoke,High
+Destinations,Danakil Depression card,/ethiopias-popular-destinations/danakil-depression-tour-packages,Discover Danakil,Card CTA,Destination hub-spoke,High
+Destinations,Omo Valley card,/ethiopias-popular-destinations/omo-valley-tribes,Discover Omo Valley,Card CTA,Destination hub-spoke,High
+Destinations,Bale Mountains card,/ethiopias-popular-destinations/bale-mountains-national-park,Discover Bale Mountains,Card CTA,Destination hub-spoke,High
+Destinations,Tigray card,/ethiopias-popular-destinations/tigray-rock-hewn-churches-historical-sites,Discover Tigray,Card CTA,Destination hub-spoke,High
+Destinations,Below row CTA,/ethiopias-popular-destinations,All 15 destinations,Text link,Destination hub authority,Medium
+Sawla Films,Photography tours CTA,/tours-by-experience/ethiopia-photography-tours,Photography & Filming Tours,Button - Ghost,Photography specialist conversion,Medium
+How It Works,Process step CTA,/enquire,Start a conversation,Text link,Conversion - second touch,High
+Testimonials,Read more CTA,/why-travel-with-sawla-tours,Read more traveler stories,Text link,Trust + dept page authority,Medium
+Sawla Moments,Article 1 card,/sawla-moments/gelada-monkey-simien-mountains,Read the Field Note,Card CTA,Editorial authority - wildlife,High
+Sawla Moments,Article 2 card,/sawla-moments/why-ethiopia-not-safari-destination,Read the Story,Card CTA,Editorial authority - why Ethiopia,High
+Sawla Moments,Article 3 card,/sawla-moments/how-we-plan-custom-ethiopia-journey,Read the Planning Note,Card CTA,Editorial authority - planning,High
+Sawla Moments,Hub CTA,/sawla-moments,All Sawla Moments,Text link,Editorial hub authority,Medium
+Final CTA,Primary CTA,/enquire,Start Planning Now,Button - Primary CTA,Conversion - final touch,Critical
+Final CTA,Secondary link,/tours-by-experience,Explore our itineraries,Text link,Tour discovery fallback,Medium
+Footer - Explore,Tours hub,/tours-by-experience,All Itineraries,Footer nav,Tour hub,Medium
+Footer - Explore,Destinations hub,/ethiopias-popular-destinations,Destinations,Footer nav,Destination hub,Medium
+Footer - Explore,Field guides hub,/ethiopia-travel-guide,Ethiopia Travel Guide,Footer nav,Content authority,Medium
+Footer - Explore,Blog hub,/sawla-moments,Sawla Moments,Footer nav,Editorial authority,Medium
+Footer - Company,About us,/about-us,About Sawla Tours,Footer nav,Brand trust,Medium
+Footer - Company,Why travel,/why-travel-with-sawla-tours,Why Travel with Us,Footer nav,Trust + conversion,Medium
+Footer - Company,Guides dept,/meet-our-guides,Meet Our Guides,Footer nav,Team credibility,Low
+Footer - Company,Process,/how-we-work,How We Work,Footer nav,Process transparency,Low
+Footer - Plan,Enquire,/enquire,Start Planning,Footer nav,Conversion,High
+Footer - Plan,FAQ,/faq,Frequently Asked Questions,Footer nav,Practical trust,Low
+Footer - Plan,Safety guide,/ethiopia-travel-guide/safety-in-ethiopia,Safety in Ethiopia,Footer nav,Planning authority,Medium
+Footer - Plan,Visa guide,/ethiopia-travel-guide/ethiopia-visa-guide,Ethiopia Visa Guide,Footer nav,Planning authority,Medium
+Footer - Plan,When to visit,/ethiopia-travel-guide/when-to-visit-ethiopia,Best Time to Visit,Footer nav,Planning authority,Medium
+Footer - Plan,What to pack,/ethiopia-travel-guide/what-to-pack-for-ethiopia,What to Pack,Footer nav,Planning authority,Low

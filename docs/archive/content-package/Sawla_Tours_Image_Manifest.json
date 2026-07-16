@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "project": "Sawla Tours website redesign",
+    "generated": "2026-05-29",
+    "totalSlots": 384,
+    "placeholderService": "https://placehold.co",
+    "brandColors": {
+      "home": { "bg": "FCEBEB", "text": "791F1F" },
+      "destination": { "bg": "E6F1FB", "text": "0C447C" },
+      "tour": { "bg": "EAF3DE", "text": "27500A" },
+      "guide": { "bg": "EEEDFE", "text": "3C3489" },
+      "species": { "bg": "FAEEDA", "text": "633806" },
+      "about": { "bg": "FAECE7", "text": "712B13" },
+      "camp": { "bg": "E1F5EE", "text": "085041" },
+      "moments": { "bg": "FBEAF0", "text": "72243E" }
+    },
+    "instructions": "placehold.co URL format: https://placehold.co/{width}x{height}/{bg}/{text}?text={filename}"
+  },
+
+  "homepage": [
+    { "slot": "hero-main",              "file": "home-hero-main.jpg",                   "w": 1920, "h": 1080, "cat": "home", "url": "https://placehold.co/1920x1080/FCEBEB/791F1F?text=home-hero-main" },
+    { "slot": "destinations-section",   "file": "home-destinations-section.jpg",         "w": 1920, "h": 600,  "cat": "home", "url": "https://placehold.co/1920x600/FCEBEB/791F1F?text=home-destinations-section" },
+    { "slot": "feature-tailor-made",    "file": "home-feature-tailor-made.jpg",          "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-feature-tailor-made" },
+    { "slot": "feature-local-guides",   "file": "home-feature-local-guides.jpg",         "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-feature-local-guides" },
+    { "slot": "feature-sawla-films",    "file": "home-feature-sawla-films.jpg",          "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-feature-sawla-films" },
+    { "slot": "style-heritage",         "file": "home-style-heritage-pilgrimage.jpg",    "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-style-heritage" },
+    { "slot": "style-tribal",           "file": "home-style-tribal-encounters.jpg",      "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-style-tribal" },
+    { "slot": "style-wildlife",         "file": "home-style-wildlife-birding.jpg",       "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-style-wildlife" },
+    { "slot": "style-adventure",        "file": "home-style-frontier-adventure.jpg",     "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-style-adventure" },
+    { "slot": "style-festival",         "file": "home-style-festival-immersion.jpg",     "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-style-festival" },
+    { "slot": "style-cinematic",        "file": "home-style-cinematic-journey.jpg",      "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-style-cinematic" },
+    { "slot": "dest-card-lalibela",     "file": "home-dest-lalibela.jpg",                "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-dest-lalibela" },
+    { "slot": "dest-card-simien",       "file": "home-dest-simien.jpg",                  "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-dest-simien" },
+    { "slot": "dest-card-danakil",      "file": "home-dest-danakil.jpg",                 "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-dest-danakil" },
+    { "slot": "dest-card-omo",          "file": "home-dest-omo-valley.jpg",              "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-dest-omo-valley" },
+    { "slot": "dest-card-bale",         "file": "home-dest-bale.jpg",                    "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-dest-bale" },
+    { "slot": "dest-card-tigray",       "file": "home-dest-tigray.jpg",                  "w": 800,  "h": 600,  "cat": "home", "url": "https://placehold.co/800x600/FCEBEB/791F1F?text=home-dest-tigray" },
+    { "slot": "sawla-films-hero",       "file": "home-sawla-films-hero.jpg",             "w": 1920, "h": 800,  "cat": "home", "url": "https://placehold.co/1920x800/FCEBEB/791F1F?text=home-sawla-films-hero" },
+    { "slot": "cta-background",         "file": "home-cta-background.jpg",               "w": 1920, "h": 800,  "cat": "home", "url": "https://placehold.co/1920x800/FCEBEB/791F1F?text=home-cta-background" }
+  ],
+
+  "destinations": {
+    "lalibela": [
+      { "slot": "hero",    "file": "dest-lalibela-hero.jpg",                 "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-lalibela-hero" },
+      { "slot": "gallery-1", "file": "dest-lalibela-rock-church-exterior.jpg", "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-lalibela-church-exterior" },
+      { "slot": "gallery-2", "file": "dest-lalibela-church-interior.jpg",    "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-lalibela-church-interior" },
+      { "slot": "gallery-3", "file": "dest-lalibela-priest-gold-cross.jpg",  "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-lalibela-priest" },
+      { "slot": "gallery-4", "file": "dest-lalibela-bete-medhane-alem.jpg",  "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-lalibela-bete-medhane" }
+    ],
+    "simien-mountains": [
+      { "slot": "hero",      "file": "dest-simien-hero.jpg",                  "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-simien-hero" },
+      { "slot": "gallery-1", "file": "dest-simien-escarpment-edge.jpg",       "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-simien-escarpment" },
+      { "slot": "gallery-2", "file": "dest-simien-gelada-cliff.jpg",          "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-simien-gelada" },
+      { "slot": "gallery-3", "file": "dest-simien-trekking-trail.jpg",        "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-simien-trekking" },
+      { "slot": "gallery-4", "file": "dest-simien-sunrise-mist.jpg",          "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-simien-sunrise" }
+    ],
+    "danakil-depression": [
+      { "slot": "hero",      "file": "dest-danakil-hero.jpg",                 "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-danakil-hero" },
+      { "slot": "gallery-1", "file": "dest-danakil-erta-ale-lava.jpg",        "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-danakil-lava" },
+      { "slot": "gallery-2", "file": "dest-danakil-salt-flat-caravans.jpg",   "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-danakil-salt-flat" },
+      { "slot": "gallery-3", "file": "dest-danakil-dallol-sulphur.jpg",       "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-danakil-dallol" },
+      { "slot": "gallery-4", "file": "dest-danakil-afar-landscape.jpg",       "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-danakil-landscape" }
+    ],
+    "omo-valley": [
+      { "slot": "hero",      "file": "dest-omo-hero.jpg",                     "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-omo-hero" },
+      { "slot": "gallery-1", "file": "dest-omo-karo-elder-portrait.jpg",      "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-omo-karo-elder" },
+      { "slot": "gallery-2", "file": "dest-omo-hamar-ceremony.jpg",           "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-omo-hamar" },
+      { "slot": "gallery-3", "file": "dest-omo-mursi-community.jpg",          "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-omo-mursi" },
+      { "slot": "gallery-4", "file": "dest-omo-river-landscape.jpg",          "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-omo-river" }
+    ],
+    "bale-mountains": [
+      { "slot": "hero",      "file": "dest-bale-hero.jpg",                    "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-bale-hero" },
+      { "slot": "gallery-1", "file": "dest-bale-sanetti-plateau.jpg",         "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-bale-sanetti" },
+      { "slot": "gallery-2", "file": "dest-bale-ethiopian-wolf.jpg",          "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-bale-wolf" },
+      { "slot": "gallery-3", "file": "dest-bale-cloud-forest.jpg",            "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-bale-forest" },
+      { "slot": "gallery-4", "file": "dest-bale-harenna-forest.jpg",          "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-bale-harenna" }
+    ],
+    "tigray": [
+      { "slot": "hero",      "file": "dest-tigray-hero.jpg",                  "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-tigray-hero" },
+      { "slot": "gallery-1", "file": "dest-tigray-abuna-yemata-cliff.jpg",    "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-tigray-cliff" },
+      { "slot": "gallery-2", "file": "dest-tigray-church-fresco.jpg",         "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-tigray-fresco" },
+      { "slot": "gallery-3", "file": "dest-tigray-gheralta-landscape.jpg",    "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-tigray-gheralta" },
+      { "slot": "gallery-4", "file": "dest-tigray-rock-church-exterior.jpg",  "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-tigray-church" }
+    ],
+    "gondar": [
+      { "slot": "hero",      "file": "dest-gondar-hero.jpg",                  "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-gondar-hero" },
+      { "slot": "gallery-1", "file": "dest-gondar-fasil-ghebbi-castle.jpg",   "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-gondar-castle" },
+      { "slot": "gallery-2", "file": "dest-gondar-debre-berhan-selassie.jpg", "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-gondar-church" },
+      { "slot": "gallery-3", "file": "dest-gondar-fasilides-bath.jpg",        "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-gondar-bath" }
+    ],
+    "bahir-dar": [
+      { "slot": "hero",      "file": "dest-bahir-dar-hero.jpg",               "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-bahir-dar-hero" },
+      { "slot": "gallery-1", "file": "dest-bahir-dar-lake-tana.jpg",          "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-bahir-dar-lake" },
+      { "slot": "gallery-2", "file": "dest-bahir-dar-monastery.jpg",          "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-bahir-dar-monastery" },
+      { "slot": "gallery-3", "file": "dest-bahir-dar-blue-nile-falls.jpg",    "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-bahir-dar-falls" }
+    ],
+    "axum": [
+      { "slot": "hero",      "file": "dest-axum-hero.jpg",                    "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-axum-hero" },
+      { "slot": "gallery-1", "file": "dest-axum-stelae-obelisk.jpg",          "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-axum-stelae" },
+      { "slot": "gallery-2", "file": "dest-axum-church-mary-zion.jpg",        "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-axum-church" }
+    ],
+    "harar": [
+      { "slot": "hero",      "file": "dest-harar-hero.jpg",                   "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-harar-hero" },
+      { "slot": "gallery-1", "file": "dest-harar-old-city-jugol.jpg",         "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-harar-jugol" },
+      { "slot": "gallery-2", "file": "dest-harar-hyena-feeding.jpg",          "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-harar-hyena" }
+    ],
+    "addis-ababa": [
+      { "slot": "hero",      "file": "dest-addis-hero.jpg",                   "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-addis-hero" },
+      { "slot": "gallery-1", "file": "dest-addis-national-museum.jpg",        "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-addis-museum" },
+      { "slot": "gallery-2", "file": "dest-addis-merkato-market.jpg",         "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-addis-merkato" }
+    ],
+    "rift-valley": [
+      { "slot": "hero",      "file": "dest-rift-valley-hero.jpg",             "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-rift-valley-hero" },
+      { "slot": "gallery-1", "file": "dest-rift-valley-flamingos.jpg",        "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-rift-flamingos" },
+      { "slot": "gallery-2", "file": "dest-rift-valley-lake-langano.jpg",     "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-rift-langano" }
+    ],
+    "kafa": [
+      { "slot": "hero",      "file": "dest-kafa-hero.jpg",                    "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-kafa-hero" },
+      { "slot": "gallery-1", "file": "dest-kafa-wild-coffee-forest.jpg",      "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-kafa-coffee-forest" },
+      { "slot": "gallery-2", "file": "dest-kafa-waterfall.jpg",               "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-kafa-waterfall" }
+    ],
+    "gambella": [
+      { "slot": "hero",      "file": "dest-gambella-hero.jpg",                "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-gambella-hero" },
+      { "slot": "gallery-1", "file": "dest-gambella-national-park.jpg",       "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-gambella-park" }
+    ],
+    "debre-libanos": [
+      { "slot": "hero",      "file": "dest-debre-libanos-hero.jpg",           "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-debre-libanos-hero" },
+      { "slot": "gallery-1", "file": "dest-debre-libanos-monastery.jpg",      "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-debre-libanos-monastery" }
+    ],
+    "yabello": [
+      { "slot": "hero",      "file": "dest-yabello-hero.jpg",                 "w": 1920, "h": 1080, "cat": "destination", "url": "https://placehold.co/1920x1080/E6F1FB/0C447C?text=dest-yabello-hero" },
+      { "slot": "gallery-1", "file": "dest-yabello-borena-wells.jpg",         "w": 1200, "h": 800,  "cat": "destination", "url": "https://placehold.co/1200x800/E6F1FB/0C447C?text=dest-yabello-wells" }
+    ]
+  },
+
+  "tourItineraries": {
+    "_note": "Each of 36 itineraries needs 1 hero + 2–4 gallery shots. Heroes follow the pattern below. Gallery images reuse destination photos where applicable.",
+    "_heroPattern": "tour-[style-slug]-[itinerary-slug]-hero.jpg at 1920x1080",
+    "_galleryPattern": "tour-[style-slug]-[itinerary-slug]-[scene].jpg at 1200x800",
+    "historic": { "count": 6, "heroColor": "EAF3DE/27500A", "exampleHero": "https://placehold.co/1920x1080/EAF3DE/27500A?text=tour-historic-[name]-hero" },
+    "tribal":   { "count": 6, "heroColor": "EAF3DE/27500A", "exampleHero": "https://placehold.co/1920x1080/EAF3DE/27500A?text=tour-tribal-[name]-hero" },
+    "wildlife": { "count": 6, "heroColor": "EAF3DE/27500A", "exampleHero": "https://placehold.co/1920x1080/EAF3DE/27500A?text=tour-wildlife-[name]-hero" },
+    "adventure":{ "count": 6, "heroColor": "EAF3DE/27500A", "exampleHero": "https://placehold.co/1920x1080/EAF3DE/27500A?text=tour-adventure-[name]-hero" },
+    "photo":    { "count": 6, "heroColor": "EAF3DE/27500A", "exampleHero": "https://placehold.co/1920x1080/EAF3DE/27500A?text=tour-photo-[name]-hero" },
+    "festival": { "count": 6, "heroColor": "EAF3DE/27500A", "exampleHero": "https://placehold.co/1920x1080/EAF3DE/27500A?text=tour-festival-[name]-hero" }
+  },
+
+  "fieldGuides": [
+    { "slug": "when-to-visit",   "file": "guide-when-to-visit-hero.jpg",    "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-when-to-visit" },
+    { "slug": "how-to-plan",     "file": "guide-how-to-plan-hero.jpg",       "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-how-to-plan" },
+    { "slug": "safety",          "file": "guide-safety-hero.jpg",            "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-safety" },
+    { "slug": "visa",            "file": "guide-visa-hero.jpg",              "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-visa" },
+    { "slug": "packing",         "file": "guide-packing-hero.jpg",           "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-packing" },
+    { "slug": "costs",           "file": "guide-costs-hero.jpg",             "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-costs" },
+    { "slug": "food-coffee",     "file": "guide-food-coffee-hero.jpg",       "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-food-coffee" },
+    { "slug": "photography",     "file": "guide-photography-hero.jpg",       "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-photography" },
+    { "slug": "circuits",        "file": "guide-circuits-hero.jpg",          "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-circuits" },
+    { "slug": "getting-there",   "file": "guide-getting-there-hero.jpg",     "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-getting-there" },
+    { "slug": "hotels",          "file": "guide-hotels-hero.jpg",            "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-hotels" },
+    { "slug": "safaris",         "file": "guide-safaris-hero.jpg",           "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-safaris" },
+    { "slug": "popular-wildlife","file": "guide-popular-wildlife-hero.jpg",  "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-popular-wildlife" },
+    { "slug": "why-ethiopia",    "file": "guide-why-ethiopia-hero.jpg",      "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-why-ethiopia" },
+    { "slug": "travel-tips",     "file": "guide-travel-tips-hero.jpg",       "w": 1920, "h": 1080, "cat": "guide", "url": "https://placehold.co/1920x1080/EEEDFE/3C3489?text=guide-travel-tips" }
+  ],
+
+  "speciesLibrary": {
+    "hub": [
+      { "slot": "hero",      "file": "species-hub-hero.jpg",              "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-hub-hero" },
+      { "slot": "gallery-1", "file": "species-hub-mammals-collage.jpg",   "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-hub-mammals" },
+      { "slot": "gallery-2", "file": "species-hub-birds-collage.jpg",     "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-hub-birds" }
+    ],
+    "ethiopian-wolf": [
+      { "slot": "hero",      "file": "species-ethiopian-wolf-portrait.jpg", "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-ethiopian-wolf-hero" },
+      { "slot": "body-1",    "file": "species-ethiopian-wolf-running.jpg",  "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-wolf-running" },
+      { "slot": "body-2",    "file": "species-ethiopian-wolf-habitat.jpg",  "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-wolf-habitat" }
+    ],
+    "gelada-monkey": [
+      { "slot": "hero",   "file": "species-gelada-troop-hero.jpg",    "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-gelada-hero" },
+      { "slot": "body-1", "file": "species-gelada-male-closeup.jpg",  "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-gelada-male" },
+      { "slot": "body-2", "file": "species-gelada-cliff-feeding.jpg", "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-gelada-cliff" }
+    ],
+    "walia-ibex": [
+      { "slot": "hero",   "file": "species-walia-ibex-hero.jpg",         "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-walia-ibex-hero" },
+      { "slot": "body-1", "file": "species-walia-ibex-rocky-terrain.jpg","w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-walia-rocky" }
+    ],
+    "mountain-nyala": [
+      { "slot": "hero",   "file": "species-mountain-nyala-hero.jpg",  "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-mountain-nyala-hero" },
+      { "slot": "body-1", "file": "species-mountain-nyala-bale.jpg",  "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-nyala-bale" }
+    ],
+    "bale-monkey": [
+      { "slot": "hero",   "file": "species-bale-monkey-hero.jpg",    "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-bale-monkey-hero" },
+      { "slot": "body-1", "file": "species-bale-monkey-forest.jpg",  "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-bale-monkey" }
+    ],
+    "meneliks-bushbuck": [
+      { "slot": "hero",   "file": "species-meneliks-bushbuck-hero.jpg",    "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-meneliks-bushbuck-hero" },
+      { "slot": "body-1", "file": "species-meneliks-bushbuck-habitat.jpg", "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-bushbuck" }
+    ],
+    "giant-mole-rat": [
+      { "slot": "hero",   "file": "species-giant-mole-rat-hero.jpg",   "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-mole-rat-hero" },
+      { "slot": "body-1", "file": "species-giant-mole-rat-burrow.jpg", "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-mole-rat" }
+    ],
+    "blue-winged-goose": [
+      { "slot": "hero",   "file": "species-blue-winged-goose-hero.jpg", "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-blue-winged-goose-hero" },
+      { "slot": "body-1", "file": "species-blue-winged-goose-rift.jpg", "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-goose-rift" }
+    ],
+    "rougets-rail": [
+      { "slot": "hero",   "file": "species-rougets-rail-hero.jpg",    "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-rougets-rail-hero" },
+      { "slot": "body-1", "file": "species-rougets-rail-wetland.jpg", "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-rougets-rail" }
+    ],
+    "spot-breasted-lapwing": [
+      { "slot": "hero",   "file": "species-spot-breasted-lapwing-hero.jpg",     "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-lapwing-hero" },
+      { "slot": "body-1", "file": "species-spot-breasted-lapwing-highland.jpg", "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-lapwing" }
+    ],
+    "yellow-fronted-parrot": [
+      { "slot": "hero",   "file": "species-yellow-fronted-parrot-hero.jpg",    "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-parrot-hero" },
+      { "slot": "body-1", "file": "species-yellow-fronted-parrot-perched.jpg", "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-parrot" }
+    ],
+    "ruspolis-turaco": [
+      { "slot": "hero",   "file": "species-ruspolis-turaco-hero.jpg",    "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-turaco-hero" },
+      { "slot": "body-1", "file": "species-ruspolis-turaco-perched.jpg", "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-turaco" }
+    ],
+    "stresemanns-bushcrow": [
+      { "slot": "hero",   "file": "species-stresemanns-bushcrow-hero.jpg",    "w": 1920, "h": 1080, "cat": "species", "url": "https://placehold.co/1920x1080/FAEEDA/633806?text=species-bushcrow-hero" },
+      { "slot": "body-1", "file": "species-stresemanns-bushcrow-yabello.jpg", "w": 1200, "h": 800,  "cat": "species", "url": "https://placehold.co/1200x800/FAEEDA/633806?text=species-bushcrow" }
+    ]
+  },
+
+  "aboutUs": {
+    "main": [
+      { "slot": "hero",            "file": "about-team-hero.jpg",               "w": 1920, "h": 1080, "cat": "about", "url": "https://placehold.co/1920x1080/FAECE7/712B13?text=about-team-hero" },
+      { "slot": "founder",         "file": "about-founder-portrait.jpg",        "w": 800,  "h": 800,  "cat": "about", "url": "https://placehold.co/800x800/FAECE7/712B13?text=about-founder-portrait" },
+      { "slot": "team-planning",   "file": "about-team-planning-session.jpg",   "w": 1200, "h": 800,  "cat": "about", "url": "https://placehold.co/1200x800/FAECE7/712B13?text=about-team-planning" }
+    ],
+    "specialists": [
+      { "slot": "dept-hero",       "file": "about-specialists-team-hero.jpg",   "w": 1920, "h": 1080, "cat": "about", "url": "https://placehold.co/1920x1080/FAECE7/712B13?text=about-specialists-hero" },
+      { "slot": "specialist-1",    "file": "about-specialist-1-portrait.jpg",   "w": 800,  "h": 800,  "cat": "about", "url": "https://placehold.co/800x800/FAECE7/712B13?text=about-specialist-1" },
+      { "slot": "specialist-2",    "file": "about-specialist-2-portrait.jpg",   "w": 800,  "h": 800,  "cat": "about", "url": "https://placehold.co/800x800/FAECE7/712B13?text=about-specialist-2" },
+      { "slot": "specialist-3",    "file": "about-specialist-3-portrait.jpg",   "w": 800,  "h": 800,  "cat": "about", "url": "https://placehold.co/800x800/FAECE7/712B13?text=about-specialist-3" }
+    ],
+    "guides": [
+      { "slot": "dept-hero",       "file": "about-guides-team-hero.jpg",        "w": 1920, "h": 1080, "cat": "about", "url": "https://placehold.co/1920x1080/FAECE7/712B13?text=about-guides-hero" },
+      { "slot": "guide-1",         "file": "about-guide-1-portrait.jpg",        "w": 800,  "h": 800,  "cat": "about", "url": "https://placehold.co/800x800/FAECE7/712B13?text=about-guide-1" },
+      { "slot": "guide-2",         "file": "about-guide-2-portrait.jpg",        "w": 800,  "h": 800,  "cat": "about", "url": "https://placehold.co/800x800/FAECE7/712B13?text=about-guide-2" },
+      { "slot": "guide-3",         "file": "about-guide-3-portrait.jpg",        "w": 800,  "h": 800,  "cat": "about", "url": "https://placehold.co/800x800/FAECE7/712B13?text=about-guide-3" },
+      { "slot": "guide-in-field",  "file": "about-guide-explaining-lalibela.jpg","w": 1200, "h": 800,  "cat": "about", "url": "https://placehold.co/1200x800/FAECE7/712B13?text=about-guide-lalibela" }
+    ],
+    "drivers": [
+      { "slot": "dept-hero",       "file": "about-drivers-hero.jpg",            "w": 1920, "h": 1080, "cat": "about", "url": "https://placehold.co/1920x1080/FAECE7/712B13?text=about-drivers-hero" },
+      { "slot": "driver-1",        "file": "about-driver-1-portrait.jpg",       "w": 800,  "h": 800,  "cat": "about", "url": "https://placehold.co/800x800/FAECE7/712B13?text=about-driver-1" },
+      { "slot": "driver-2",        "file": "about-driver-2-portrait.jpg",       "w": 800,  "h": 800,  "cat": "about", "url": "https://placehold.co/800x800/FAECE7/712B13?text=about-driver-2" },
+      { "slot": "vehicle-fleet",   "file": "about-vehicle-fleet-lineup.jpg",    "w": 1200, "h": 800,  "cat": "about", "url": "https://placehold.co/1200x800/FAECE7/712B13?text=about-vehicle-fleet" },
+      { "slot": "vehicle-interior","file": "about-vehicle-interior.jpg",        "w": 1200, "h": 800,  "cat": "about", "url": "https://placehold.co/1200x800/FAECE7/712B13?text=about-vehicle-interior" }
+    ],
+    "mobileCamps": [
+      { "slot": "hero",            "file": "camp-hero-dramatic-location.jpg",   "w": 1920, "h": 1080, "cat": "camp",  "url": "https://placehold.co/1920x1080/E1F5EE/085041?text=camp-hero-dramatic" },
+      { "slot": "tent-setup",      "file": "camp-tent-setup-simien.jpg",        "w": 1200, "h": 800,  "cat": "camp",  "url": "https://placehold.co/1200x800/E1F5EE/085041?text=camp-tent-setup" },
+      { "slot": "dining",          "file": "camp-dining-area-outdoor.jpg",      "w": 1200, "h": 800,  "cat": "camp",  "url": "https://placehold.co/1200x800/E1F5EE/085041?text=camp-dining" },
+      { "slot": "kitchen",         "file": "camp-kitchen-crew.jpg",             "w": 1200, "h": 800,  "cat": "camp",  "url": "https://placehold.co/1200x800/E1F5EE/085041?text=camp-kitchen" },
+      { "slot": "sunset",          "file": "camp-complete-sunset.jpg",          "w": 1200, "h": 800,  "cat": "camp",  "url": "https://placehold.co/1200x800/E1F5EE/085041?text=camp-sunset" },
+      { "slot": "morning-view",    "file": "camp-morning-coffee-view.jpg",      "w": 1200, "h": 800,  "cat": "camp",  "url": "https://placehold.co/1200x800/E1F5EE/085041?text=camp-morning-view" }
+    ]
+  },
+
+  "sawlaMoments": {
+    "hub": [
+      { "slot": "hero",        "file": "moments-hub-hero.jpg",              "w": 1920, "h": 800,  "cat": "moments", "url": "https://placehold.co/1920x800/FBEAF0/72243E?text=moments-hub-hero" },
+      { "slot": "sawla-films", "file": "moments-hub-sawla-films.jpg",       "w": 1920, "h": 700,  "cat": "moments", "url": "https://placehold.co/1920x700/FBEAF0/72243E?text=moments-sawla-films" },
+      { "slot": "cat-culture", "file": "moments-cat-culture-heritage.jpg",  "w": 800,  "h": 600,  "cat": "moments", "url": "https://placehold.co/800x600/FBEAF0/72243E?text=moments-cat-culture" },
+      { "slot": "cat-wildlife","file": "moments-cat-wildlife-birding.jpg",  "w": 800,  "h": 600,  "cat": "moments", "url": "https://placehold.co/800x600/FBEAF0/72243E?text=moments-cat-wildlife" },
+      { "slot": "cat-planning","file": "moments-cat-planning.jpg",          "w": 800,  "h": 600,  "cat": "moments", "url": "https://placehold.co/800x600/FBEAF0/72243E?text=moments-cat-planning" },
+      { "slot": "cat-photo",   "file": "moments-cat-photography-filming.jpg","w": 800, "h": 600,  "cat": "moments", "url": "https://placehold.co/800x600/FBEAF0/72243E?text=moments-cat-photo" },
+      { "slot": "cat-festival","file": "moments-cat-festivals-local-life.jpg","w": 800,"h": 600,  "cat": "moments", "url": "https://placehold.co/800x600/FBEAF0/72243E?text=moments-cat-festivals" },
+      { "slot": "cat-remote",  "file": "moments-cat-remote-journeys.jpg",   "w": 800,  "h": 600,  "cat": "moments", "url": "https://placehold.co/800x600/FBEAF0/72243E?text=moments-cat-remote" }
+    ],
+    "article-gelada": [
+      { "slot": "hero",   "file": "moments-gelada-hero-troop-cliff.jpg",  "w": 1920, "h": 1080, "cat": "moments", "url": "https://placehold.co/1920x1080/FBEAF0/72243E?text=moments-gelada-hero" },
+      { "slot": "body-1", "file": "moments-gelada-male-closeup.jpg",      "w": 1200, "h": 800,  "cat": "moments", "url": "https://placehold.co/1200x800/FBEAF0/72243E?text=moments-gelada-male" },
+      { "slot": "body-2", "file": "moments-gelada-simien-escarpment.jpg", "w": 1200, "h": 800,  "cat": "moments", "url": "https://placehold.co/1200x800/FBEAF0/72243E?text=moments-gelada-escarpment" }
+    ],
+    "article-why-ethiopia": [
+      { "slot": "hero",   "file": "moments-why-ethiopia-hero-lalibela-priest.jpg", "w": 1920, "h": 1080, "cat": "moments", "url": "https://placehold.co/1920x1080/FBEAF0/72243E?text=moments-why-ethiopia-hero" },
+      { "slot": "body-1", "file": "moments-why-ethiopia-wolf-bale.jpg",             "w": 1200, "h": 800,  "cat": "moments", "url": "https://placehold.co/1200x800/FBEAF0/72243E?text=moments-why-ethiopia-wolf" },
+      { "slot": "body-2", "file": "moments-why-ethiopia-coffee-hands.jpg",          "w": 1200, "h": 800,  "cat": "moments", "url": "https://placehold.co/1200x800/FBEAF0/72243E?text=moments-why-ethiopia-coffee" }
+    ],
+    "article-planning-story": [
+      { "slot": "hero",   "file": "moments-planning-hero-map-session.jpg",  "w": 1920, "h": 1080, "cat": "moments", "url": "https://placehold.co/1920x1080/FBEAF0/72243E?text=moments-planning-hero" },
+      { "slot": "body-1", "file": "moments-planning-simien-landscape.jpg",  "w": 1200, "h": 800,  "cat": "moments", "url": "https://placehold.co/1200x800/FBEAF0/72243E?text=moments-planning-simien" },
+      { "slot": "body-2", "file": "moments-planning-bale-plateau.jpg",      "w": 1200, "h": 800,  "cat": "moments", "url": "https://placehold.co/1200x800/FBEAF0/72243E?text=moments-planning-bale" }
+    ]
+  }
+}

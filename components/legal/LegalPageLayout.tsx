@@ -42,10 +42,11 @@ export default function LegalPageLayout({
           </p>
         </div>
 
-        {/* INTERNAL NOTE (not rendered): these policies are working drafts pending review by
-            a qualified legal professional familiar with Ethiopian and international consumer
-            travel law. The specific figures (deposit %, cancellation tiers, refund timelines)
-            must be confirmed by Sawla Tours before this site goes live. */}
+        {/* INTERNAL NOTE (not rendered): policy suite reviewed and approved by legal
+            counsel, July 2026. Business figures (30% deposit, 45-day balance,
+            50/75/100% cancellation tiers, 14-business-day refunds, 14-day quote
+            validity) confirmed by Sawla Tours, July 2026. Update the LAST_UPDATED
+            constant on each page whenever terms change. */}
 
         {/* Body */}
         <div className="space-y-0">{children}</div>
