@@ -59,7 +59,7 @@ export function TopoContours({ className = '' }: { className?: string }) {
             {b.map((d, i) => <path key={i} d={d} />)}
           </g>
         </defs>
-        <g opacity="0.06">
+        <g opacity="0.1">
           <use href="#topo-a" transform="translate(210 130)" />
           <use href="#topo-b" transform="translate(1180 90) scale(1.25)" />
           <use href="#topo-a" transform="translate(760 560) scale(1.5) rotate(140)" />

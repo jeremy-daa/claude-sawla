@@ -25,6 +25,27 @@ export default function EnquiryForm() {
   const operatingStatus = searchParams.get('status') ?? ''
   const hasJourneyContext = Boolean(journeySlug)
 
+  // Trip Wizard handoff — prefill everything the visitor already told the wizard.
+  const fromWizard    = searchParams.get('src') === 'wizard'
+  const wizardWhen    = searchParams.get('when') ?? ''
+  const wizardParty   = searchParams.get('party') ?? ''
+  const wizardComfort = searchParams.get('comfort') ?? ''
+  const wizardLen     = searchParams.get('len') ?? ''
+  // Wizard duration buckets → the form's select options (closest bucket)
+  const WIZARD_DURATION: Record<string, string> = {
+    '1 – 5 days': '4–7 days', '6 – 10 days': '8–12 days',
+    '11 – 15 days': '13–18 days', '16+ days': '19+ days',
+  }
+  const wizardDuration = WIZARD_DURATION[wizardLen] ?? ''
+  // Wizard interest labels → the form's checkbox labels
+  const WIZARD_INTERESTS: Record<string, string> = {
+    'Historic & Cultural': 'Historic & cultural', 'Wildlife & Birding': 'Birding & wildlife',
+    'Omo Valley': 'Omo Valley', 'Danakil Expedition': 'Danakil expedition',
+    'Photography': 'Photography', 'Festival Immersion': 'Festival tours',
+  }
+  const wizardInterests = (searchParams.get('interests') ?? '')
+    .split('|').map(x => WIZARD_INTERESTS[x]).filter(Boolean)
+
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
     setStatus('submitting')
@@ -96,6 +117,15 @@ export default function EnquiryForm() {
         </div>
       )}
 
+      {/* Wizard handoff confirmation — tells the visitor their answers carried over */}
+      {fromWizard && !hasJourneyContext && (
+        <div className="border border-gold/30 bg-gold-faint rounded-card px-5 py-3">
+          <p className="text-charcoal font-body text-sm">
+            Your Trip Wizard answers are already filled in below — adjust anything before sending.
+          </p>
+        </div>
+      )}
+
       {/* STEP 1 — YOUR BASICS (required) */}
       <fieldset className="space-y-5">
         <legend className="text-[11px] uppercase tracking-wider text-gold font-500 mb-4">Step 1 — Your basics</legend>
@@ -136,7 +166,7 @@ export default function EnquiryForm() {
         <div className="grid sm:grid-cols-2 gap-5">
           <div>
             <label htmlFor="dates" className="block text-sm font-500 text-charcoal mb-1.5">When are you planning to travel? <span className="text-gold">*</span></label>
-            <input id="dates" name="dates" type="text" required placeholder="e.g. October 2026, or 15–28 November" className="w-full px-4 py-3 border border-sand rounded-sm bg-ivory text-charcoal placeholder-warmgrey/50 focus:outline-none focus:border-gold text-sm" />
+            <input id="dates" name="dates" type="text" required defaultValue={wizardWhen} placeholder="e.g. October 2026, or 15–28 November" className="w-full px-4 py-3 border border-sand rounded-sm bg-ivory text-charcoal placeholder-warmgrey/50 focus:outline-none focus:border-gold text-sm" />
           </div>
           <div>
             <label htmlFor="flexibility" className="block text-sm font-500 text-charcoal mb-1.5">How flexible are those dates?</label>
@@ -153,7 +183,7 @@ export default function EnquiryForm() {
         <div className="grid sm:grid-cols-2 gap-5">
           <div>
             <label htmlFor="duration" className="block text-sm font-500 text-charcoal mb-1.5">Trip duration <span className="text-gold">*</span></label>
-            <select id="duration" name="duration" required defaultValue={journeyDuration || ''} className="w-full px-4 py-3 border border-sand rounded-sm bg-ivory text-charcoal focus:outline-none focus:border-gold text-sm">
+            <select id="duration" name="duration" required defaultValue={journeyDuration || wizardDuration || ''} className="w-full px-4 py-3 border border-sand rounded-sm bg-ivory text-charcoal focus:outline-none focus:border-gold text-sm">
               <option value="">Select trip length</option>
               <option>1–3 days</option>
               <option>4–7 days</option>
@@ -166,14 +196,14 @@ export default function EnquiryForm() {
           </div>
           <div>
             <label htmlFor="travelers" className="block text-sm font-500 text-charcoal mb-1.5">Number of travelers</label>
-            <input id="travelers" name="travelers" type="text" placeholder="e.g. 2 adults, or 2 adults + 1 child (age 10)" className="w-full px-4 py-3 border border-sand rounded-sm bg-ivory text-charcoal placeholder-warmgrey/50 focus:outline-none focus:border-gold text-sm" />
+            <input id="travelers" name="travelers" type="text" defaultValue={wizardParty} placeholder="e.g. 2 adults, or 2 adults + 1 child (age 10)" className="w-full px-4 py-3 border border-sand rounded-sm bg-ivory text-charcoal placeholder-warmgrey/50 focus:outline-none focus:border-gold text-sm" />
           </div>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-5">
           <div>
             <label htmlFor="accommodation" className="block text-sm font-500 text-charcoal mb-1.5">Accommodation preference</label>
-            <select id="accommodation" name="accommodation" className="w-full px-4 py-3 border border-sand rounded-sm bg-ivory text-charcoal focus:outline-none focus:border-gold text-sm">
+            <select id="accommodation" name="accommodation" defaultValue={wizardComfort || ''} className="w-full px-4 py-3 border border-sand rounded-sm bg-ivory text-charcoal focus:outline-none focus:border-gold text-sm">
               <option value="">Select</option>
               <option>Comfortable</option>
               <option>Boutique</option>
@@ -225,7 +255,7 @@ export default function EnquiryForm() {
           <div className="grid grid-cols-2 gap-2">
             {INTERESTS.map(interest => (
               <label key={interest} className="flex items-center gap-2 text-sm text-charcoal cursor-pointer">
-                <input type="checkbox" name="interests" value={interest} className="accent-gold w-4 h-4" />
+                <input type="checkbox" name="interests" value={interest} defaultChecked={wizardInterests.includes(interest)} className="accent-gold w-4 h-4" />
                 {interest}
               </label>
             ))}

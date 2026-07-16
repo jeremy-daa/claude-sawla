@@ -1,8 +1,9 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion"
+import { trackTripWizardCompleted } from "@/lib/conversionTracking"
 
 const steps = [
   {
@@ -99,6 +100,36 @@ export default function TripWizard() {
     return encodeURIComponent("Hi Sawla Tours," + nl + "I used the Trip Wizard:" + nl + nl + lines + nl + nl + "Please help me plan my Ethiopia journey.")
   }
 
+  // Carry the wizard's answers into the enquiry form so nobody re-types what
+  // they just told us — the single biggest drop-off risk in a two-step funnel.
+  function buildEnquireHref() {
+    const p = new URLSearchParams({ src: "wizard" })
+    const [when] = answers[0] ?? []
+    const [len] = answers[1] ?? []
+    const interests = answers[2] ?? []
+    const [party] = answers[3] ?? []
+    const [comfort] = answers[4] ?? []
+    if (when) p.set("when", when)
+    if (len) p.set("len", len)
+    if (interests.length) p.set("interests", interests.join("|"))
+    if (party) p.set("party", party)
+    if (comfort) p.set("comfort", comfort)
+    return "/enquire?" + p.toString()
+  }
+
+  // Fires once when the wizard reaches its completion screen.
+  useEffect(() => {
+    if (!done) return
+    trackTripWizardCompleted({
+      when: (answers[0] ?? []).join(","),
+      duration: (answers[1] ?? []).join(","),
+      interests: (answers[2] ?? []).join(","),
+      party: (answers[3] ?? []).join(","),
+      comfort: (answers[4] ?? []).join(","),
+    })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [done])
+
   if (done) {
     return (
       <div className="text-center py-12">
@@ -126,7 +157,7 @@ export default function TripWizard() {
             >
               Send via WhatsApp
             </a>
-            <Link href="/enquire" className="btn-ghost">
+            <Link href={buildEnquireHref()} className="btn-ghost">
               Full Enquiry Form
             </Link>
           </div>

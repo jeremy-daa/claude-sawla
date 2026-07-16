@@ -13,6 +13,37 @@ import { Resend } from 'resend'
 const TO_ADDRESS   = process.env.ENQUIRY_TO   ?? 'explore@sawlatours.com'
 const FROM_ADDRESS = process.env.ENQUIRY_FROM ?? 'Sawla Tours <enquiries@sawlatours.com>'
 
+// ── Best-effort rate limiting ──────────────────────────────────────────────────
+// In-memory per-IP window: max 5 submissions per 10 minutes. On serverless hosts
+// this is per-instance (not a hard global guarantee), but it still stops the
+// common case — a single client hammering the endpoint — at zero infra cost.
+const RATE_WINDOW_MS = 10 * 60 * 1000
+const RATE_MAX = 5
+const rateBuckets = new Map<string, number[]>()
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now()
+  const hits = (rateBuckets.get(ip) ?? []).filter(t => now - t < RATE_WINDOW_MS)
+  hits.push(now)
+  rateBuckets.set(ip, hits)
+  // Opportunistic cleanup so the map can't grow unbounded
+  if (rateBuckets.size > 5000) {
+    for (const [k, v] of rateBuckets) if (v.every(t => now - t >= RATE_WINDOW_MS)) rateBuckets.delete(k)
+  }
+  return hits.length > RATE_MAX
+}
+
+// Simple internal triage signal, derived only from what the traveler chose.
+// Shown as a tag in the notification subject so high-intent enquiries surface first.
+function leadPriority(f: { duration: string; accommodation: string; planningLevel: string; interests: string }): string | null {
+  const long = /13–18|19\+/.test(f.duration)
+  const high = /Luxury|No Compromise/i.test(f.accommodation) || /Premium|Best available/i.test(f.planningLevel)
+  const specialist = /photograph|film|birding|specialist/i.test(f.planningLevel + ' ' + f.interests)
+  if ((long && high) || (high && specialist)) return 'PRIORITY'
+  if (long || high || specialist) return 'High interest'
+  return null
+}
+
 interface EnquiryFields {
   name: string
   email: string
@@ -81,6 +112,14 @@ async function readBody(req: NextRequest): Promise<Record<string, string>> {
 
 export async function POST(req: NextRequest) {
   try {
+    const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown'
+    if (isRateLimited(ip)) {
+      return NextResponse.json(
+        { error: 'Too many enquiries in a short time. Please wait a few minutes and try again, or email us at explore@sawlatours.com' },
+        { status: 429 }
+      )
+    }
+
     const raw = await readBody(req)
 
     // Honeypot — bots fill hidden fields; humans never see this one
@@ -114,12 +153,18 @@ export async function POST(req: NextRequest) {
       _honey:            '',
     }
 
-    // Validation — name + email are the only hard requirements.
-    // The message box is labelled optional in the UI, so we never reject on it.
+    // Validation — enforce server-side everything the UI marks as required,
+    // so a direct API submission can't skip fields the form insists on.
     if (!f.name || f.name.length < 2)
       return NextResponse.json({ error: 'Please provide your name.' }, { status: 400 })
     if (!f.email || !isValidEmail(f.email))
       return NextResponse.json({ error: 'Please provide a valid email address.' }, { status: 400 })
+    if (!f.whatsapp || f.whatsapp.replace(/[^\d]/g, '').length < 7)
+      return NextResponse.json({ error: 'Please provide a WhatsApp or phone number, including country code.' }, { status: 400 })
+    if (!f.dates || f.dates.length < 3)
+      return NextResponse.json({ error: 'Please tell us roughly when you plan to travel.' }, { status: 400 })
+    if (!f.duration)
+      return NextResponse.json({ error: 'Please select a trip duration.' }, { status: 400 })
 
     const messageText = f.message || '(No additional message — see the trip details above.)'
 
@@ -195,11 +240,12 @@ export async function POST(req: NextRequest) {
     const apiKey = process.env.RESEND_API_KEY
     if (apiKey) {
       const resend = new Resend(apiKey)
+      const priority = leadPriority(f)
       const { error } = await resend.emails.send({
         from: FROM_ADDRESS,
         to: TO_ADDRESS,
         replyTo: f.email,
-        subject: subjectSafe(`New Ethiopia enquiry — ${f.name}${f.journeyName ? ` — ${f.journeyName}` : ''}${f.dates ? ` (${f.dates})` : ''}`),
+        subject: subjectSafe(`${priority ? `[${priority}] ` : ''}New Ethiopia enquiry — ${f.name}${f.journeyName ? ` — ${f.journeyName}` : ''}${f.dates ? ` (${f.dates})` : ''}`),
         text: textBody,
         html: htmlBody,
       })
@@ -209,6 +255,30 @@ export async function POST(req: NextRequest) {
           { error: 'We could not send your message just now. Please email us directly at explore@sawlatours.com' },
           { status: 502 }
         )
+      }
+
+      // Guest auto-confirmation — the premium concierge acknowledgement. A failure
+      // here must never fail the enquiry itself, so it is fire-and-forget.
+      try {
+        await resend.emails.send({
+          from: FROM_ADDRESS,
+          to: f.email,
+          subject: subjectSafe(`We've received your enquiry${f.journeyName ? ` about ${f.journeyName}` : ''} — Sawla Tours`),
+          text:
+            `Dear ${f.name},\n\n` +
+            `Thank you for your enquiry${f.journeyName ? ` about ${f.journeyName}` : ''}. ` +
+            `An Ethiopia specialist from our Addis Ababa team is reviewing your details and will reply within 24 hours on business days (EAT, UTC+3).\n\n` +
+            `What happens next:\n` +
+            `1. A specialist reviews your dates, interests and pace.\n` +
+            `2. We may ask one or two follow-up questions.\n` +
+            `3. You receive a tailored route proposal — free, with no obligation.\n\n` +
+            `If anything changes in the meantime, simply reply to this email or message us on WhatsApp: ${'+251 705 783 06'}.\n\n` +
+            `Warm regards,\n` +
+            `Sawla Tours — Addis Ababa, Ethiopia\n` +
+            `explore@sawlatours.com · www.sawlatours.com`,
+        })
+      } catch (confirmErr) {
+        console.error('[Sawla Tours Enquiry] Guest confirmation failed (enquiry itself succeeded):', confirmErr)
       }
     } else {
       // Not yet configured — log so nothing is lost in development / pre-launch

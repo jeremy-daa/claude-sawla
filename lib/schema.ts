@@ -57,6 +57,7 @@ export const homepageSchema = {
         'https://twitter.com/SawlaTours',
         'https://www.youtube.com/@sawlafilms',
         'https://www.tripadvisor.com/Profile/sawlat',
+        'https://www.reddit.com/user/Current-Culture6318/',
       ],
       knowsAbout: [
         'Ethiopia tours', 'Lalibela', 'Simien Mountains', 'Bale Mountains', 'Omo Valley',
@@ -198,6 +199,7 @@ export function tourSchema(params: {
   description: string
   image?: string
   durationDays?: number
+  touristType?: string
 }) {
   return {
     "@context": "https://schema.org",
@@ -206,7 +208,10 @@ export function tourSchema(params: {
     description: params.description,
     url: params.url,
     ...(params.image ? { image: params.image } : {}),
-    provider: { "@type": "TravelAgency", name: "Sawla Tours", url: "https://www.sawlatours.com" },
+    // Reference the site-wide entity rather than redeclaring it per page
+    provider: { "@id": "https://www.sawlatours.com/#travelagency" },
+    areaServed: { "@type": "Country", name: "Ethiopia" },
+    ...(params.touristType ? { touristType: params.touristType } : {}),
     ...(params.durationDays ? { duration: `P${params.durationDays}D` } : {}),
   }
 }

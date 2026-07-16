@@ -1,11 +1,9 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import PlaceholderImage from "@/components/ui/PlaceholderImage"
-import SchemaScript from "@/components/ui/SchemaScript"
 import { AnimateIn, AnimateStagger } from "@/components/ui/AnimateIn"
 import HeroSection from "@/components/home/HeroSection"
 import TripWizard from "@/components/home/TripWizard"
-import { homepageSchema } from "@/lib/schema"
 import { TOUR_STYLES, TESTIMONIALS, MOMENTS_ARTICLES, SITE } from "@/data/siteData"
 import { PREMIUM_DESTINATIONS } from "@/data/destinationsPremium"
 import { ITINERARIES, getItinerary } from "@/data/itineraryData"
@@ -76,7 +74,8 @@ const IconCompass  = () => (<svg width="20" height="20" viewBox="0 0 20 20" fill
 export default function HomePage() {
   return (
     <>
-      <SchemaScript schema={homepageSchema} />
+      {/* homepageSchema is injected once globally from app/layout.tsx <head> —
+          rendering it here too duplicated the entire Organization graph on the homepage */}
 
       {/* ══ 1. HERO ══════════════════════════════════════════════════════ */}
       <HeroSection destinationCount={destinationCount} itineraryCount={itineraryCount} />
@@ -197,7 +196,7 @@ export default function HomePage() {
                 Real routes our specialists run — each one a starting point that flexes around your dates, pace and interests.
               </p>
             </div>
-            <Link href="/tours-by-experience" className="btn-ghost flex-shrink-0">Explore All {itineraryCount} Journeys</Link>
+            <Link href="/tours-by-experience#all-journeys" className="btn-ghost flex-shrink-0">Explore All {itineraryCount} Journeys</Link>
           </AnimateIn>
 
           <AnimateStagger className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5" staggerDelay={0.08}>
@@ -312,7 +311,7 @@ export default function HomePage() {
           </AnimateStagger>
 
           <AnimateIn delay={0.2} className="text-center mt-10">
-            <Link href="/tours-by-experience" className="btn-ghost">See all {itineraryCount} itineraries</Link>
+            <Link href="/tours-by-experience#all-journeys" className="btn-ghost">See all {itineraryCount} itineraries</Link>
           </AnimateIn>
         </div>
       </section>

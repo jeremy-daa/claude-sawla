@@ -1,5 +1,11 @@
 # QA_REPORT_V6.md — Sawla Tours V6 Quality Assurance Report
 
+> **⚠ HISTORICAL DOCUMENT — superseded (July 2026).** This report describes the V6
+> 65-route build on Next 15.1.3. The current build is **Next 15.5.x, 140 static
+> routes** (18 destinations · 36 itineraries · 23 guides · 7 species · 9 field notes),
+> verified passing `type-check`, `lint` and `build`. For current facts see
+> `README.md`; regenerate AI discovery files with `npx tsx scripts/generate-ai-index.mts`.
+
 **Date:** June 9, 2026  
 **Build:** Next.js 15.1.3 / React 19 / TypeScript 5.7 / Tailwind 3.4
 

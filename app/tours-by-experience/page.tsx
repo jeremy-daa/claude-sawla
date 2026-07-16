@@ -4,6 +4,7 @@ import PlaceholderImage from '@/components/ui/PlaceholderImage'
 import HeroVideo from '@/components/ui/HeroVideo'
 import SchemaScript from '@/components/ui/SchemaScript'
 import { TOUR_STYLES } from '@/data/siteData'
+import { ITINERARIES, getItinerariesByStyle } from '@/data/itineraryData'
 
 export const metadata: Metadata = {
   title: 'Ethiopia Tours & Tailor-Made Journeys | Sawla Tours',
@@ -275,6 +276,48 @@ export default function ToursHubPage() {
                     </div>
                   </div>
                 </Link>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Complete journey index — the homepage promises "all 36 journeys" and this
+          section is where that promise lands, every itinerary linked in one place. */}
+      <section id="all-journeys" className="section-padding bg-white border-y border-sand/60 scroll-mt-24">
+        <div className="container-max">
+          <div className="max-w-3xl mb-12">
+            <span className="label-eyebrow">The complete index</span>
+            <h2 className="heading-display text-display-md text-charcoal mt-2">All {ITINERARIES.length} Journeys at a Glance</h2>
+            <p className="text-warmgrey text-body-lg mt-4">
+              Every sample journey we run, grouped by style. Each one is a proven starting point — the final route is always shaped around your dates, pace and interests.
+            </p>
+          </div>
+          <div className="space-y-12">
+            {TOUR_STYLES.map((style) => {
+              const itins = getItinerariesByStyle(style.slug)
+              if (itins.length === 0) return null
+              return (
+                <div key={style.slug}>
+                  <div className="flex items-baseline justify-between gap-4 mb-5">
+                    <h3 className="font-display text-charcoal text-2xl font-normal">{style.name}</h3>
+                    <Link href={`/tours-by-experience/${style.slug}`} className="text-gold-ink hover:text-volcanic transition-colors text-xs uppercase tracking-wider flex-shrink-0">
+                      Style guide →
+                    </Link>
+                  </div>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {itins.map((itin) => (
+                      <Link key={itin.slug} href={`/tours-by-experience/${style.slug}/${itin.slug}`}
+                        className="group flex items-center justify-between gap-3 bg-ivory border border-sand rounded-card px-5 py-4 hover:border-gold/50 transition-colors duration-200">
+                        <div className="min-w-0">
+                          <div className="font-body font-medium text-charcoal group-hover:text-gold-ink transition-colors leading-snug" style={{ fontSize: '14px' }}>{itin.name}</div>
+                          <div className="text-warmgrey mt-0.5" style={{ fontSize: '12px' }}>{itin.durationLabel} · {itin.difficulty}</div>
+                        </div>
+                        <span className="text-gold-ink flex-shrink-0 group-hover:translate-x-0.5 transition-transform" aria-hidden="true">→</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               )
             })}
           </div>

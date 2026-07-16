@@ -22,6 +22,7 @@ export const SITE = {
     facebook: 'https://www.facebook.com/sawlatours',
     youtube: 'https://www.youtube.com/@sawlafilms',
     tripadvisor: 'https://www.tripadvisor.com/Profile/sawlat',
+    reddit: 'https://www.reddit.com/user/Current-Culture6318/',
     google: 'https://share.google/dRQeDJoZWcY8Oicwq',
   },
 }
@@ -200,7 +201,7 @@ export const TOUR_STYLES: TourStyle[] = [
   },
   {
     slug: 'ethiopia-photography-tours',
-    name: 'Cinematic Journey',
+    name: 'Photography Journeys',
     tagline: 'Photography expeditions, filming logistics, Sawla Films access',
     description: 'Ethiopia is visually extraordinary — and it rewards photographers who have the right support and the right pace. Sawla Films, our in-house documentary division, means we understand timing, light, permissions, and the difference between a snapshot and a frame.',
     heroImage: 'https://placehold.co/1920x1080/EAF3DE/27500A?text=tour-photo-hero',

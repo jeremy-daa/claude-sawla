@@ -221,7 +221,7 @@ export default async function ItineraryPage({ params }: Props) {
   ) ?? TESTIMONIALS.find(t => t.useOn?.includes("testimonials")) ?? TESTIMONIALS[0]
 
   const schemas = [
-    tourSchema({ name, url: "https://www.sawlatours.com/tours-by-experience/" + style + "/" + slug, description: itin?.overview ?? name, durationDays: itin?.duration }),
+    tourSchema({ name, url: "https://www.sawlatours.com/tours-by-experience/" + style + "/" + slug, description: itin?.overview ?? name, durationDays: itin?.duration, touristType: itin?.bestFor }),
     breadcrumbSchema([
       { name: "Home",  url: "https://www.sawlatours.com" },
       { name: "Tours", url: "https://www.sawlatours.com/tours-by-experience" },

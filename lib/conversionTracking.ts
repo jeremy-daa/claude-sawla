@@ -17,6 +17,13 @@ declare global {
   }
 }
 
+export function trackTripWizardCompleted(answers: Record<string, string> = {}): void {
+  if (typeof window === 'undefined') return
+  window.gtag?.('event', 'trip_finder_complete', { event_category: 'engagement', ...answers })
+  window.fbq?.('trackCustom', 'TripFinderComplete', answers)
+  window.dataLayer?.push({ event: 'trip_finder_complete', ...answers })
+}
+
 export function trackEnquirySubmitted(context: EnquiryConversionContext = {}): void {
   if (typeof window === 'undefined') return
 

@@ -1,29 +1,24 @@
 import Link from "next/link"
 import Image from "next/image"
-import { SITE } from "@/data/siteData"
+import { SITE, TOUR_STYLES } from "@/data/siteData"
+import { PREMIUM_DESTINATIONS } from "@/data/destinationsPremium"
+import { ITINERARIES, getItinerariesByStyle } from "@/data/itineraryData"
 import { TopoContours, ElevationProfile } from "@/components/ui/EthiopiaTopo"
 
+// Product-first footer: the two selling columns (Destinations, Tour Styles) are
+// derived from live data so they can never drift; company/editorial links live in
+// a compact strip below — present for trust and crawl equity, subordinate in weight.
+const footerDestinations = PREMIUM_DESTINATIONS.filter(d => d.featured).map(d => ({
+  label: d.shortName,
+  href: `/ethiopias-popular-destinations/${d.slug}`,
+}))
+
+const footerStyles = TOUR_STYLES.filter(s => getItinerariesByStyle(s.slug).length > 0).map(s => ({
+  label: s.name,
+  href: `/tours-by-experience/${s.slug}`,
+}))
+
 const footerNav = {
-  explore: [
-    { label: "All Destinations",      href: "/ethiopias-popular-destinations" },
-    { label: "All Tour Styles",       href: "/tours-by-experience" },
-    { label: "Ethiopia Travel Guide", href: "/ethiopia-travel-guide" },
-    { label: "Endemic Species",       href: "/ethiopia-wildlife/endemic-species" },
-    { label: "Sawla Moments",         href: "/sawla-moments" },
-    { label: "Sawla Films",           href: "/sawla-films" },
-    { label: "Traveller Stories",     href: "/testimonials" },
-  ],
-  company: [
-    { label: "About Sawla Tours",   href: "/about-us" },
-    { label: "Why Travel with Us",  href: "/why-travel-with-sawla-tours" },
-    { label: "How We Work",         href: "/how-we-work" },
-    { label: "Meet Our Specialists", href: "/meet-our-travel-specialists" },
-    { label: "Meet Our Guides",     href: "/meet-our-guides" },
-    { label: "Meet Our Drivers",    href: "/meet-our-drivers" },
-    { label: "Mobile Tented Camps", href: "/mobile-tented-camps-ethiopia" },
-    { label: "Sawla Foundation",    href: "/sawla-foundation" },
-    { label: "Responsible Travel",  href: "/responsible-travel" },
-  ],
   plan: [
     { label: "Start Planning",      href: "/enquire" },
     { label: "Planning & Pricing",  href: "/planning-and-pricing" },
@@ -33,6 +28,22 @@ const footerNav = {
     { label: "Ethiopia Visa Guide", href: "/ethiopia-travel-guide/ethiopia-visa-guide" },
     { label: "Best Time to Visit",  href: "/ethiopia-travel-guide/when-to-visit-ethiopia" },
     { label: "What to Pack",        href: "/ethiopia-travel-guide/what-to-pack-for-ethiopia" },
+  ],
+  companyStrip: [
+    { label: "About Sawla Tours",    href: "/about-us" },
+    { label: "Why Travel with Us",   href: "/why-travel-with-sawla-tours" },
+    { label: "How We Work",          href: "/how-we-work" },
+    { label: "Meet Our Specialists", href: "/meet-our-travel-specialists" },
+    { label: "Meet Our Guides",      href: "/meet-our-guides" },
+    { label: "Meet Our Drivers",     href: "/meet-our-drivers" },
+    { label: "Mobile Tented Camps",  href: "/mobile-tented-camps-ethiopia" },
+    { label: "Sawla Foundation",     href: "/sawla-foundation" },
+    { label: "Responsible Travel",   href: "/responsible-travel" },
+    { label: "Ethiopia Travel Guide", href: "/ethiopia-travel-guide" },
+    { label: "Endemic Species",      href: "/ethiopia-wildlife/endemic-species" },
+    { label: "Sawla Moments",        href: "/sawla-moments" },
+    { label: "Sawla Films",          href: "/sawla-films" },
+    { label: "Traveller Stories",    href: "/testimonials" },
   ],
 }
 
@@ -126,20 +137,29 @@ export default function Footer() {
                   </div>
                   <span className="absolute -bottom-6 left-1/2 -translate-x-1/2 text-[9px] text-ivory/40 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">Google</span>
                 </a>
+
+                <a href={SITE.social.reddit} target="_blank" rel="noopener noreferrer" aria-label="Reddit" className="group relative">
+                  <div className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-sm text-ivory/60 group-hover:border-gold group-hover:text-gold transition-colors duration-300">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 11.779c0-1.459-1.192-2.645-2.657-2.645-.715 0-1.363.286-1.84.746-1.81-1.191-4.259-1.949-6.971-2.046l1.483-4.669 4.016.941-.006.058c0 1.193.975 2.163 2.174 2.163 1.198 0 2.172-.97 2.172-2.163s-.975-2.164-2.172-2.164c-.92 0-1.704.574-2.021 1.379l-4.329-1.015c-.189-.046-.381.063-.44.249l-1.654 5.207c-2.838.034-5.409.798-7.3 2.025-.474-.438-1.103-.712-1.799-.712C1.191 9.134 0 10.32 0 11.779c0 .97.533 1.811 1.317 2.271-.052.282-.086.567-.086.857 0 3.911 4.808 7.093 10.719 7.093s10.72-3.182 10.72-7.093c0-.274-.029-.544-.075-.81.832-.447 1.405-1.312 1.405-2.318zm-17.224.927c0-.868.71-1.575 1.582-1.575.871 0 1.581.707 1.581 1.575s-.71 1.574-1.581 1.574-1.582-.706-1.582-1.574zm9.061 4.669c-.797.793-2.048 1.179-3.824 1.179l-.013-.003-.013.003c-1.777 0-3.028-.386-3.824-1.179-.145-.144-.145-.379 0-.523.145-.145.381-.145.526 0 .65.647 1.729.961 3.298.961l.013.003.013-.003c1.569 0 2.648-.315 3.298-.962.145-.145.381-.144.526 0 .145.145.145.379 0 .524zm-.189-3.095c-.872 0-1.581-.706-1.581-1.574 0-.868.709-1.575 1.581-1.575s1.581.707 1.581 1.575-.709 1.574-1.581 1.574z"/></svg>
+                  </div>
+                  <span className="absolute -bottom-6 left-1/2 -translate-x-1/2 text-[9px] text-ivory/40 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">Reddit</span>
+                </a>
               </div>
             </div>
           </div>
 
           <div>
-            <h3 className="text-[10.5px] font-body font-medium tracking-[0.16em] uppercase text-gold mb-5">Explore</h3>
+            <h3 className="text-[10.5px] font-body font-medium tracking-[0.16em] uppercase text-gold mb-5">Destinations</h3>
             <ul className="space-y-3">
-              {footerNav.explore.map(l => (<li key={l.href}><Link href={l.href} className="text-[13px] text-ivory/55 hover:text-gold transition-colors">{l.label}</Link></li>))}
+              {footerDestinations.map(l => (<li key={l.href}><Link href={l.href} className="text-[13px] text-ivory/55 hover:text-gold transition-colors">{l.label}</Link></li>))}
+              <li><Link href="/ethiopias-popular-destinations" className="text-[13px] text-gold hover:text-gold-light transition-colors">All {PREMIUM_DESTINATIONS.length} Destinations →</Link></li>
             </ul>
           </div>
           <div>
-            <h3 className="text-[10.5px] font-body font-medium tracking-[0.16em] uppercase text-gold mb-5">Company</h3>
+            <h3 className="text-[10.5px] font-body font-medium tracking-[0.16em] uppercase text-gold mb-5">Tour Styles</h3>
             <ul className="space-y-3">
-              {footerNav.company.map(l => (<li key={l.href}><Link href={l.href} className="text-[13px] text-ivory/55 hover:text-gold transition-colors">{l.label}</Link></li>))}
+              {footerStyles.map(l => (<li key={l.href}><Link href={l.href} className="text-[13px] text-ivory/55 hover:text-gold transition-colors">{l.label}</Link></li>))}
+              <li><Link href="/tours-by-experience#all-journeys" className="text-[13px] text-gold hover:text-gold-light transition-colors">All {ITINERARIES.length} Journeys →</Link></li>
             </ul>
           </div>
           <div>
@@ -151,6 +171,16 @@ export default function Footer() {
               <p className="text-[10.5px] tracking-[0.12em] uppercase text-ivory/55 mb-2">Licensed Operator</p>
               <p className="text-ivory/55 text-xs leading-relaxed">Ethiopian Tourism Organization licensed. Est. Addis Ababa, 2009.</p>
             </div>
+          </div>
+        </div>
+
+        {/* Company & editorial strip — kept for trust and internal-link equity,
+            visually subordinate to the product columns above */}
+        <div className="mt-12 pt-8 border-t border-white/10">
+          <div className="flex flex-wrap gap-x-6 gap-y-2.5">
+            {footerNav.companyStrip.map(l => (
+              <Link key={l.href} href={l.href} className="text-[12px] text-ivory/55 hover:text-gold transition-colors">{l.label}</Link>
+            ))}
           </div>
         </div>
       </div>

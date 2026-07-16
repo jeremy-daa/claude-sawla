@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { DESTINATIONS, TOUR_STYLES, MOMENTS_ARTICLES, FIELD_GUIDE_SLUGS } from '@/data/siteData'
+import { DESTINATIONS, TOUR_STYLES, MOMENTS_ARTICLES, FIELD_GUIDE_SLUGS, SPECIES } from '@/data/siteData'
 import { ITINERARIES } from '@/data/itineraryData'
 
 const BASE = 'https://www.sawlatours.com'
@@ -67,5 +67,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now, changeFrequency: 'monthly', priority: 0.75,
   }))
 
-  return [...staticPages, ...destinationPages, ...tourStylePages, ...itineraryPages, ...guidePages, ...momentsPages]
+  const speciesPages: MetadataRoute.Sitemap = SPECIES.map(s => ({
+    url: `${BASE}/ethiopia-wildlife/${s.slug}`,
+    lastModified: now, changeFrequency: 'monthly', priority: 0.65,
+  }))
+
+  return [...staticPages, ...destinationPages, ...tourStylePages, ...itineraryPages, ...guidePages, ...speciesPages, ...momentsPages]
 }
