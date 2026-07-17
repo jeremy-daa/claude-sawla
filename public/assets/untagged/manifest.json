@@ -1,0 +1,6514 @@
+{
+  "generatedAt": "2026-06-15T22:20:50.719Z",
+  "sourceRoot": "images",
+  "outputRoot": "public/assets/untagged",
+  "settings": {
+    "format": "webp",
+    "maxDimension": 2400,
+    "quality": 82,
+    "stripMetadata": true,
+    "preserveFolderStructure": true,
+    "normalizeFilenames": false
+  },
+  "totals": {
+    "discovered": 309,
+    "processed": 306,
+    "skippedExisting": 3,
+    "failed": 0,
+    "inputBytes": 895945784,
+    "outputBytes": 107815288,
+    "savedBytes": 788130496
+  },
+  "images": [
+    {
+      "id": "1bd7f848",
+      "status": "skipped-existing",
+      "category": "Awash NP & Ali",
+      "source": {
+        "path": "Awash NP & Ali/Hamedreyas.jpg",
+        "bytes": 11373713,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Awash NP & Ali/Hamedreyas.webp",
+        "publicPath": "/assets/untagged/Awash NP & Ali/Hamedreyas.webp",
+        "bytes": 1372130,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "09c7a831",
+      "status": "skipped-existing",
+      "category": "Awash NP & Ali",
+      "source": {
+        "path": "Awash NP & Ali/Herd of Zebra.jpg",
+        "bytes": 926343,
+        "width": 2048,
+        "height": 1366,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Awash NP & Ali/Herd of Zebra.webp",
+        "publicPath": "/assets/untagged/Awash NP & Ali/Herd of Zebra.webp",
+        "bytes": 800296,
+        "width": 2048,
+        "height": 1366,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "60326ef3",
+      "status": "skipped-existing",
+      "category": "Awash NP & Ali",
+      "source": {
+        "path": "Awash NP & Ali/Oryx in Awash National Park.jpg",
+        "bytes": 592137,
+        "width": 2048,
+        "height": 1361,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Awash NP & Ali/Oryx in Awash National Park.webp",
+        "publicPath": "/assets/untagged/Awash NP & Ali/Oryx in Awash National Park.webp",
+        "bytes": 444308,
+        "width": 2048,
+        "height": 1361,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1522833d",
+      "status": "processed",
+      "category": "Awash NP & Ali",
+      "source": {
+        "path": "Awash NP & Ali/sommerings on run.jpg",
+        "bytes": 4253502,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Awash NP & Ali/sommerings on run.webp",
+        "publicPath": "/assets/untagged/Awash NP & Ali/sommerings on run.webp",
+        "bytes": 201708,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "82371094",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/DSC_7811.JPG",
+        "bytes": 3220481,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 8
+      },
+      "output": {
+        "path": "Axum/DSC_7811.webp",
+        "publicPath": "/assets/untagged/Axum/DSC_7811.webp",
+        "bytes": 549208,
+        "width": 1594,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "56244def",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/DSC_7826.JPG",
+        "bytes": 3083997,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 8
+      },
+      "output": {
+        "path": "Axum/DSC_7826.webp",
+        "publicPath": "/assets/untagged/Axum/DSC_7826.webp",
+        "bytes": 841282,
+        "width": 1594,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6e80e425",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/DSC_7845.JPG",
+        "bytes": 3470803,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 8
+      },
+      "output": {
+        "path": "Axum/DSC_7845.webp",
+        "publicPath": "/assets/untagged/Axum/DSC_7845.webp",
+        "bytes": 232368,
+        "width": 1594,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "71a2b31b",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/DSC_7847.JPG",
+        "bytes": 1114897,
+        "width": 2848,
+        "height": 4288,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Axum/DSC_7847.webp",
+        "publicPath": "/assets/untagged/Axum/DSC_7847.webp",
+        "bytes": 172314,
+        "width": 1594,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "76825173",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/DSC_7853.JPG",
+        "bytes": 3093350,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Axum/DSC_7853.webp",
+        "publicPath": "/assets/untagged/Axum/DSC_7853.webp",
+        "bytes": 491980,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1aa5bc76",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/DSC_7868.JPG",
+        "bytes": 3176330,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Axum/DSC_7868.webp",
+        "publicPath": "/assets/untagged/Axum/DSC_7868.webp",
+        "bytes": 629080,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "507bed75",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/DSC_7869.JPG",
+        "bytes": 3013965,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Axum/DSC_7869.webp",
+        "publicPath": "/assets/untagged/Axum/DSC_7869.webp",
+        "bytes": 692238,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "efa043ee",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/DSC_7872.JPG",
+        "bytes": 3110767,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Axum/DSC_7872.webp",
+        "publicPath": "/assets/untagged/Axum/DSC_7872.webp",
+        "bytes": 632590,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b677995e",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/DSC_7891.JPG",
+        "bytes": 3152314,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Axum/DSC_7891.webp",
+        "publicPath": "/assets/untagged/Axum/DSC_7891.webp",
+        "bytes": 486468,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "92cc5667",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/St. Zion of Mary Chuch in Axum.JPG",
+        "bytes": 2965260,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Axum/St. Zion of Mary Chuch in Axum.webp",
+        "publicPath": "/assets/untagged/Axum/St. Zion of Mary Chuch in Axum.webp",
+        "bytes": 538108,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fdfb5d14",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/Stelae field of Axum.JPG",
+        "bytes": 2699783,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 8
+      },
+      "output": {
+        "path": "Axum/Stelae field of Axum.webp",
+        "publicPath": "/assets/untagged/Axum/Stelae field of Axum.webp",
+        "bytes": 465990,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "149c7db6",
+      "status": "processed",
+      "category": "Axum",
+      "source": {
+        "path": "Axum/Stelea of  Axum.jpg",
+        "bytes": 2765794,
+        "width": 2736,
+        "height": 3648,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Axum/Stelea of  Axum.webp",
+        "publicPath": "/assets/untagged/Axum/Stelea of  Axum.webp",
+        "bytes": 175782,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6895712c",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/Blue Nile falls.jpg",
+        "bytes": 2597275,
+        "width": 4000,
+        "height": 2667,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/Blue Nile falls.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/Blue Nile falls.webp",
+        "bytes": 854338,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ad2b56a8",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/DSC_0583.JPG",
+        "bytes": 1592195,
+        "width": 3008,
+        "height": 2000,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/DSC_0583.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/DSC_0583.webp",
+        "bytes": 887812,
+        "width": 2400,
+        "height": 1596,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9ff0faf1",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/DSC_0592..JPG",
+        "bytes": 998852,
+        "width": 2095,
+        "height": 2000,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/DSC_0592..webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/DSC_0592..webp",
+        "bytes": 464188,
+        "width": 2095,
+        "height": 2000,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2468b5f7",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/DSC_1051a74.JPG",
+        "bytes": 1475606,
+        "width": 3008,
+        "height": 2000,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/DSC_1051a74.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/DSC_1051a74.webp",
+        "bytes": 342844,
+        "width": 2400,
+        "height": 1596,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0930b0aa",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/DSC_6777.JPG",
+        "bytes": 3154243,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/DSC_6777.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/DSC_6777.webp",
+        "bytes": 814614,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "24b7cf4c",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/DSC_6780.JPG",
+        "bytes": 3196131,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/DSC_6780.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/DSC_6780.webp",
+        "bytes": 440340,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2abbf91d",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/DSC_6793.JPG",
+        "bytes": 3056461,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 8
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/DSC_6793.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/DSC_6793.webp",
+        "bytes": 528090,
+        "width": 1594,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "78cf883d",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/Monastery on Lake Tana.JPG",
+        "bytes": 3150602,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/Monastery on Lake Tana.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/Monastery on Lake Tana.webp",
+        "bytes": 1022268,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "20882df8",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/monastry windows.jpg",
+        "bytes": 422539,
+        "width": 3648,
+        "height": 2736,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/monastry windows.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/monastry windows.webp",
+        "bytes": 576026,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "02d7608f",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/Mural Painting of  Lake Tana monastery.jpg",
+        "bytes": 704845,
+        "width": 1360,
+        "height": 2048,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/Mural Painting of  Lake Tana monastery.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/Mural Painting of  Lake Tana monastery.webp",
+        "bytes": 536542,
+        "width": 1360,
+        "height": 2048,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "45e82cb9",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/Mural Painting of Ura Kidane Mehiret.JPG",
+        "bytes": 3138667,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 8
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/Mural Painting of Ura Kidane Mehiret.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/Mural Painting of Ura Kidane Mehiret.webp",
+        "bytes": 556522,
+        "width": 1594,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "75a1d2b3",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/P1012408.JPG",
+        "bytes": 2755969,
+        "width": 3024,
+        "height": 4032,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/P1012408.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/P1012408.webp",
+        "bytes": 697870,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b01166a1",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/P1012418.JPG",
+        "bytes": 2463419,
+        "width": 3024,
+        "height": 4032,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/P1012418.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/P1012418.webp",
+        "bytes": 845216,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a995fd13",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/P1012419.JPG",
+        "bytes": 2537524,
+        "width": 3024,
+        "height": 4032,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/P1012419.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/P1012419.webp",
+        "bytes": 708236,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4fdb5f86",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/P1012420.JPG",
+        "bytes": 2716142,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/P1012420.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/P1012420.webp",
+        "bytes": 839690,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "50e024d3",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/Papyrus Reed Boat on Lake Tana.JPG",
+        "bytes": 3087029,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/Papyrus Reed Boat on Lake Tana.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/Papyrus Reed Boat on Lake Tana.webp",
+        "bytes": 173340,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5319b59f",
+      "status": "processed",
+      "category": "Bahir Dar & Lake Tana",
+      "source": {
+        "path": "Bahir Dar & Lake Tana/Water falls of Blue Nile.jpg",
+        "bytes": 496644,
+        "width": 2048,
+        "height": 1366,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Bahir Dar & Lake Tana/Water falls of Blue Nile.webp",
+        "publicPath": "/assets/untagged/Bahir Dar & Lake Tana/Water falls of Blue Nile.webp",
+        "bytes": 347216,
+        "width": 2048,
+        "height": 1366,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3f3a90e2",
+      "status": "processed",
+      "category": "Bale Landscape",
+      "source": {
+        "path": "Bale Landscape/230424124629 (20).jpg",
+        "bytes": 861466,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Bale Landscape/230424124629 (20).webp",
+        "publicPath": "/assets/untagged/Bale Landscape/230424124629 (20).webp",
+        "bytes": 741732,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9f35d094",
+      "status": "processed",
+      "category": "Bale Landscape",
+      "source": {
+        "path": "Bale Landscape/searching the wolfDSC_7115.jpg",
+        "bytes": 6115798,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Bale Landscape/searching the wolfDSC_7115.webp",
+        "publicPath": "/assets/untagged/Bale Landscape/searching the wolfDSC_7115.webp",
+        "bytes": 181752,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ce9354e9",
+      "status": "processed",
+      "category": "Bale Landscape",
+      "source": {
+        "path": "Bale Landscape/Su and Peter watching close.jpg",
+        "bytes": 20800986,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Bale Landscape/Su and Peter watching close.webp",
+        "publicPath": "/assets/untagged/Bale Landscape/Su and Peter watching close.webp",
+        "bytes": 625810,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c6cd0540",
+      "status": "processed",
+      "category": "Bale Landscape",
+      "source": {
+        "path": "Bale Landscape/Su and Peter watching.jpg",
+        "bytes": 10007956,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Bale Landscape/Su and Peter watching.webp",
+        "publicPath": "/assets/untagged/Bale Landscape/Su and Peter watching.webp",
+        "bytes": 531860,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "38e33655",
+      "status": "processed",
+      "category": "Bale Landscape",
+      "source": {
+        "path": "Bale Landscape/Su, Dani, Peter.jpg",
+        "bytes": 10422357,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Bale Landscape/Su, Dani, Peter.webp",
+        "publicPath": "/assets/untagged/Bale Landscape/Su, Dani, Peter.webp",
+        "bytes": 474722,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d160b17d",
+      "status": "processed",
+      "category": "Bale Landscape",
+      "source": {
+        "path": "Bale Landscape/WhatsApp Image 2024-12-20 at 3.37.32 PM.jpeg",
+        "bytes": 307792,
+        "width": 1600,
+        "height": 1200,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Bale Landscape/WhatsApp Image 2024-12-20 at 3.37.32 PM.webp",
+        "publicPath": "/assets/untagged/Bale Landscape/WhatsApp Image 2024-12-20 at 3.37.32 PM.webp",
+        "bytes": 335874,
+        "width": 1600,
+        "height": 1200,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "18aa2a4b",
+      "status": "processed",
+      "category": "Birds in Bale",
+      "source": {
+        "path": "Birds in Bale/eagle couple.jpg",
+        "bytes": 6002057,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds in Bale/eagle couple.webp",
+        "publicPath": "/assets/untagged/Birds in Bale/eagle couple.webp",
+        "bytes": 306126,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "374ec278",
+      "status": "processed",
+      "category": "Birds in Bale",
+      "source": {
+        "path": "Birds in Bale/eagly flying.jpg",
+        "bytes": 3755890,
+        "width": 3392,
+        "height": 3392,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds in Bale/eagly flying.webp",
+        "publicPath": "/assets/untagged/Birds in Bale/eagly flying.webp",
+        "bytes": 69486,
+        "width": 2400,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1d1f8816",
+      "status": "processed",
+      "category": "Birds in Bale",
+      "source": {
+        "path": "Birds in Bale/Parttridge evtl.jpg",
+        "bytes": 1601730,
+        "width": 2048,
+        "height": 1368,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds in Bale/Parttridge evtl.webp",
+        "publicPath": "/assets/untagged/Birds in Bale/Parttridge evtl.webp",
+        "bytes": 272058,
+        "width": 2048,
+        "height": 1368,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "aded87da",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Abyssinian Slaty-Flycatcher.jpg",
+        "bytes": 320680,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Abyssinian Slaty-Flycatcher.webp",
+        "publicPath": "/assets/untagged/Birds/Abyssinian Slaty-Flycatcher.webp",
+        "bytes": 75910,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "95f125fe",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Abyssinian Thrush.jpg",
+        "bytes": 307373,
+        "width": 1200,
+        "height": 799,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Abyssinian Thrush.webp",
+        "publicPath": "/assets/untagged/Birds/Abyssinian Thrush.webp",
+        "bytes": 72090,
+        "width": 1200,
+        "height": 799,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8d4df55e",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Abyssinian Wheatear.jpg",
+        "bytes": 261743,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Abyssinian Wheatear.webp",
+        "publicPath": "/assets/untagged/Birds/Abyssinian Wheatear.webp",
+        "bytes": 62050,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "bc7547d1",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/African Citril.jpg",
+        "bytes": 346844,
+        "width": 1200,
+        "height": 801,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/African Citril.webp",
+        "publicPath": "/assets/untagged/Birds/African Citril.webp",
+        "bytes": 92664,
+        "width": 1200,
+        "height": 801,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "09510e78",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/African Fish Eagle.jpg",
+        "bytes": 203177,
+        "width": 1200,
+        "height": 799,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/African Fish Eagle.webp",
+        "publicPath": "/assets/untagged/Birds/African Fish Eagle.webp",
+        "bytes": 33864,
+        "width": 1200,
+        "height": 799,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "72889ff0",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Baglefecht Weaver.jpg",
+        "bytes": 291621,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Baglefecht Weaver.webp",
+        "publicPath": "/assets/untagged/Birds/Baglefecht Weaver.webp",
+        "bytes": 74146,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6ab45159",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Beautiful Sunbird.jpg",
+        "bytes": 193266,
+        "width": 1200,
+        "height": 801,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Beautiful Sunbird.webp",
+        "publicPath": "/assets/untagged/Birds/Beautiful Sunbird.webp",
+        "bytes": 38008,
+        "width": 1200,
+        "height": 801,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "15000b65",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Black-billed Barbet.jpg",
+        "bytes": 162572,
+        "width": 800,
+        "height": 533,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Birds/Black-billed Barbet.webp",
+        "publicPath": "/assets/untagged/Birds/Black-billed Barbet.webp",
+        "bytes": 55808,
+        "width": 800,
+        "height": 533,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "77dea104",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Blue-breasted Bee-eater.jpg",
+        "bytes": 222997,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Blue-breasted Bee-eater.webp",
+        "publicPath": "/assets/untagged/Birds/Blue-breasted Bee-eater.webp",
+        "bytes": 57252,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ecd9917c",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Blue-winged Goose.jpg",
+        "bytes": 316091,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Blue-winged Goose.webp",
+        "publicPath": "/assets/untagged/Birds/Blue-winged Goose.webp",
+        "bytes": 70896,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6c584084",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Boran Cisticola.jpg",
+        "bytes": 307496,
+        "width": 1200,
+        "height": 801,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Boran Cisticola.webp",
+        "publicPath": "/assets/untagged/Birds/Boran Cisticola.webp",
+        "bytes": 83714,
+        "width": 1200,
+        "height": 801,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1acde303",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Brown-rumped Seedeater.jpg",
+        "bytes": 288096,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Brown-rumped Seedeater.webp",
+        "publicPath": "/assets/untagged/Birds/Brown-rumped Seedeater.webp",
+        "bytes": 50168,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ffde972e",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Cape Crow.jpg",
+        "bytes": 312926,
+        "width": 1200,
+        "height": 801,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Cape Crow.webp",
+        "publicPath": "/assets/untagged/Birds/Cape Crow.webp",
+        "bytes": 80740,
+        "width": 1200,
+        "height": 801,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7682529b",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Common Waxbill.jpg",
+        "bytes": 259482,
+        "width": 1200,
+        "height": 799,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Common Waxbill.webp",
+        "publicPath": "/assets/untagged/Birds/Common Waxbill.webp",
+        "bytes": 43782,
+        "width": 1200,
+        "height": 799,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "88d02ab0",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Cut-throat Finch.jpg",
+        "bytes": 305919,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Cut-throat Finch.webp",
+        "publicPath": "/assets/untagged/Birds/Cut-throat Finch.webp",
+        "bytes": 83064,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "381b228d",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Dusky Turtle-Dove.jpg",
+        "bytes": 256671,
+        "width": 801,
+        "height": 1200,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Dusky Turtle-Dove.webp",
+        "publicPath": "/assets/untagged/Birds/Dusky Turtle-Dove.webp",
+        "bytes": 55278,
+        "width": 801,
+        "height": 1200,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f6eefdec",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Eurasian Hoopoe.jpg",
+        "bytes": 341687,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Eurasian Hoopoe.webp",
+        "publicPath": "/assets/untagged/Birds/Eurasian Hoopoe.webp",
+        "bytes": 96882,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b059fe4e",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Fan-tailed Widowbird.jpg",
+        "bytes": 304649,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Fan-tailed Widowbird.webp",
+        "publicPath": "/assets/untagged/Birds/Fan-tailed Widowbird.webp",
+        "bytes": 73118,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d9ebb581",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Four-banded Sandgrouse.jpg",
+        "bytes": 403286,
+        "width": 1200,
+        "height": 799,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Four-banded Sandgrouse.webp",
+        "publicPath": "/assets/untagged/Birds/Four-banded Sandgrouse.webp",
+        "bytes": 130214,
+        "width": 1200,
+        "height": 799,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5fac3af7",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Gray-headed Batis.jpg",
+        "bytes": 307882,
+        "width": 1200,
+        "height": 799,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Gray-headed Batis.webp",
+        "publicPath": "/assets/untagged/Birds/Gray-headed Batis.webp",
+        "bytes": 74972,
+        "width": 1200,
+        "height": 799,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e0035646",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Gray-headed Kingfisher.jpg",
+        "bytes": 179097,
+        "width": 1200,
+        "height": 801,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Gray-headed Kingfisher.webp",
+        "publicPath": "/assets/untagged/Birds/Gray-headed Kingfisher.webp",
+        "bytes": 32578,
+        "width": 1200,
+        "height": 801,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "766e7ab2",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Greater Blue-eared Starling.jpg",
+        "bytes": 362361,
+        "width": 1200,
+        "height": 801,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Greater Blue-eared Starling.webp",
+        "publicPath": "/assets/untagged/Birds/Greater Blue-eared Starling.webp",
+        "bytes": 104134,
+        "width": 1200,
+        "height": 801,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b3638000",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Groundscraper Thrush.jpg",
+        "bytes": 369768,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Groundscraper Thrush.webp",
+        "publicPath": "/assets/untagged/Birds/Groundscraper Thrush.webp",
+        "bytes": 105134,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b49d0c03",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Hamerkop.jpg",
+        "bytes": 300093,
+        "width": 1200,
+        "height": 799,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Hamerkop.webp",
+        "publicPath": "/assets/untagged/Birds/Hamerkop.webp",
+        "bytes": 56972,
+        "width": 1200,
+        "height": 799,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2ea325ae",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Hemprich's Hornbill.jpg",
+        "bytes": 346365,
+        "width": 1200,
+        "height": 801,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Hemprich's Hornbill.webp",
+        "publicPath": "/assets/untagged/Birds/Hemprich's Hornbill.webp",
+        "bytes": 107586,
+        "width": 1200,
+        "height": 801,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3c55f9f2",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Ian Johnson20170203_265.JPG",
+        "bytes": 6460221,
+        "width": 5568,
+        "height": 3712,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Birds/Ian Johnson20170203_265.webp",
+        "publicPath": "/assets/untagged/Birds/Ian Johnson20170203_265.webp",
+        "bytes": 144206,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3f71465c",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Ian Johnson20170203_740.JPG",
+        "bytes": 8320093,
+        "width": 5568,
+        "height": 3712,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Birds/Ian Johnson20170203_740.webp",
+        "publicPath": "/assets/untagged/Birds/Ian Johnson20170203_740.webp",
+        "bytes": 631130,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "77fbe2ce",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Ian Johnson20170203_958.JPG",
+        "bytes": 4505610,
+        "width": 4272,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Birds/Ian Johnson20170203_958.webp",
+        "publicPath": "/assets/untagged/Birds/Ian Johnson20170203_958.webp",
+        "bytes": 238358,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b5dbe57b",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Laughing Dove.jpg",
+        "bytes": 259080,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Laughing Dove.webp",
+        "publicPath": "/assets/untagged/Birds/Laughing Dove.webp",
+        "bytes": 64288,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0a79986f",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Little Grebe.jpg",
+        "bytes": 216895,
+        "width": 1200,
+        "height": 801,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Little Grebe.webp",
+        "publicPath": "/assets/untagged/Birds/Little Grebe.webp",
+        "bytes": 27768,
+        "width": 1200,
+        "height": 801,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6ee1ab35",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Marabou Stork.jpg",
+        "bytes": 157279,
+        "width": 1200,
+        "height": 799,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Marabou Stork.webp",
+        "publicPath": "/assets/untagged/Birds/Marabou Stork.webp",
+        "bytes": 24048,
+        "width": 1200,
+        "height": 799,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f8256a5d",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Moorland Chat.jpg",
+        "bytes": 351136,
+        "width": 1200,
+        "height": 801,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Moorland Chat.webp",
+        "publicPath": "/assets/untagged/Birds/Moorland Chat.webp",
+        "bytes": 102790,
+        "width": 1200,
+        "height": 801,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "451f4a25",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Pin-tailed Whydah.jpg",
+        "bytes": 355290,
+        "width": 1200,
+        "height": 801,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Pin-tailed Whydah.webp",
+        "publicPath": "/assets/untagged/Birds/Pin-tailed Whydah.webp",
+        "bytes": 99002,
+        "width": 1200,
+        "height": 801,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "feeb2bdf",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Red-billed Oxpecker.jpg",
+        "bytes": 435551,
+        "width": 1200,
+        "height": 799,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Red-billed Oxpecker.webp",
+        "publicPath": "/assets/untagged/Birds/Red-billed Oxpecker.webp",
+        "bytes": 149894,
+        "width": 1200,
+        "height": 799,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fe8d42b7",
+      "status": "processed",
+      "category": "Birds",
+      "source": {
+        "path": "Birds/Roller.jpg",
+        "bytes": 252875,
+        "width": 1200,
+        "height": 800,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Birds/Roller.webp",
+        "publicPath": "/assets/untagged/Birds/Roller.webp",
+        "bytes": 76918,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "296b171c",
+      "status": "processed",
+      "category": "Bohor Deed buck",
+      "source": {
+        "path": "Bohor Deed buck/Bohor Reedbuck1.jpg",
+        "bytes": 8986582,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Bohor Deed buck/Bohor Reedbuck1.webp",
+        "publicPath": "/assets/untagged/Bohor Deed buck/Bohor Reedbuck1.webp",
+        "bytes": 1154002,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a4af5d9f",
+      "status": "processed",
+      "category": "Bohor Deed buck",
+      "source": {
+        "path": "Bohor Deed buck/Reedbuck.jpg",
+        "bytes": 6501000,
+        "width": 5392,
+        "height": 3592,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Bohor Deed buck/Reedbuck.webp",
+        "publicPath": "/assets/untagged/Bohor Deed buck/Reedbuck.webp",
+        "bytes": 100314,
+        "width": 2400,
+        "height": 1599,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "98911c65",
+      "status": "processed",
+      "category": "Chebera CNP",
+      "source": {
+        "path": "Chebera CNP/Chebera Churchura National Park.jpg",
+        "bytes": 6621375,
+        "width": 3648,
+        "height": 2736,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Chebera CNP/Chebera Churchura National Park.webp",
+        "publicPath": "/assets/untagged/Chebera CNP/Chebera Churchura National Park.webp",
+        "bytes": 1005742,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e241b1ba",
+      "status": "processed",
+      "category": "Danakil Depression",
+      "source": {
+        "path": "Danakil Depression/230424124629 (10).jpg",
+        "bytes": 572408,
+        "width": 2048,
+        "height": 1363,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Danakil Depression/230424124629 (10).webp",
+        "publicPath": "/assets/untagged/Danakil Depression/230424124629 (10).webp",
+        "bytes": 403680,
+        "width": 2048,
+        "height": 1363,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "52467283",
+      "status": "processed",
+      "category": "Danakil Depression",
+      "source": {
+        "path": "Danakil Depression/230424124629 (15).jpg",
+        "bytes": 460680,
+        "width": 2048,
+        "height": 1362,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Danakil Depression/230424124629 (15).webp",
+        "publicPath": "/assets/untagged/Danakil Depression/230424124629 (15).webp",
+        "bytes": 311156,
+        "width": 2048,
+        "height": 1362,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ba28fd02",
+      "status": "processed",
+      "category": "Danakil Depression",
+      "source": {
+        "path": "Danakil Depression/230424124629 (28).jpg",
+        "bytes": 321258,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Danakil Depression/230424124629 (28).webp",
+        "publicPath": "/assets/untagged/Danakil Depression/230424124629 (28).webp",
+        "bytes": 209352,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a6cbc055",
+      "status": "processed",
+      "category": "Danakil Depression",
+      "source": {
+        "path": "Danakil Depression/230424124629 (29).jpg",
+        "bytes": 239252,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Danakil Depression/230424124629 (29).webp",
+        "publicPath": "/assets/untagged/Danakil Depression/230424124629 (29).webp",
+        "bytes": 138164,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "da0334f1",
+      "status": "processed",
+      "category": "Danakil Depression",
+      "source": {
+        "path": "Danakil Depression/Colorful Dallo.jpg",
+        "bytes": 1796682,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Danakil Depression/Colorful Dallo.webp",
+        "publicPath": "/assets/untagged/Danakil Depression/Colorful Dallo.webp",
+        "bytes": 646606,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "236de70b",
+      "status": "processed",
+      "category": "Danakil Depression",
+      "source": {
+        "path": "Danakil Depression/Dallol Danakil depression.jpg",
+        "bytes": 1524936,
+        "width": 2736,
+        "height": 2736,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Danakil Depression/Dallol Danakil depression.webp",
+        "publicPath": "/assets/untagged/Danakil Depression/Dallol Danakil depression.webp",
+        "bytes": 1136684,
+        "width": 2400,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5a4ab75f",
+      "status": "processed",
+      "category": null,
+      "source": {
+        "path": "Ethiopia Map. 1JPG.JPG",
+        "bytes": 157317,
+        "width": 1029,
+        "height": 844,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopia Map. 1JPG.webp",
+        "publicPath": "/assets/untagged/Ethiopia Map. 1JPG.webp",
+        "bytes": 134934,
+        "width": 1029,
+        "height": 844,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7d43e713",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/a group of Ethiopian Wolf Bale Mountain National Park.jpg",
+        "bytes": 594830,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/a group of Ethiopian Wolf Bale Mountain National Park.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/a group of Ethiopian Wolf Bale Mountain National Park.webp",
+        "bytes": 417480,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4205d352",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/ÄW behing green plant.jpg",
+        "bytes": 5673719,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/ÄW behing green plant.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/ÄW behing green plant.webp",
+        "bytes": 165804,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "78f1b828",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW ehind bushes.jpg",
+        "bytes": 16792548,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW ehind bushes.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW ehind bushes.webp",
+        "bytes": 196842,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "dc2fe355",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW fa in the plain.jpg",
+        "bytes": 15510344,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW fa in the plain.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW fa in the plain.webp",
+        "bytes": 153114,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0f23677d",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW in the plain.jpg",
+        "bytes": 7786428,
+        "width": 5392,
+        "height": 3592,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW in the plain.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW in the plain.webp",
+        "bytes": 225546,
+        "width": 2400,
+        "height": 1599,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "41f70302",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW looking back.jpg",
+        "bytes": 7036479,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW looking back.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW looking back.webp",
+        "bytes": 247920,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "035b2fd6",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW mouth half open.jpg",
+        "bytes": 18131406,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW mouth half open.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW mouth half open.webp",
+        "bytes": 236004,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "49bfdbe0",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW mouth wide open.jpg",
+        "bytes": 3457072,
+        "width": 5392,
+        "height": 3592,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW mouth wide open.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW mouth wide open.webp",
+        "bytes": 211580,
+        "width": 2400,
+        "height": 1599,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9cd620c3",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW side close.jpg",
+        "bytes": 18842793,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW side close.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW side close.webp",
+        "bytes": 290034,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6497ebef",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW sniffing 2.jpg",
+        "bytes": 19296519,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW sniffing 2.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW sniffing 2.webp",
+        "bytes": 324368,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ce575540",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW sniffing om the grass.jpg",
+        "bytes": 8850233,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW sniffing om the grass.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW sniffing om the grass.webp",
+        "bytes": 334798,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f28dc3c6",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW tapping .jpg",
+        "bytes": 11019316,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW tapping .webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW tapping .webp",
+        "bytes": 494894,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e555d34d",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW wathcing.jpg",
+        "bytes": 19105131,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW wathcing.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW wathcing.webp",
+        "bytes": 383386,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b735f1c0",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/AW with tongue slidely out.jpg",
+        "bytes": 16420226,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/AW with tongue slidely out.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/AW with tongue slidely out.webp",
+        "bytes": 149018,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ec006350",
+      "status": "processed",
+      "category": "Ethiopian Wolf",
+      "source": {
+        "path": "Ethiopian Wolf/Ethiopian Wolf in Bale Mountain National Park.jpg",
+        "bytes": 464460,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Ethiopian Wolf/Ethiopian Wolf in Bale Mountain National Park.webp",
+        "publicPath": "/assets/untagged/Ethiopian Wolf/Ethiopian Wolf in Bale Mountain National Park.webp",
+        "bytes": 317176,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b8928e62",
+      "status": "processed",
+      "category": "Gambela National Park",
+      "source": {
+        "path": "Gambela National Park/BY9A3993.JPG",
+        "bytes": 11559670,
+        "width": 4374,
+        "height": 2742,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gambela National Park/BY9A3993.webp",
+        "publicPath": "/assets/untagged/Gambela National Park/BY9A3993.webp",
+        "bytes": 1257998,
+        "width": 2400,
+        "height": 1505,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "400460aa",
+      "status": "processed",
+      "category": "Gambela National Park",
+      "source": {
+        "path": "Gambela National Park/CCNP 1.jpg",
+        "bytes": 9655499,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gambela National Park/CCNP 1.webp",
+        "publicPath": "/assets/untagged/Gambela National Park/CCNP 1.webp",
+        "bytes": 1149272,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b84680b7",
+      "status": "processed",
+      "category": "Gambela National Park",
+      "source": {
+        "path": "Gambela National Park/Herd of Bufallo Gambela Pational Park.JPG",
+        "bytes": 8980666,
+        "width": 4680,
+        "height": 2904,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gambela National Park/Herd of Bufallo Gambela Pational Park.webp",
+        "publicPath": "/assets/untagged/Gambela National Park/Herd of Bufallo Gambela Pational Park.webp",
+        "bytes": 715994,
+        "width": 2400,
+        "height": 1489,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ad51f1ab",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/230425214802 (32).jpg",
+        "bytes": 426109,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gelada Monkey/230425214802 (32).webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/230425214802 (32).webp",
+        "bytes": 283684,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "33fe65a3",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/Baboon.jpg",
+        "bytes": 1685471,
+        "width": 3473,
+        "height": 3280,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gelada Monkey/Baboon.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/Baboon.webp",
+        "bytes": 440066,
+        "width": 2400,
+        "height": 2267,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "588a8999",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/Gelada Baboon in Simiens.jpeg",
+        "bytes": 15768035,
+        "width": 5568,
+        "height": 3712,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gelada Monkey/Gelada Baboon in Simiens.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/Gelada Baboon in Simiens.webp",
+        "bytes": 609738,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "374eac48",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/Gelada Baboon in the Simien Mountains National Park.jpeg",
+        "bytes": 15768035,
+        "width": 5568,
+        "height": 3712,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gelada Monkey/Gelada Baboon in the Simien Mountains National Park.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/Gelada Baboon in the Simien Mountains National Park.webp",
+        "bytes": 609738,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6d2a912a",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/Gelada Monkeys in the Simien Mountains.jpg",
+        "bytes": 349661,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gelada Monkey/Gelada Monkeys in the Simien Mountains.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/Gelada Monkeys in the Simien Mountains.webp",
+        "bytes": 192592,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "38de1534",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/gelada style.jpg",
+        "bytes": 9245956,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gelada Monkey/gelada style.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/gelada style.webp",
+        "bytes": 991090,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "742c7def",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/gelada.jpg",
+        "bytes": 258509,
+        "width": 4752,
+        "height": 3168,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gelada Monkey/gelada.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/gelada.webp",
+        "bytes": 250282,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "52dc3105",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/geladas 4.jpg",
+        "bytes": 9792575,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gelada Monkey/geladas 4.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/geladas 4.webp",
+        "bytes": 1267098,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fee37766",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/Geladas on view.jpg",
+        "bytes": 2067111,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gelada Monkey/Geladas on view.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/Geladas on view.webp",
+        "bytes": 992740,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "636a1cdd",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/Ian Johnson20170203_316.JPG",
+        "bytes": 7336224,
+        "width": 5568,
+        "height": 3712,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gelada Monkey/Ian Johnson20170203_316.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/Ian Johnson20170203_316.webp",
+        "bytes": 232418,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b8623ad9",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/Ian Johnson20170203_348.JPG",
+        "bytes": 8221017,
+        "width": 5568,
+        "height": 3712,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gelada Monkey/Ian Johnson20170203_348.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/Ian Johnson20170203_348.webp",
+        "bytes": 445082,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "29842f46",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/Ian Johnson20170203_350.JPG",
+        "bytes": 9170543,
+        "width": 4928,
+        "height": 3280,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gelada Monkey/Ian Johnson20170203_350.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/Ian Johnson20170203_350.webp",
+        "bytes": 376164,
+        "width": 2400,
+        "height": 1597,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "359348ca",
+      "status": "processed",
+      "category": "Gelada Monkey",
+      "source": {
+        "path": "Gelada Monkey/Ian Johnson20170203_373.JPG",
+        "bytes": 11319444,
+        "width": 4928,
+        "height": 3280,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gelada Monkey/Ian Johnson20170203_373.webp",
+        "publicPath": "/assets/untagged/Gelada Monkey/Ian Johnson20170203_373.webp",
+        "bytes": 461076,
+        "width": 2400,
+        "height": 1597,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "dc1146e2",
+      "status": "processed",
+      "category": "Gheralta Tigray",
+      "source": {
+        "path": "Gheralta Tigray/230424124629 (11).jpg",
+        "bytes": 526965,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gheralta Tigray/230424124629 (11).webp",
+        "publicPath": "/assets/untagged/Gheralta Tigray/230424124629 (11).webp",
+        "bytes": 346504,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "507c9a64",
+      "status": "processed",
+      "category": "Gheralta Tigray",
+      "source": {
+        "path": "Gheralta Tigray/230424124629 (12).jpg",
+        "bytes": 423402,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gheralta Tigray/230424124629 (12).webp",
+        "publicPath": "/assets/untagged/Gheralta Tigray/230424124629 (12).webp",
+        "bytes": 255286,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ea5853be",
+      "status": "processed",
+      "category": "Gheralta Tigray",
+      "source": {
+        "path": "Gheralta Tigray/230424124629 (14).jpg",
+        "bytes": 510527,
+        "width": 2048,
+        "height": 1369,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gheralta Tigray/230424124629 (14).webp",
+        "publicPath": "/assets/untagged/Gheralta Tigray/230424124629 (14).webp",
+        "bytes": 334572,
+        "width": 2048,
+        "height": 1369,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8d08c806",
+      "status": "processed",
+      "category": "Gheralta Tigray",
+      "source": {
+        "path": "Gheralta Tigray/230424124629 (16).jpg",
+        "bytes": 711108,
+        "width": 2048,
+        "height": 2048,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gheralta Tigray/230424124629 (16).webp",
+        "publicPath": "/assets/untagged/Gheralta Tigray/230424124629 (16).webp",
+        "bytes": 510572,
+        "width": 2048,
+        "height": 2048,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1f68d052",
+      "status": "processed",
+      "category": "Gheralta Tigray",
+      "source": {
+        "path": "Gheralta Tigray/230424124629 (31).jpg",
+        "bytes": 683907,
+        "width": 2048,
+        "height": 1368,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gheralta Tigray/230424124629 (31).webp",
+        "publicPath": "/assets/untagged/Gheralta Tigray/230424124629 (31).webp",
+        "bytes": 532768,
+        "width": 2048,
+        "height": 1368,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3494a4ae",
+      "status": "processed",
+      "category": "Gheralta Tigray",
+      "source": {
+        "path": "Gheralta Tigray/230424124629 (5).jpg",
+        "bytes": 352404,
+        "width": 2048,
+        "height": 1329,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gheralta Tigray/230424124629 (5).webp",
+        "publicPath": "/assets/untagged/Gheralta Tigray/230424124629 (5).webp",
+        "bytes": 220052,
+        "width": 2048,
+        "height": 1329,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0fc24a24",
+      "status": "processed",
+      "category": "Gheralta Tigray",
+      "source": {
+        "path": "Gheralta Tigray/230424124629 (7).jpg",
+        "bytes": 523082,
+        "width": 1366,
+        "height": 2048,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gheralta Tigray/230424124629 (7).webp",
+        "publicPath": "/assets/untagged/Gheralta Tigray/230424124629 (7).webp",
+        "bytes": 397056,
+        "width": 1366,
+        "height": 2048,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5aa28426",
+      "status": "processed",
+      "category": "Gheralta Tigray",
+      "source": {
+        "path": "Gheralta Tigray/230424124629 (9).jpg",
+        "bytes": 340427,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gheralta Tigray/230424124629 (9).webp",
+        "publicPath": "/assets/untagged/Gheralta Tigray/230424124629 (9).webp",
+        "bytes": 199894,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "13d70839",
+      "status": "processed",
+      "category": "Gheralta Tigray",
+      "source": {
+        "path": "Gheralta Tigray/Priest at Abuna Yemata Rock Church of Tigray.jpg",
+        "bytes": 423402,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gheralta Tigray/Priest at Abuna Yemata Rock Church of Tigray.webp",
+        "publicPath": "/assets/untagged/Gheralta Tigray/Priest at Abuna Yemata Rock Church of Tigray.webp",
+        "bytes": 255286,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "94902cb7",
+      "status": "processed",
+      "category": "Gheralta Tigray",
+      "source": {
+        "path": "Gheralta Tigray/Sandstone Mountain in Tigray.jpg",
+        "bytes": 482119,
+        "width": 2048,
+        "height": 1106,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gheralta Tigray/Sandstone Mountain in Tigray.webp",
+        "publicPath": "/assets/untagged/Gheralta Tigray/Sandstone Mountain in Tigray.webp",
+        "bytes": 347746,
+        "width": 2048,
+        "height": 1106,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "505fe313",
+      "status": "processed",
+      "category": "Gheralta Tigray",
+      "source": {
+        "path": "Gheralta Tigray/Scenic Road in Tigray.jpg",
+        "bytes": 684187,
+        "width": 2048,
+        "height": 1360,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gheralta Tigray/Scenic Road in Tigray.webp",
+        "publicPath": "/assets/untagged/Gheralta Tigray/Scenic Road in Tigray.webp",
+        "bytes": 543176,
+        "width": 2048,
+        "height": 1360,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "63441be6",
+      "status": "processed",
+      "category": "Giant Mole Rat",
+      "source": {
+        "path": "Giant Mole Rat/giant moe rat close.jpg",
+        "bytes": 1546357,
+        "width": 2048,
+        "height": 1368,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Giant Mole Rat/giant moe rat close.webp",
+        "publicPath": "/assets/untagged/Giant Mole Rat/giant moe rat close.webp",
+        "bytes": 268120,
+        "width": 2048,
+        "height": 1368,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5076492c",
+      "status": "processed",
+      "category": "Giant Mole Rat",
+      "source": {
+        "path": "Giant Mole Rat/giant mole at front close.jpg",
+        "bytes": 3341218,
+        "width": 3072,
+        "height": 2048,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Giant Mole Rat/giant mole at front close.webp",
+        "publicPath": "/assets/untagged/Giant Mole Rat/giant mole at front close.webp",
+        "bytes": 377064,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "32b2b421",
+      "status": "processed",
+      "category": "Giant Mole Rat",
+      "source": {
+        "path": "Giant Mole Rat/giant mole rat.jpg",
+        "bytes": 8725440,
+        "width": 5392,
+        "height": 3592,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Giant Mole Rat/giant mole rat.webp",
+        "publicPath": "/assets/untagged/Giant Mole Rat/giant mole rat.webp",
+        "bytes": 430976,
+        "width": 2400,
+        "height": 1599,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "60191490",
+      "status": "processed",
+      "category": "Giant Mole Rat",
+      "source": {
+        "path": "Giant Mole Rat/Rodent in a whole close.jpg",
+        "bytes": 535629,
+        "width": 1024,
+        "height": 688,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Giant Mole Rat/Rodent in a whole close.webp",
+        "publicPath": "/assets/untagged/Giant Mole Rat/Rodent in a whole close.webp",
+        "bytes": 174984,
+        "width": 1024,
+        "height": 688,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3196d38b",
+      "status": "processed",
+      "category": "Gonder",
+      "source": {
+        "path": "Gonder/P1012632.JPG",
+        "bytes": 2764976,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gonder/P1012632.webp",
+        "publicPath": "/assets/untagged/Gonder/P1012632.webp",
+        "bytes": 651364,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9b33685c",
+      "status": "processed",
+      "category": "Gonder",
+      "source": {
+        "path": "Gonder/P1012641.JPG",
+        "bytes": 1995717,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gonder/P1012641.webp",
+        "publicPath": "/assets/untagged/Gonder/P1012641.webp",
+        "bytes": 277824,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "196b3110",
+      "status": "processed",
+      "category": "Gonder",
+      "source": {
+        "path": "Gonder/P1012648.JPG",
+        "bytes": 2422214,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gonder/P1012648.webp",
+        "publicPath": "/assets/untagged/Gonder/P1012648.webp",
+        "bytes": 466602,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "10370b65",
+      "status": "processed",
+      "category": "Gonder",
+      "source": {
+        "path": "Gonder/P1012656.JPG",
+        "bytes": 1988753,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 8
+      },
+      "output": {
+        "path": "Gonder/P1012656.webp",
+        "publicPath": "/assets/untagged/Gonder/P1012656.webp",
+        "bytes": 335040,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "83a8d80d",
+      "status": "processed",
+      "category": "Gonder",
+      "source": {
+        "path": "Gonder/P1012657.JPG",
+        "bytes": 2412091,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gonder/P1012657.webp",
+        "publicPath": "/assets/untagged/Gonder/P1012657.webp",
+        "bytes": 294210,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9ac511e0",
+      "status": "processed",
+      "category": "Gonder",
+      "source": {
+        "path": "Gonder/P1012659.JPG",
+        "bytes": 2551604,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gonder/P1012659.webp",
+        "publicPath": "/assets/untagged/Gonder/P1012659.webp",
+        "bytes": 419718,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "eff82be1",
+      "status": "processed",
+      "category": "Gonder",
+      "source": {
+        "path": "Gonder/P1012727.JPG",
+        "bytes": 2418307,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gonder/P1012727.webp",
+        "publicPath": "/assets/untagged/Gonder/P1012727.webp",
+        "bytes": 361930,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "58104df8",
+      "status": "processed",
+      "category": "Gonder",
+      "source": {
+        "path": "Gonder/P1012735.JPG",
+        "bytes": 2784806,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gonder/P1012735.webp",
+        "publicPath": "/assets/untagged/Gonder/P1012735.webp",
+        "bytes": 868208,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ca1ad68e",
+      "status": "processed",
+      "category": "Gonder",
+      "source": {
+        "path": "Gonder/Royal Castels in Gonder.jpeg",
+        "bytes": 9970614,
+        "width": 3800,
+        "height": 2501,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Gonder/Royal Castels in Gonder.webp",
+        "publicPath": "/assets/untagged/Gonder/Royal Castels in Gonder.webp",
+        "bytes": 1084708,
+        "width": 2400,
+        "height": 1580,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9eeaafbd",
+      "status": "processed",
+      "category": "Gonder",
+      "source": {
+        "path": "Gonder/the  magnificent castles of Gonder.jpg",
+        "bytes": 646950,
+        "width": 2048,
+        "height": 1362,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Gonder/the  magnificent castles of Gonder.webp",
+        "publicPath": "/assets/untagged/Gonder/the  magnificent castles of Gonder.webp",
+        "bytes": 503994,
+        "width": 2048,
+        "height": 1362,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "061da612",
+      "status": "processed",
+      "category": "Hippos",
+      "source": {
+        "path": "Hippos/Birds and Hippos.JPG",
+        "bytes": 3185448,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Hippos/Birds and Hippos.webp",
+        "publicPath": "/assets/untagged/Hippos/Birds and Hippos.webp",
+        "bytes": 638088,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6db11828",
+      "status": "processed",
+      "category": "Hippos",
+      "source": {
+        "path": "Hippos/Hippo Awassa.JPG",
+        "bytes": 3225431,
+        "width": 4288,
+        "height": 2848,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Hippos/Hippo Awassa.webp",
+        "publicPath": "/assets/untagged/Hippos/Hippo Awassa.webp",
+        "bytes": 289850,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "54d297a2",
+      "status": "processed",
+      "category": "Hippos",
+      "source": {
+        "path": "Hippos/Hippo3.JPG",
+        "bytes": 682970,
+        "width": 1671,
+        "height": 1114,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Hippos/Hippo3.webp",
+        "publicPath": "/assets/untagged/Hippos/Hippo3.webp",
+        "bytes": 134362,
+        "width": 1671,
+        "height": 1114,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "84317dd5",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/230712184730 (3).jpg",
+        "bytes": 766483,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Lalibela/230712184730 (3).webp",
+        "publicPath": "/assets/untagged/Lalibela/230712184730 (3).webp",
+        "bytes": 617934,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1dcda018",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/Colorful celebration at Bet Giorgis Lalibela.jpg",
+        "bytes": 10808506,
+        "width": 5682,
+        "height": 2816,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Lalibela/Colorful celebration at Bet Giorgis Lalibela.webp",
+        "publicPath": "/assets/untagged/Lalibela/Colorful celebration at Bet Giorgis Lalibela.webp",
+        "bytes": 631672,
+        "width": 2400,
+        "height": 1189,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b1cb5a37",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/IMG_4393.JPG",
+        "bytes": 2237839,
+        "width": 3264,
+        "height": 2448,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Lalibela/IMG_4393.webp",
+        "publicPath": "/assets/untagged/Lalibela/IMG_4393.webp",
+        "bytes": 500440,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c05a56b2",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/Lalibela.jpg",
+        "bytes": 271631,
+        "width": 797,
+        "height": 1200,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Lalibela/Lalibela.webp",
+        "publicPath": "/assets/untagged/Lalibela/Lalibela.webp",
+        "bytes": 191340,
+        "width": 797,
+        "height": 1200,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e766647a",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/P1012818.JPG",
+        "bytes": 2803218,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 8
+      },
+      "output": {
+        "path": "Lalibela/P1012818.webp",
+        "publicPath": "/assets/untagged/Lalibela/P1012818.webp",
+        "bytes": 836188,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "22175759",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/P1012970.JPG",
+        "bytes": 2710853,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Lalibela/P1012970.webp",
+        "publicPath": "/assets/untagged/Lalibela/P1012970.webp",
+        "bytes": 940540,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "27ae3cc0",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/P1012975.JPG",
+        "bytes": 2795789,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 8
+      },
+      "output": {
+        "path": "Lalibela/P1012975.webp",
+        "publicPath": "/assets/untagged/Lalibela/P1012975.webp",
+        "bytes": 816816,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "bbe3e66f",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/P1012989.JPG",
+        "bytes": 2559085,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": 8
+      },
+      "output": {
+        "path": "Lalibela/P1012989.webp",
+        "publicPath": "/assets/untagged/Lalibela/P1012989.webp",
+        "bytes": 631022,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a2c8fc2e",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/P1100954.JPG",
+        "bytes": 4954922,
+        "width": 3648,
+        "height": 2736,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Lalibela/P1100954.webp",
+        "publicPath": "/assets/untagged/Lalibela/P1100954.webp",
+        "bytes": 1113274,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "546dac61",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/Rock Church of Bet Medhani Alem LalibelaIMG_6184.JPG",
+        "bytes": 6484593,
+        "width": 4368,
+        "height": 2912,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Lalibela/Rock Church of Bet Medhani Alem LalibelaIMG_6184.webp",
+        "publicPath": "/assets/untagged/Lalibela/Rock Church of Bet Medhani Alem LalibelaIMG_6184.webp",
+        "bytes": 591280,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6b2fabf6",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/Rock hewn church of Lalibela.jpg",
+        "bytes": 224058,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Lalibela/Rock hewn church of Lalibela.webp",
+        "publicPath": "/assets/untagged/Lalibela/Rock hewn church of Lalibela.webp",
+        "bytes": 149004,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2f967ee6",
+      "status": "processed",
+      "category": "Lalibela",
+      "source": {
+        "path": "Lalibela/the mesmerizing Gena Eve celebration in Lalibela.jpeg",
+        "bytes": 12576065,
+        "width": 6713,
+        "height": 4358,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Lalibela/the mesmerizing Gena Eve celebration in Lalibela.webp",
+        "publicPath": "/assets/untagged/Lalibela/the mesmerizing Gena Eve celebration in Lalibela.webp",
+        "bytes": 652942,
+        "width": 2400,
+        "height": 1558,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6deb5e57",
+      "status": "processed",
+      "category": "Landscape",
+      "source": {
+        "path": "Landscape/230424124629 (26).jpg",
+        "bytes": 684187,
+        "width": 2048,
+        "height": 1360,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Landscape/230424124629 (26).webp",
+        "publicPath": "/assets/untagged/Landscape/230424124629 (26).webp",
+        "bytes": 543176,
+        "width": 2048,
+        "height": 1360,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a4f7713e",
+      "status": "processed",
+      "category": "Landscape",
+      "source": {
+        "path": "Landscape/230424124629 (8).jpg",
+        "bytes": 483942,
+        "width": 2048,
+        "height": 1363,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Landscape/230424124629 (8).webp",
+        "publicPath": "/assets/untagged/Landscape/230424124629 (8).webp",
+        "bytes": 341740,
+        "width": 2048,
+        "height": 1363,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "372b698e",
+      "status": "processed",
+      "category": "Landscape",
+      "source": {
+        "path": "Landscape/CC.JPG",
+        "bytes": 131808,
+        "width": 791,
+        "height": 740,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Landscape/CC.webp",
+        "publicPath": "/assets/untagged/Landscape/CC.webp",
+        "bytes": 119486,
+        "width": 791,
+        "height": 740,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d939ffd0",
+      "status": "processed",
+      "category": "Landscape",
+      "source": {
+        "path": "Landscape/CEthiopia_-_Lake_Assale.jpg",
+        "bytes": 13547376,
+        "width": 6643,
+        "height": 4429,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Landscape/CEthiopia_-_Lake_Assale.webp",
+        "publicPath": "/assets/untagged/Landscape/CEthiopia_-_Lake_Assale.webp",
+        "bytes": 145466,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5bc61dbd",
+      "status": "processed",
+      "category": "Landscape",
+      "source": {
+        "path": "Landscape/Scenic Landscape of Simien Mountain National Park.jpg",
+        "bytes": 5793927,
+        "width": 5596,
+        "height": 3607,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Landscape/Scenic Landscape of Simien Mountain National Park.webp",
+        "publicPath": "/assets/untagged/Landscape/Scenic Landscape of Simien Mountain National Park.webp",
+        "bytes": 1180388,
+        "width": 2400,
+        "height": 1547,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "013886ea",
+      "status": "processed",
+      "category": "Meskel Celebration",
+      "source": {
+        "path": "Meskel Celebration/Meskel Celebration in Addis Ababa.jpeg",
+        "bytes": 5585263,
+        "width": 3718,
+        "height": 2477,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Meskel Celebration/Meskel Celebration in Addis Ababa.webp",
+        "publicPath": "/assets/untagged/Meskel Celebration/Meskel Celebration in Addis Ababa.webp",
+        "bytes": 381482,
+        "width": 2400,
+        "height": 1599,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0e4f15a9",
+      "status": "processed",
+      "category": "Mobile camp",
+      "source": {
+        "path": "Mobile camp/1 Dinning-main-mess.jpg",
+        "bytes": 802770,
+        "width": 2000,
+        "height": 1028,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Mobile camp/1 Dinning-main-mess.webp",
+        "publicPath": "/assets/untagged/Mobile camp/1 Dinning-main-mess.webp",
+        "bytes": 730348,
+        "width": 2000,
+        "height": 1028,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9705e473",
+      "status": "processed",
+      "category": "Mobile camp",
+      "source": {
+        "path": "Mobile camp/IMG_4393.JPG",
+        "bytes": 2237839,
+        "width": 3264,
+        "height": 2448,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Mobile camp/IMG_4393.webp",
+        "publicPath": "/assets/untagged/Mobile camp/IMG_4393.webp",
+        "bytes": 500440,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3c1bc7bc",
+      "status": "processed",
+      "category": "Mobile camp",
+      "source": {
+        "path": "Mobile camp/Tents.jpg",
+        "bytes": 245368,
+        "width": 1438,
+        "height": 960,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Mobile camp/Tents.webp",
+        "publicPath": "/assets/untagged/Mobile camp/Tents.webp",
+        "bytes": 221568,
+        "width": 1438,
+        "height": 960,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a35d6e63",
+      "status": "processed",
+      "category": "Mountain Nyala",
+      "source": {
+        "path": "Mountain Nyala/_MG_3492.JPG",
+        "bytes": 3057967,
+        "width": 3504,
+        "height": 2336,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Mountain Nyala/_MG_3492.webp",
+        "publicPath": "/assets/untagged/Mountain Nyala/_MG_3492.webp",
+        "bytes": 301562,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9d9ea104",
+      "status": "processed",
+      "category": "Mountain Nyala",
+      "source": {
+        "path": "Mountain Nyala/_MG_3499.JPG",
+        "bytes": 3180191,
+        "width": 3504,
+        "height": 2336,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Mountain Nyala/_MG_3499.webp",
+        "publicPath": "/assets/untagged/Mountain Nyala/_MG_3499.webp",
+        "bytes": 363916,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2650776b",
+      "status": "processed",
+      "category": "Mountain Nyala",
+      "source": {
+        "path": "Mountain Nyala/_MG_3501.JPG",
+        "bytes": 2325759,
+        "width": 3504,
+        "height": 2336,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Mountain Nyala/_MG_3501.webp",
+        "publicPath": "/assets/untagged/Mountain Nyala/_MG_3501.webp",
+        "bytes": 107348,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5e954fcf",
+      "status": "processed",
+      "category": "Mountain Nyala",
+      "source": {
+        "path": "Mountain Nyala/2 malye nyala watching.jpg",
+        "bytes": 8736087,
+        "width": 5504,
+        "height": 8256,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Mountain Nyala/2 malye nyala watching.webp",
+        "publicPath": "/assets/untagged/Mountain Nyala/2 malye nyala watching.webp",
+        "bytes": 341368,
+        "width": 1600,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d1ff39f8",
+      "status": "processed",
+      "category": "Mountain Nyala",
+      "source": {
+        "path": "Mountain Nyala/Awel B (5).jpg",
+        "bytes": 233439,
+        "width": 1080,
+        "height": 608,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Mountain Nyala/Awel B (5).webp",
+        "publicPath": "/assets/untagged/Mountain Nyala/Awel B (5).webp",
+        "bytes": 166354,
+        "width": 1080,
+        "height": 608,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c7d77199",
+      "status": "processed",
+      "category": "Mountain Nyala",
+      "source": {
+        "path": "Mountain Nyala/Male nyala licking yellow bush.jpg",
+        "bytes": 16652362,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Mountain Nyala/Male nyala licking yellow bush.webp",
+        "publicPath": "/assets/untagged/Mountain Nyala/Male nyala licking yellow bush.webp",
+        "bytes": 267596,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d7259055",
+      "status": "processed",
+      "category": "Mountain Nyala",
+      "source": {
+        "path": "Mountain Nyala/Nyala couple.jpg",
+        "bytes": 4314266,
+        "width": 5392,
+        "height": 3592,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Mountain Nyala/Nyala couple.webp",
+        "publicPath": "/assets/untagged/Mountain Nyala/Nyala couple.webp",
+        "bytes": 339878,
+        "width": 2400,
+        "height": 1599,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ac7ed0fb",
+      "status": "processed",
+      "category": "Mountain Nyala",
+      "source": {
+        "path": "Mountain Nyala/Nyala female.jpg",
+        "bytes": 3872013,
+        "width": 5392,
+        "height": 3592,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Mountain Nyala/Nyala female.webp",
+        "publicPath": "/assets/untagged/Mountain Nyala/Nyala female.webp",
+        "bytes": 299952,
+        "width": 2400,
+        "height": 1599,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7aee18d3",
+      "status": "processed",
+      "category": "Mountain Nyala",
+      "source": {
+        "path": "Mountain Nyala/Nyala male portrait.jpg",
+        "bytes": 2571014,
+        "width": 1984,
+        "height": 2976,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Mountain Nyala/Nyala male portrait.webp",
+        "publicPath": "/assets/untagged/Mountain Nyala/Nyala male portrait.webp",
+        "bytes": 205440,
+        "width": 1600,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "24925bc1",
+      "status": "processed",
+      "category": "Mountain Nyala",
+      "source": {
+        "path": "Mountain Nyala/Nyala male watchin from the rocks.jpg",
+        "bytes": 20165804,
+        "width": 8256,
+        "height": 5504,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Mountain Nyala/Nyala male watchin from the rocks.webp",
+        "publicPath": "/assets/untagged/Mountain Nyala/Nyala male watchin from the rocks.webp",
+        "bytes": 512378,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "467211c5",
+      "status": "processed",
+      "category": "Mountain Nyala",
+      "source": {
+        "path": "Mountain Nyala/Nyala male.jpg",
+        "bytes": 8215752,
+        "width": 5392,
+        "height": 3592,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Mountain Nyala/Nyala male.webp",
+        "publicPath": "/assets/untagged/Mountain Nyala/Nyala male.webp",
+        "bytes": 306954,
+        "width": 2400,
+        "height": 1599,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e073bf16",
+      "status": "processed",
+      "category": null,
+      "source": {
+        "path": "Omo National Park 2.jpg",
+        "bytes": 129347,
+        "width": 1000,
+        "height": 422,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo National Park 2.webp",
+        "publicPath": "/assets/untagged/Omo National Park 2.webp",
+        "bytes": 92794,
+        "width": 1000,
+        "height": 422,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2888f2ab",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/230424124629 (17).jpg",
+        "bytes": 345513,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/230424124629 (17).webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/230424124629 (17).webp",
+        "bytes": 219006,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e47ded0e",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/230424124629 (18).jpg",
+        "bytes": 355064,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/230424124629 (18).webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/230424124629 (18).webp",
+        "bytes": 224644,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8fe09b6b",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/230424124629 (19).jpg",
+        "bytes": 506531,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/230424124629 (19).webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/230424124629 (19).webp",
+        "bytes": 359110,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e1c814b5",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/230424124629 (33).jpg",
+        "bytes": 368244,
+        "width": 1365,
+        "height": 2048,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/230424124629 (33).webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/230424124629 (33).webp",
+        "bytes": 232890,
+        "width": 1365,
+        "height": 2048,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8246024f",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/230425214802 (15).jpg",
+        "bytes": 259418,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/230425214802 (15).webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/230425214802 (15).webp",
+        "bytes": 135722,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "bc31ba94",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/230425214802 (3).jpg",
+        "bytes": 560785,
+        "width": 1365,
+        "height": 2048,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/230425214802 (3).webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/230425214802 (3).webp",
+        "bytes": 403416,
+        "width": 1365,
+        "height": 2048,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8a5e9c5a",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/2U1A5515.jpg",
+        "bytes": 6866980,
+        "width": 3600,
+        "height": 2400,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/2U1A5515.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/2U1A5515.webp",
+        "bytes": 200210,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "311a4be0",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Beautiful Woman from Omo Valley.jpg",
+        "bytes": 345513,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Beautiful Woman from Omo Valley.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Beautiful Woman from Omo Valley.webp",
+        "bytes": 219006,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1045b5c0",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Benna Tribe in the Omo Valley.jpg",
+        "bytes": 749094,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Benna Tribe in the Omo Valley.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Benna Tribe in the Omo Valley.webp",
+        "bytes": 614638,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5cca6fa9",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Bull Jumping Ceremony.jpg",
+        "bytes": 9860830,
+        "width": 4969,
+        "height": 3313,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Bull Jumping Ceremony.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Bull Jumping Ceremony.webp",
+        "bytes": 158640,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3027354b",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Dasench Woman Omo Valley Tribe.jpg",
+        "bytes": 355064,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Dasench Woman Omo Valley Tribe.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Dasench Woman Omo Valley Tribe.webp",
+        "bytes": 224644,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c5ac6d2e",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Donga Surma Stick Fighting.jpeg",
+        "bytes": 19662334,
+        "width": 7360,
+        "height": 4912,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Donga Surma Stick Fighting.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Donga Surma Stick Fighting.webp",
+        "bytes": 495968,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2537529b",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/DSCF2476.jpg",
+        "bytes": 3429631,
+        "width": 2171,
+        "height": 3257,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Omo Valley Tribes/DSCF2476.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/DSCF2476.webp",
+        "bytes": 242550,
+        "width": 1600,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "50abcece",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/DSCF2914.jpg",
+        "bytes": 8017970,
+        "width": 3387,
+        "height": 5081,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Omo Valley Tribes/DSCF2914.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/DSCF2914.webp",
+        "bytes": 303960,
+        "width": 1600,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "020b81cf",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/DSCF4805.jpg",
+        "bytes": 4549952,
+        "width": 3602,
+        "height": 2401,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Omo Valley Tribes/DSCF4805.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/DSCF4805.webp",
+        "bytes": 275152,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e56996e6",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Kara boys in Omo Valley.jpg",
+        "bytes": 651053,
+        "width": 2048,
+        "height": 2048,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Kara boys in Omo Valley.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Kara boys in Omo Valley.webp",
+        "bytes": 414698,
+        "width": 2048,
+        "height": 2048,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "800e4172",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Karo boys in the Omo Valley.jpg",
+        "bytes": 437242,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Karo boys in the Omo Valley.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Karo boys in the Omo Valley.webp",
+        "bytes": 289690,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "66c5b725",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Konso Village.jpeg",
+        "bytes": 15576131,
+        "width": 4249,
+        "height": 2792,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Konso Village.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Konso Village.webp",
+        "bytes": 1263030,
+        "width": 2400,
+        "height": 1577,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5fda3950",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Konso Woman.jpg",
+        "bytes": 261574,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Konso Woman.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Konso Woman.webp",
+        "bytes": 140940,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "83fda3f8",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Mursi man Omo Valley.jpg",
+        "bytes": 506531,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Mursi man Omo Valley.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Mursi man Omo Valley.webp",
+        "bytes": 359110,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "59be8342",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Nyangatom man.jpg",
+        "bytes": 594114,
+        "width": 2048,
+        "height": 2048,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Nyangatom man.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Nyangatom man.webp",
+        "bytes": 387718,
+        "width": 2048,
+        "height": 2048,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "bdf2934d",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Suri  Photo expeditions.jpeg",
+        "bytes": 1349750,
+        "width": 4032,
+        "height": 3024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Suri  Photo expeditions.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Suri  Photo expeditions.webp",
+        "bytes": 250940,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "93d26cc0",
+      "status": "processed",
+      "category": "Omo Valley Tribes",
+      "source": {
+        "path": "Omo Valley Tribes/Surma Stick filghting.jpeg",
+        "bytes": 20882187,
+        "width": 7360,
+        "height": 4912,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Omo Valley Tribes/Surma Stick filghting.webp",
+        "publicPath": "/assets/untagged/Omo Valley Tribes/Surma Stick filghting.webp",
+        "bytes": 532156,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "37ad2ae6",
+      "status": "processed",
+      "category": "Portraits",
+      "source": {
+        "path": "Portraits/230424124629 (1).jpg",
+        "bytes": 419579,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Portraits/230424124629 (1).webp",
+        "publicPath": "/assets/untagged/Portraits/230424124629 (1).webp",
+        "bytes": 265988,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ca9d1dd2",
+      "status": "processed",
+      "category": "Portraits",
+      "source": {
+        "path": "Portraits/230424124629 (13).jpg",
+        "bytes": 571636,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Portraits/230424124629 (13).webp",
+        "publicPath": "/assets/untagged/Portraits/230424124629 (13).webp",
+        "bytes": 407466,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c13056ba",
+      "status": "processed",
+      "category": "Portraits",
+      "source": {
+        "path": "Portraits/230424124629 (2).jpg",
+        "bytes": 511506,
+        "width": 2048,
+        "height": 2048,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Portraits/230424124629 (2).webp",
+        "publicPath": "/assets/untagged/Portraits/230424124629 (2).webp",
+        "bytes": 316526,
+        "width": 2048,
+        "height": 2048,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "200b8867",
+      "status": "processed",
+      "category": "Simien MNP",
+      "source": {
+        "path": "Simien MNP/Map of SMNP Trekking route.JPG",
+        "bytes": 92516,
+        "width": 1756,
+        "height": 886,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Simien MNP/Map of SMNP Trekking route.webp",
+        "publicPath": "/assets/untagged/Simien MNP/Map of SMNP Trekking route.webp",
+        "bytes": 44904,
+        "width": 1756,
+        "height": 886,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "38c28c39",
+      "status": "processed",
+      "category": "Simien MNP",
+      "source": {
+        "path": "Simien MNP/Walia Ibex Simien Mountain National Park.jpg",
+        "bytes": 390326,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Simien MNP/Walia Ibex Simien Mountain National Park.webp",
+        "publicPath": "/assets/untagged/Simien MNP/Walia Ibex Simien Mountain National Park.webp",
+        "bytes": 275448,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5606b78d",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154666293.bIMZMTnm.DSC_0104.jpg",
+        "bytes": 264493,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154666293.bIMZMTnm.DSC_0104.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154666293.bIMZMTnm.DSC_0104.webp",
+        "bytes": 172842,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8751be4b",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154672572.pKlcyLoF.DSC_0132.jpg",
+        "bytes": 276932,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154672572.pKlcyLoF.DSC_0132.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154672572.pKlcyLoF.DSC_0132.webp",
+        "bytes": 190138,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "72e515fb",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154804670.QTLwLShi.DSC_1317.jpg",
+        "bytes": 265301,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154804670.QTLwLShi.DSC_1317.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154804670.QTLwLShi.DSC_1317.webp",
+        "bytes": 175764,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "837155f4",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154804816.PWIEvDED.DSC_0253.jpg",
+        "bytes": 161547,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154804816.PWIEvDED.DSC_0253.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154804816.PWIEvDED.DSC_0253.webp",
+        "bytes": 87320,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "712e91d6",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154804874.fnk9XPNZ.DSC_0285.jpg",
+        "bytes": 192977,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154804874.fnk9XPNZ.DSC_0285.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154804874.fnk9XPNZ.DSC_0285.webp",
+        "bytes": 109794,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2a6d0d95",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154804875.0334PStV.DSC_0276.jpg",
+        "bytes": 215524,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154804875.0334PStV.DSC_0276.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154804875.0334PStV.DSC_0276.webp",
+        "bytes": 125902,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fa451a9f",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154805007.1SCSk7eG.DSC_0414.jpg",
+        "bytes": 234711,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154805007.1SCSk7eG.DSC_0414.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154805007.1SCSk7eG.DSC_0414.webp",
+        "bytes": 146912,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "bbb90619",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154850186.YiXnBYJ9.DSC_0474.jpg",
+        "bytes": 210002,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154850186.YiXnBYJ9.DSC_0474.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154850186.YiXnBYJ9.DSC_0474.webp",
+        "bytes": 129074,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "148d4d48",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154894910.CIBSi9eT.DSC_0802.jpg",
+        "bytes": 207482,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154894910.CIBSi9eT.DSC_0802.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154894910.CIBSi9eT.DSC_0802.webp",
+        "bytes": 109956,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7890eff2",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154894911.HmioxDfS.DSC_0834.jpg",
+        "bytes": 222052,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154894911.HmioxDfS.DSC_0834.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154894911.HmioxDfS.DSC_0834.webp",
+        "bytes": 129352,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e396c098",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154894912.buhiY1IQ.DSC_0815.jpg",
+        "bytes": 159714,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154894912.buhiY1IQ.DSC_0815.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154894912.buhiY1IQ.DSC_0815.webp",
+        "bytes": 83022,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fd658c09",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154895294.P0s4AtE9.DSC_0810.jpg",
+        "bytes": 233081,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154895294.P0s4AtE9.DSC_0810.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154895294.P0s4AtE9.DSC_0810.webp",
+        "bytes": 142188,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6cbc8ad9",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154895295.9TsnzaqW.DSC_0812.jpg",
+        "bytes": 220419,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154895295.9TsnzaqW.DSC_0812.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154895295.9TsnzaqW.DSC_0812.webp",
+        "bytes": 123044,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7e95adc2",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154927016.hmYexTHG.DSC_0360.jpg",
+        "bytes": 235523,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154927016.hmYexTHG.DSC_0360.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154927016.hmYexTHG.DSC_0360.webp",
+        "bytes": 135704,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fb103bfa",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/154927018.KyH3adfy.DSC_0387.jpg",
+        "bytes": 268474,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/154927018.KyH3adfy.DSC_0387.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/154927018.KyH3adfy.DSC_0387.webp",
+        "bytes": 177582,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ee3cfb34",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/155127322.XbnkDQew.DSC_0252.jpg",
+        "bytes": 266306,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/155127322.XbnkDQew.DSC_0252.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/155127322.XbnkDQew.DSC_0252.webp",
+        "bytes": 170984,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8470d880",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/155127323.YyAVGD7d.DSC_0247.jpg",
+        "bytes": 276285,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/155127323.YyAVGD7d.DSC_0247.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/155127323.YyAVGD7d.DSC_0247.webp",
+        "bytes": 180006,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e08ad377",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/155246674.kgldjT3R.DSC_0160.jpg",
+        "bytes": 155621,
+        "width": 1200,
+        "height": 797,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/155246674.kgldjT3R.DSC_0160.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/155246674.kgldjT3R.DSC_0160.webp",
+        "bytes": 83100,
+        "width": 1200,
+        "height": 797,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "73353cd8",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/Timket Celebration Gonder.jpeg",
+        "bytes": 10777011,
+        "width": 4000,
+        "height": 3000,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Timket Celebration/Timket Celebration Gonder.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/Timket Celebration Gonder.webp",
+        "bytes": 1365664,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "67cb6b57",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/Timket Celebration in Lalibela.jpg",
+        "bytes": 859536,
+        "width": 2048,
+        "height": 1356,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Timket Celebration/Timket Celebration in Lalibela.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/Timket Celebration in Lalibela.webp",
+        "bytes": 701372,
+        "width": 2048,
+        "height": 1356,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8d0a9386",
+      "status": "processed",
+      "category": "Timket Celebration",
+      "source": {
+        "path": "Timket Celebration/Timket Procession.jpeg",
+        "bytes": 4157364,
+        "width": 2974,
+        "height": 1719,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Timket Celebration/Timket Procession.webp",
+        "publicPath": "/assets/untagged/Timket Celebration/Timket Procession.webp",
+        "bytes": 1018612,
+        "width": 2400,
+        "height": 1387,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "de283060",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20231121-WA0066.jpg",
+        "bytes": 194122,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20231121-WA0066.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20231121-WA0066.webp",
+        "bytes": 230630,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2969f124",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20231121-WA0068.jpg",
+        "bytes": 209858,
+        "width": 768,
+        "height": 1024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20231121-WA0068.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20231121-WA0068.webp",
+        "bytes": 250222,
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "981aa5f7",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20231208-WA0094.jpg",
+        "bytes": 73498,
+        "width": 1080,
+        "height": 810,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20231208-WA0094.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20231208-WA0094.webp",
+        "bytes": 56612,
+        "width": 1080,
+        "height": 810,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "44fbff5c",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20231214-WA0012.jpg",
+        "bytes": 666399,
+        "width": 1080,
+        "height": 801,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20231214-WA0012.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20231214-WA0012.webp",
+        "bytes": 146946,
+        "width": 1080,
+        "height": 801,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "cdfc8ccd",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20231214-WA0022.jpg",
+        "bytes": 114898,
+        "width": 864,
+        "height": 1080,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20231214-WA0022.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20231214-WA0022.webp",
+        "bytes": 129914,
+        "width": 864,
+        "height": 1080,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "251e7732",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20231214-WA0030.jpg",
+        "bytes": 138633,
+        "width": 864,
+        "height": 1080,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20231214-WA0030.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20231214-WA0030.webp",
+        "bytes": 163050,
+        "width": 864,
+        "height": 1080,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e20b80b5",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240103-WA0016.jpg",
+        "bytes": 166552,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240103-WA0016.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240103-WA0016.webp",
+        "bytes": 185258,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ba3b241d",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240103-WA0033.jpg",
+        "bytes": 217306,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240103-WA0033.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240103-WA0033.webp",
+        "bytes": 258664,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a6f32888",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240103-WA0034.jpg",
+        "bytes": 236769,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240103-WA0034.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240103-WA0034.webp",
+        "bytes": 287648,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "26042465",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240103-WA0037.jpg",
+        "bytes": 128120,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240103-WA0037.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240103-WA0037.webp",
+        "bytes": 138494,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "db5dbbba",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240103-WA0038.jpg",
+        "bytes": 211798,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240103-WA0038.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240103-WA0038.webp",
+        "bytes": 250572,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7a5d8518",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240104-WA0029.jpg",
+        "bytes": 172785,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240104-WA0029.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240104-WA0029.webp",
+        "bytes": 196566,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f20e6e16",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240105-WA0013.jpg",
+        "bytes": 165166,
+        "width": 768,
+        "height": 1024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240105-WA0013.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240105-WA0013.webp",
+        "bytes": 172290,
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4c3260c7",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240105-WA0017.jpg",
+        "bytes": 200037,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240105-WA0017.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240105-WA0017.webp",
+        "bytes": 226346,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "abf603ea",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240105-WA0018.jpg",
+        "bytes": 150443,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240105-WA0018.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240105-WA0018.webp",
+        "bytes": 164452,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "27fdfee0",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240105-WA0019.jpg",
+        "bytes": 144934,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240105-WA0019.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240105-WA0019.webp",
+        "bytes": 141092,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4b7d1f0a",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240105-WA0021.jpg",
+        "bytes": 174695,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240105-WA0021.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240105-WA0021.webp",
+        "bytes": 192212,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0e4e14b2",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240107-WA0010.jpg",
+        "bytes": 115226,
+        "width": 768,
+        "height": 1024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240107-WA0010.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240107-WA0010.webp",
+        "bytes": 105478,
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c814e8f8",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240107-WA0012.jpg",
+        "bytes": 123755,
+        "width": 768,
+        "height": 1024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240107-WA0012.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240107-WA0012.webp",
+        "bytes": 123946,
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f863641e",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240107-WA0015.jpg",
+        "bytes": 172656,
+        "width": 768,
+        "height": 1024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240107-WA0015.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240107-WA0015.webp",
+        "bytes": 179260,
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "eee19ed4",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240107-WA0020.jpg",
+        "bytes": 225016,
+        "width": 768,
+        "height": 1024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240107-WA0020.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240107-WA0020.webp",
+        "bytes": 267850,
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b452ab60",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240107-WA0052.jpg",
+        "bytes": 292264,
+        "width": 474,
+        "height": 645,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240107-WA0052.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240107-WA0052.webp",
+        "bytes": 90382,
+        "width": 474,
+        "height": 645,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "841a38c2",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0001.jpg",
+        "bytes": 128341,
+        "width": 768,
+        "height": 1024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0001.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0001.webp",
+        "bytes": 123616,
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7c5be97f",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0006.jpg",
+        "bytes": 147379,
+        "width": 768,
+        "height": 1024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0006.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0006.webp",
+        "bytes": 153462,
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "bfab9eac",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0007.jpg",
+        "bytes": 116103,
+        "width": 1024,
+        "height": 576,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0007.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0007.webp",
+        "bytes": 113074,
+        "width": 1024,
+        "height": 576,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "21ae027f",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0008.jpg",
+        "bytes": 132591,
+        "width": 1024,
+        "height": 576,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0008.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0008.webp",
+        "bytes": 137754,
+        "width": 1024,
+        "height": 576,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c59e4993",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0010.jpg",
+        "bytes": 111316,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0010.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0010.webp",
+        "bytes": 99668,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d02b30b5",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0011.jpg",
+        "bytes": 104475,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0011.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0011.webp",
+        "bytes": 88002,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7eb5d2bd",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0012.jpg",
+        "bytes": 134708,
+        "width": 768,
+        "height": 1024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0012.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0012.webp",
+        "bytes": 126186,
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8aa60537",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0014.jpg",
+        "bytes": 137195,
+        "width": 1024,
+        "height": 576,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0014.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0014.webp",
+        "bytes": 149328,
+        "width": 1024,
+        "height": 576,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "45308434",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0016.jpg",
+        "bytes": 154879,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0016.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0016.webp",
+        "bytes": 151056,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f46496b4",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0017.jpg",
+        "bytes": 121882,
+        "width": 1024,
+        "height": 576,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0017.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0017.webp",
+        "bytes": 116020,
+        "width": 1024,
+        "height": 576,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5a821faf",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0018.jpg",
+        "bytes": 124627,
+        "width": 1024,
+        "height": 576,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0018.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0018.webp",
+        "bytes": 119620,
+        "width": 1024,
+        "height": 576,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8477398d",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0019.jpg",
+        "bytes": 129598,
+        "width": 1024,
+        "height": 576,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0019.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0019.webp",
+        "bytes": 131408,
+        "width": 1024,
+        "height": 576,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f377ad0d",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240108-WA0020.jpg",
+        "bytes": 127195,
+        "width": 1024,
+        "height": 768,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240108-WA0020.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240108-WA0020.webp",
+        "bytes": 116456,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ceba6932",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240109-WA0023.jpg",
+        "bytes": 172840,
+        "width": 768,
+        "height": 1024,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240109-WA0023.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240109-WA0023.webp",
+        "bytes": 198430,
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c85beca3",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240122-WA0037.jpg",
+        "bytes": 81509,
+        "width": 1020,
+        "height": 459,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240122-WA0037.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240122-WA0037.webp",
+        "bytes": 106866,
+        "width": 1020,
+        "height": 459,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0a72fe84",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240229-WA0008.jpg",
+        "bytes": 71835,
+        "width": 1000,
+        "height": 750,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240229-WA0008.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240229-WA0008.webp",
+        "bytes": 83350,
+        "width": 1000,
+        "height": 750,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4734b504",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240229-WA0011.jpg",
+        "bytes": 144057,
+        "width": 1000,
+        "height": 750,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240229-WA0011.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240229-WA0011.webp",
+        "bytes": 200556,
+        "width": 1000,
+        "height": 750,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8c8416a4",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240320-WA0006.jpg",
+        "bytes": 711444,
+        "width": 2048,
+        "height": 1536,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240320-WA0006.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240320-WA0006.webp",
+        "bytes": 657336,
+        "width": 2048,
+        "height": 1536,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3aa6ff1f",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240320-WA0008.jpg",
+        "bytes": 476744,
+        "width": 1536,
+        "height": 2048,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240320-WA0008.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240320-WA0008.webp",
+        "bytes": 354378,
+        "width": 1536,
+        "height": 2048,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "24dbf608",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240320-WA0016.jpg",
+        "bytes": 649826,
+        "width": 2048,
+        "height": 1536,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240320-WA0016.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240320-WA0016.webp",
+        "bytes": 550286,
+        "width": 2048,
+        "height": 1536,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c74c51db",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240426-WA0000.jpg",
+        "bytes": 294755,
+        "width": 1600,
+        "height": 1200,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240426-WA0000.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240426-WA0000.webp",
+        "bytes": 270220,
+        "width": 1600,
+        "height": 1200,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "33b1f9b2",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240625-WA0016.jpg",
+        "bytes": 468789,
+        "width": 1600,
+        "height": 1200,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240625-WA0016.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240625-WA0016.webp",
+        "bytes": 524766,
+        "width": 1600,
+        "height": 1200,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a12d7166",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240626-WA0042.jpg",
+        "bytes": 405172,
+        "width": 1600,
+        "height": 1200,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240626-WA0042.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240626-WA0042.webp",
+        "bytes": 442638,
+        "width": 1600,
+        "height": 1200,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "104dbbda",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240628-WA0020.jpg",
+        "bytes": 421112,
+        "width": 1600,
+        "height": 1200,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240628-WA0020.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240628-WA0020.webp",
+        "bytes": 437132,
+        "width": 1600,
+        "height": 1200,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a92ff9f1",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240628-WA0060.jpg",
+        "bytes": 544800,
+        "width": 1440,
+        "height": 1440,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240628-WA0060.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240628-WA0060.webp",
+        "bytes": 614472,
+        "width": 1440,
+        "height": 1440,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2cbe1fd8",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240628-WA0086.jpg",
+        "bytes": 288459,
+        "width": 1200,
+        "height": 1600,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240628-WA0086.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240628-WA0086.webp",
+        "bytes": 393502,
+        "width": 1200,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "809915a1",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240629-WA0037.jpg",
+        "bytes": 460446,
+        "width": 1200,
+        "height": 1600,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240629-WA0037.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240629-WA0037.webp",
+        "bytes": 499106,
+        "width": 1200,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d067de4a",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240630-WA0005.jpg",
+        "bytes": 274705,
+        "width": 1600,
+        "height": 1200,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240630-WA0005.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240630-WA0005.webp",
+        "bytes": 266714,
+        "width": 1600,
+        "height": 1200,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "cc1a0623",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240704-WA0009.jpg",
+        "bytes": 134299,
+        "width": 1200,
+        "height": 1600,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240704-WA0009.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240704-WA0009.webp",
+        "bytes": 159086,
+        "width": 1200,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a6cd51d0",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240704-WA0010.jpg",
+        "bytes": 397566,
+        "width": 1200,
+        "height": 1600,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240704-WA0010.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240704-WA0010.webp",
+        "bytes": 438254,
+        "width": 1200,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4be81d62",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240714-WA0156.jpg",
+        "bytes": 275570,
+        "width": 1200,
+        "height": 1600,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240714-WA0156.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240714-WA0156.webp",
+        "bytes": 272138,
+        "width": 1200,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6e1a2048",
+      "status": "processed",
+      "category": "Varies Photos",
+      "source": {
+        "path": "Varies Photos/IMG-20240714-WA0158.jpg",
+        "bytes": 468691,
+        "width": 1600,
+        "height": 1200,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Varies Photos/IMG-20240714-WA0158.webp",
+        "publicPath": "/assets/untagged/Varies Photos/IMG-20240714-WA0158.webp",
+        "bytes": 538144,
+        "width": 1600,
+        "height": 1200,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0789737c",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/_MG_3245.JPG",
+        "bytes": 2532946,
+        "width": 3504,
+        "height": 2336,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/_MG_3245.webp",
+        "publicPath": "/assets/untagged/Wildlife/_MG_3245.webp",
+        "bytes": 218952,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a6b709ab",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/_MG_3455.JPG",
+        "bytes": 2612282,
+        "width": 3504,
+        "height": 2336,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/_MG_3455.webp",
+        "publicPath": "/assets/untagged/Wildlife/_MG_3455.webp",
+        "bytes": 239926,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ad35961e",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/_MG_3492.JPG",
+        "bytes": 3057967,
+        "width": 3504,
+        "height": 2336,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/_MG_3492.webp",
+        "publicPath": "/assets/untagged/Wildlife/_MG_3492.webp",
+        "bytes": 301562,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "11505220",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/_MG_3499.JPG",
+        "bytes": 3180191,
+        "width": 3504,
+        "height": 2336,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/_MG_3499.webp",
+        "publicPath": "/assets/untagged/Wildlife/_MG_3499.webp",
+        "bytes": 363916,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a5ee3404",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/_MG_3501.JPG",
+        "bytes": 2325759,
+        "width": 3504,
+        "height": 2336,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/_MG_3501.webp",
+        "publicPath": "/assets/untagged/Wildlife/_MG_3501.webp",
+        "bytes": 107348,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b1141808",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/_MG_3561.JPG",
+        "bytes": 3615527,
+        "width": 3504,
+        "height": 2336,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/_MG_3561.webp",
+        "publicPath": "/assets/untagged/Wildlife/_MG_3561.webp",
+        "bytes": 420130,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2ffcfa9d",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/_MG_3567.JPG",
+        "bytes": 1124851,
+        "width": 1556,
+        "height": 2335,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Wildlife/_MG_3567.webp",
+        "publicPath": "/assets/untagged/Wildlife/_MG_3567.webp",
+        "bytes": 201234,
+        "width": 1556,
+        "height": 2335,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c371f4e1",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/152925836.8z6ebL1t.jpg",
+        "bytes": 136277,
+        "width": 800,
+        "height": 533,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Wildlife/152925836.8z6ebL1t.webp",
+        "publicPath": "/assets/untagged/Wildlife/152925836.8z6ebL1t.webp",
+        "bytes": 89640,
+        "width": 800,
+        "height": 533,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0c639766",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/152925839.CicVVrb2.jpg",
+        "bytes": 136735,
+        "width": 800,
+        "height": 533,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Wildlife/152925839.CicVVrb2.webp",
+        "publicPath": "/assets/untagged/Wildlife/152925839.CicVVrb2.webp",
+        "bytes": 95140,
+        "width": 800,
+        "height": 533,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f0d8ff08",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/230425214802 (11).jpg",
+        "bytes": 302033,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Wildlife/230425214802 (11).webp",
+        "publicPath": "/assets/untagged/Wildlife/230425214802 (11).webp",
+        "bytes": 179190,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4a1a7841",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/230425214802 (16).jpg",
+        "bytes": 538870,
+        "width": 1363,
+        "height": 2048,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Wildlife/230425214802 (16).webp",
+        "publicPath": "/assets/untagged/Wildlife/230425214802 (16).webp",
+        "bytes": 374474,
+        "width": 1363,
+        "height": 2048,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "da8090ee",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/230425214802 (17).jpg",
+        "bytes": 232519,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Wildlife/230425214802 (17).webp",
+        "publicPath": "/assets/untagged/Wildlife/230425214802 (17).webp",
+        "bytes": 121200,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "82b381cd",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/230425214802 (22).jpg",
+        "bytes": 565323,
+        "width": 2048,
+        "height": 1357,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Wildlife/230425214802 (22).webp",
+        "publicPath": "/assets/untagged/Wildlife/230425214802 (22).webp",
+        "bytes": 389010,
+        "width": 2048,
+        "height": 1357,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c023389b",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/230425214802 (32).jpg",
+        "bytes": 426109,
+        "width": 2048,
+        "height": 1365,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Wildlife/230425214802 (32).webp",
+        "publicPath": "/assets/untagged/Wildlife/230425214802 (32).webp",
+        "bytes": 283684,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "96c4c417",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/230425214802 (4).jpg",
+        "bytes": 327833,
+        "width": 2048,
+        "height": 1332,
+        "format": "jpeg",
+        "orientation": null
+      },
+      "output": {
+        "path": "Wildlife/230425214802 (4).webp",
+        "publicPath": "/assets/untagged/Wildlife/230425214802 (4).webp",
+        "bytes": 183330,
+        "width": 2048,
+        "height": 1332,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0a367131",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/Abyssinia ground Horn bill.JPG",
+        "bytes": 2532946,
+        "width": 3504,
+        "height": 2336,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/Abyssinia ground Horn bill.webp",
+        "publicPath": "/assets/untagged/Wildlife/Abyssinia ground Horn bill.webp",
+        "bytes": 218952,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3790e6cf",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/camp.jpg",
+        "bytes": 8279131,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/camp.webp",
+        "publicPath": "/assets/untagged/Wildlife/camp.webp",
+        "bytes": 920692,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "aeb3ed27",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/Copy of P1000764.JPG",
+        "bytes": 4153396,
+        "width": 3648,
+        "height": 2736,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/Copy of P1000764.webp",
+        "publicPath": "/assets/untagged/Wildlife/Copy of P1000764.webp",
+        "bytes": 172342,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "bc53d97a",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 155.jpg",
+        "bytes": 2547530,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 155.webp",
+        "publicPath": "/assets/untagged/Wildlife/Ethiopia - Simien Mountain 155.webp",
+        "bytes": 356382,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3645fef4",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 182.jpg",
+        "bytes": 2479053,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 182.webp",
+        "publicPath": "/assets/untagged/Wildlife/Ethiopia - Simien Mountain 182.webp",
+        "bytes": 458312,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7f931333",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 184.jpg",
+        "bytes": 2434453,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 184.webp",
+        "publicPath": "/assets/untagged/Wildlife/Ethiopia - Simien Mountain 184.webp",
+        "bytes": 196670,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "990e1634",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 187.jpg",
+        "bytes": 2499640,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 187.webp",
+        "publicPath": "/assets/untagged/Wildlife/Ethiopia - Simien Mountain 187.webp",
+        "bytes": 356720,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "47ab7d64",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 189.jpg",
+        "bytes": 2418527,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 189.webp",
+        "publicPath": "/assets/untagged/Wildlife/Ethiopia - Simien Mountain 189.webp",
+        "bytes": 278228,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8d4b8242",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 213.jpg",
+        "bytes": 2424847,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 213.webp",
+        "publicPath": "/assets/untagged/Wildlife/Ethiopia - Simien Mountain 213.webp",
+        "bytes": 268214,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1851e8e6",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 221.jpg",
+        "bytes": 2526109,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 221.webp",
+        "publicPath": "/assets/untagged/Wildlife/Ethiopia - Simien Mountain 221.webp",
+        "bytes": 201278,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e048f428",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 241.jpg",
+        "bytes": 2491002,
+        "width": 3872,
+        "height": 2592,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/Ethiopia - Simien Mountain 241.webp",
+        "publicPath": "/assets/untagged/Wildlife/Ethiopia - Simien Mountain 241.webp",
+        "bytes": 386634,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "43239720",
+      "status": "processed",
+      "category": "Wildlife",
+      "source": {
+        "path": "Wildlife/P1110667.jpg",
+        "bytes": 4191787,
+        "width": 2736,
+        "height": 3648,
+        "format": "jpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "Wildlife/P1110667.webp",
+        "publicPath": "/assets/untagged/Wildlife/P1110667.webp",
+        "bytes": 429200,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    }
+  ],
+  "errors": []
+}

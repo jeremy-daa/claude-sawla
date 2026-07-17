@@ -8,7 +8,6 @@ export const homepageSchema = {
       '@type': 'WebSite',
       '@id': 'https://www.sawlatours.com/#website',
       name: 'Sawla Tours',
-      alternateName: 'Sawla',
       url: 'https://www.sawlatours.com/',
       description: 'Ethiopia-based tour operator designing private, tailor-made Ethiopia journeys.',
       publisher: { '@id': 'https://www.sawlatours.com/#travelagency' },
@@ -42,23 +41,7 @@ export const homepageSchema = {
           closes: '17:30',
         },
       },
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://www.sawlatours.com/brand/mark-gold.png',
-        caption: 'Sawla Tours',
-      },
-      image: 'https://www.sawlatours.com/images/og-home.jpg',
-      // Every real Sawla profile — consistent NAP + profiles across the web is what
-      // teaches engines the brand entity, which is the prerequisite for sitelinks.
-      sameAs: [
-        'https://www.facebook.com/sawlatours',
-        'https://www.instagram.com/sawlatours',
-        'https://www.tiktok.com/@sawlatours',
-        'https://twitter.com/SawlaTours',
-        'https://www.youtube.com/@sawlafilms',
-        'https://www.tripadvisor.com/Profile/sawlat',
-        'https://www.reddit.com/user/Current-Culture6318/',
-      ],
+      sameAs: ['https://www.facebook.com/sawlatours', 'https://www.instagram.com/sawlatours'],
       knowsAbout: [
         'Ethiopia tours', 'Lalibela', 'Simien Mountains', 'Bale Mountains', 'Omo Valley',
         'Danakil Depression', 'Tigray', 'Ethiopia cultural tours', 'Ethiopia wildlife tours',
@@ -106,18 +89,12 @@ export const homepageSchema = {
   ],
 }
 
-// `image` is intentionally optional throughout this file: schema.org does not require it
-// for Article/TouristDestination/TouristTrip, and declaring a URL that doesn't resolve to a
-// real photo (or substituting a generic/unrelated one) is worse than omitting it — Google's
-// structured data tooling flags broken image URLs, and a mismatched image is a false claim
-// about what the entity looks like. Pass `image` only when a real, specific photo exists.
 export function articleSchema(params: {
   url: string
   title: string
   description: string
   datePublished: string
-  dateModified?: string
-  image?: string
+  image: string
 }) {
   return {
     '@context': 'https://schema.org',
@@ -125,13 +102,13 @@ export function articleSchema(params: {
     headline: params.title,
     description: params.description,
     datePublished: params.datePublished,
-    dateModified: params.dateModified ?? params.datePublished,
+    dateModified: params.datePublished,
     publisher: {
       '@type': 'Organization',
       name: 'Sawla Tours',
       url: 'https://www.sawlatours.com',
     },
-    ...(params.image ? { image: params.image } : {}),
+    image: params.image,
     mainEntityOfPage: { '@type': 'WebPage', '@id': params.url },
   }
 }
@@ -140,7 +117,7 @@ export function destinationSchema(params: {
   name: string
   url: string
   description: string
-  image?: string
+  image: string
   region?: string
 }) {
   return {
@@ -149,7 +126,7 @@ export function destinationSchema(params: {
     name: params.name,
     description: params.description,
     url: params.url,
-    ...(params.image ? { image: params.image } : {}),
+    image: params.image,
     touristType: ['CulturalTourist', 'AdventureTourist', 'EcoTourist'],
     containedInPlace: { '@type': 'Country', name: 'Ethiopia' },
   }
@@ -191,15 +168,12 @@ export function itemListSchema(params: {
 }
 
 // ── Tour / TouristTrip schema ────────────────────────────────────────────
-// `durationDays` is converted to ISO 8601 ("P10D"), the format schema.org's `duration`
-// property requires — a human label like "10 Days" is not valid here and fails validation.
 export function tourSchema(params: {
   name: string
   url: string
   description: string
-  image?: string
-  durationDays?: number
-  touristType?: string
+  image: string
+  duration?: string
 }) {
   return {
     "@context": "https://schema.org",
@@ -207,12 +181,9 @@ export function tourSchema(params: {
     name: params.name,
     description: params.description,
     url: params.url,
-    ...(params.image ? { image: params.image } : {}),
-    // Reference the site-wide entity rather than redeclaring it per page
-    provider: { "@id": "https://www.sawlatours.com/#travelagency" },
-    areaServed: { "@type": "Country", name: "Ethiopia" },
-    ...(params.touristType ? { touristType: params.touristType } : {}),
-    ...(params.durationDays ? { duration: `P${params.durationDays}D` } : {}),
+    image: params.image,
+    provider: { "@type": "TravelAgency", name: "Sawla Tours", url: "https://www.sawlatours.com" },
+    ...(params.duration ? { duration: params.duration } : {}),
   }
 }
 // ── FAQ Page schema ─────────────────────────────────────────────────────────
