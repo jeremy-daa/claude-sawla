@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState, type ChangeEvent, type FormEvent } from "react";
+import Link from "next/link";
 import Image from "next/image";
 import {
   Check,
@@ -435,12 +436,23 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
   return (
     <section className="min-h-screen bg-[#f3efe6] px-4 py-8 text-charcoal md:px-8">
       <div className="mx-auto max-w-wide">
+        <div className="mb-4 flex justify-end">
+          <Link
+            href="/"
+            className="inline-flex items-center justify-center rounded-full border border-sand bg-white px-4 py-2 text-sm font-medium text-charcoal transition hover:border-gold hover:text-gold"
+          >
+            Return home
+          </Link>
+        </div>
+
         <div className="mb-6 grid gap-4 border border-sand bg-white p-5 md:grid-cols-[1fr_auto] md:items-end">
           <div>
             <h1 className="font-body text-2xl font-semibold tracking-normal text-charcoal md:text-3xl">
               Asset Labeler
             </h1>
-            <p className="mt-1 text-xs text-warmgrey">Manifest: {new Date(generatedAt).toLocaleString()}</p>
+            <p className="mt-1 text-xs text-warmgrey">
+              Manifest: {new Date(generatedAt).toLocaleString()}
+            </p>
           </div>
 
           <div className="grid min-w-72 gap-2 text-sm">
@@ -451,10 +463,17 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
               </strong>
             </div>
             <div className="h-2 overflow-hidden bg-gold-faint">
-              <div className="h-full bg-gold transition-all" style={{ width: `${percent}%` }} />
+              <div
+                className="h-full bg-gold transition-all"
+                style={{ width: `${percent}%` }}
+              />
             </div>
             <div className="flex justify-between text-xs text-warmgrey">
-              <span>{stats?.remaining ?? Math.max(0, images.length - completedCount)} remaining</span>
+              <span>
+                {stats?.remaining ??
+                  Math.max(0, images.length - completedCount)}{" "}
+                remaining
+              </span>
               <span>{formatBytes(totals.outputBytes)} staged</span>
             </div>
           </div>
@@ -503,14 +522,21 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
         </div>
 
         {error && (
-          <div className="mb-5 border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700" role="alert">
+          <div
+            className="mb-5 border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700"
+            role="alert"
+          >
             {error}
           </div>
         )}
 
         {loading ? (
           <div className="flex min-h-96 items-center justify-center border border-sand bg-white text-warmgrey">
-            <Loader2 className="mr-2 animate-spin" size={18} aria-hidden="true" />
+            <Loader2
+              className="mr-2 animate-spin"
+              size={18}
+              aria-hidden="true"
+            />
             Loading labels
           </div>
         ) : currentAsset ? (
@@ -521,10 +547,16 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
                   <span className="font-medium text-charcoal">
                     {currentIndex + 1} of {filteredImages.length}
                   </span>
-                  <span className="ml-3 text-warmgrey">{currentAsset.category ?? "Uncategorized"}</span>
+                  <span className="ml-3 text-warmgrey">
+                    {currentAsset.category ?? "Uncategorized"}
+                  </span>
                 </div>
                 <span className="inline-flex items-center gap-2 bg-gold-faint px-3 py-1 text-xs font-medium text-charcoal">
-                  <Check size={14} className={currentLabel ? "text-gold" : "text-warmgrey"} aria-hidden="true" />
+                  <Check
+                    size={14}
+                    className={currentLabel ? "text-gold" : "text-warmgrey"}
+                    aria-hidden="true"
+                  />
                   {statusLabel(currentLabel?.status)}
                 </span>
               </div>
@@ -559,7 +591,10 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
               </div>
             </div>
 
-            <form onSubmit={handleSubmit} className="border border-sand bg-white">
+            <form
+              onSubmit={handleSubmit}
+              className="border border-sand bg-white"
+            >
               <div className="flex items-center justify-between gap-3 border-b border-sand p-4">
                 <div>
                   <p className="mb-1 text-[11px] font-medium uppercase tracking-[0.14em] text-gold">
@@ -567,9 +602,24 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
                   </p>
                 </div>
                 <div className="flex border border-sand text-sm">
-                  <StatusButton status="labeled" current={form.status} setForm={setCurrentForm} label="Use" />
-                  <StatusButton status="duplicate" current={form.status} setForm={setCurrentForm} label="Duplicate" />
-                  <StatusButton status="skipped" current={form.status} setForm={setCurrentForm} label="Skip" />
+                  <StatusButton
+                    status="labeled"
+                    current={form.status}
+                    setForm={setCurrentForm}
+                    label="Use"
+                  />
+                  <StatusButton
+                    status="duplicate"
+                    current={form.status}
+                    setForm={setCurrentForm}
+                    label="Duplicate"
+                  />
+                  <StatusButton
+                    status="skipped"
+                    current={form.status}
+                    setForm={setCurrentForm}
+                    label="Skip"
+                  />
                 </div>
               </div>
 
@@ -586,7 +636,14 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
                       />
                     </Field>
                   )}
-                  <Field label={form.status === "duplicate" ? "Duplicate note" : "Skip reason"} htmlFor="notes">
+                  <Field
+                    label={
+                      form.status === "duplicate"
+                        ? "Duplicate note"
+                        : "Skip reason"
+                    }
+                    htmlFor="notes"
+                  >
                     <input
                       id="notes"
                       value={form.notes}
@@ -600,7 +657,9 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
 
               <div className="space-y-5 p-4">
                 <fieldset className="border border-sand p-4">
-                  <legend className="px-2 text-sm font-semibold text-charcoal">1. Title</legend>
+                  <legend className="px-2 text-sm font-semibold text-charcoal">
+                    1. Title
+                  </legend>
                   <div className="pt-2">
                     <Field label="Asset title" htmlFor="title">
                       <input
@@ -615,7 +674,9 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
                 </fieldset>
 
                 <fieldset className="border border-sand p-4">
-                  <legend className="px-2 text-sm font-semibold text-charcoal">2. Alt text</legend>
+                  <legend className="px-2 text-sm font-semibold text-charcoal">
+                    2. Alt text
+                  </legend>
                   <div className="pt-2">
                     <Field label="Image alt text" htmlFor="altText">
                       <textarea
@@ -631,7 +692,9 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
                 </fieldset>
 
                 <fieldset className="border border-sand p-4">
-                  <legend className="px-2 text-sm font-semibold text-charcoal">3. Tags</legend>
+                  <legend className="px-2 text-sm font-semibold text-charcoal">
+                    3. Tags
+                  </legend>
                   <div className="space-y-4 pt-2">
                     <PillGroup
                       label=""
@@ -665,14 +728,26 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
                   </button>
                 </div>
 
-                {notice && <span className="text-sm font-medium text-gold">{notice}</span>}
+                {notice && (
+                  <span className="text-sm font-medium text-gold">
+                    {notice}
+                  </span>
+                )}
 
                 <button
                   type="submit"
                   disabled={saving}
                   className="btn-primary justify-center px-5 py-3 disabled:cursor-not-allowed disabled:opacity-60"
                 >
-                  {saving ? <Loader2 className="animate-spin" size={16} aria-hidden="true" /> : <Save size={16} aria-hidden="true" />}
+                  {saving ? (
+                    <Loader2
+                      className="animate-spin"
+                      size={16}
+                      aria-hidden="true"
+                    />
+                  ) : (
+                    <Save size={16} aria-hidden="true" />
+                  )}
                   {saving ? "Saving" : "Save and continue"}
                 </button>
               </div>
@@ -681,9 +756,12 @@ export default function AssetLabelerClient({ generatedAt, images, totals }: Prop
         ) : (
           <div className="flex min-h-96 flex-col items-center justify-center border border-sand bg-white p-8 text-center">
             <Copy className="mb-4 text-gold" size={28} aria-hidden="true" />
-            <h2 className="font-body text-xl font-semibold tracking-normal">No assets match this view</h2>
+            <h2 className="font-body text-xl font-semibold tracking-normal">
+              No assets match this view
+            </h2>
             <p className="mt-2 max-w-md text-sm text-warmgrey">
-              Change the status, category, or search filters to continue labeling.
+              Change the status, category, or search filters to continue
+              labeling.
             </p>
           </div>
         )}
