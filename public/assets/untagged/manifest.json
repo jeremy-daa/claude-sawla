@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T22:20:50.719Z",
+  "generatedAt": "2026-07-21T13:15:00.689Z",
   "sourceRoot": "images",
   "outputRoot": "public/assets/untagged",
   "settings": {
@@ -11,13 +11,13 @@
     "normalizeFilenames": false
   },
   "totals": {
-    "discovered": 309,
-    "processed": 306,
+    "discovered": 524,
+    "processed": 521,
     "skippedExisting": 3,
     "failed": 0,
-    "inputBytes": 895945784,
-    "outputBytes": 107815288,
-    "savedBytes": 788130496
+    "inputBytes": 1888143165,
+    "outputBytes": 205531336,
+    "savedBytes": 1682611829
   },
   "images": [
     {
@@ -6506,6 +6506,4521 @@
         "bytes": 429200,
         "width": 1800,
         "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "74c6a267",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/125143616.jpeg",
+        "bytes": 1662711,
+        "width": 3600,
+        "height": 2400,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/125143616.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/125143616.webp",
+        "bytes": 63108,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3a1f698c",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/230424124629 (21).jpg",
+        "bytes": 268452,
+        "width": 2048,
+        "height": 1392,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/230424124629 (21).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/230424124629 (21).webp",
+        "bytes": 154828,
+        "width": 2048,
+        "height": 1392,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ea7b5498",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/230424124629 (23).jpg",
+        "bytes": 350713,
+        "width": 2048,
+        "height": 1366,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/230424124629 (23).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/230424124629 (23).webp",
+        "bytes": 200466,
+        "width": 2048,
+        "height": 1366,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6605b8bc",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/230424124629 (25).jpg",
+        "bytes": 739221,
+        "width": 2048,
+        "height": 1367,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/230424124629 (25).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/230424124629 (25).webp",
+        "bytes": 615194,
+        "width": 2048,
+        "height": 1367,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4ee532ef",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/230424124629 (32).jpg",
+        "bytes": 486259,
+        "width": 2048,
+        "height": 1361,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/230424124629 (32).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/230424124629 (32).webp",
+        "bytes": 316106,
+        "width": 2048,
+        "height": 1361,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "511c24c1",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/230424124629 (34).jpg",
+        "bytes": 176045,
+        "width": 2048,
+        "height": 1174,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/230424124629 (34).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/230424124629 (34).webp",
+        "bytes": 81746,
+        "width": 2048,
+        "height": 1174,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "218657ca",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/230424124629 (6).jpg",
+        "bytes": 325895,
+        "width": 2048,
+        "height": 1173,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/230424124629 (6).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/230424124629 (6).webp",
+        "bytes": 192704,
+        "width": 2048,
+        "height": 1173,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f254185d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/2B7A0245.jpg",
+        "bytes": 14167549,
+        "width": 6720,
+        "height": 4480,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/2B7A0245.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/2B7A0245.webp",
+        "bytes": 511218,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "76169b79",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/2B7A0396.jpg",
+        "bytes": 12556727,
+        "width": 6370,
+        "height": 4247,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/2B7A0396.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/2B7A0396.webp",
+        "bytes": 372650,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e5275053",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/2B7A1753.jpg",
+        "bytes": 8212827,
+        "width": 4984,
+        "height": 3323,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/2B7A1753.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/2B7A1753.webp",
+        "bytes": 293360,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4703366e",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/2B7A2315.jpg",
+        "bytes": 16439578,
+        "width": 6720,
+        "height": 4480,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/2B7A2315.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/2B7A2315.webp",
+        "bytes": 668288,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9e7ca6a9",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/2B7A3988.jpg",
+        "bytes": 23766517,
+        "width": 6720,
+        "height": 4480,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/2B7A3988.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/2B7A3988.webp",
+        "bytes": 751958,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "06a24fa0",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/2B7A4011.jpg",
+        "bytes": 22763989,
+        "width": 6720,
+        "height": 4480,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/2B7A4011.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/2B7A4011.webp",
+        "bytes": 459776,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "394134b8",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/672077498.jpeg",
+        "bytes": 8625956,
+        "width": 4527,
+        "height": 2542,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/672077498.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/672077498.webp",
+        "bytes": 512108,
+        "width": 2400,
+        "height": 1348,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "604408e1",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/ABEL_G-6244.jpg",
+        "bytes": 11794692,
+        "width": 4909,
+        "height": 3273,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/ABEL_G-6244.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/ABEL_G-6244.webp",
+        "bytes": 788888,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "88589424",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/ABEL_G-6281.jpg",
+        "bytes": 9747945,
+        "width": 5040,
+        "height": 3360,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/ABEL_G-6281.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/ABEL_G-6281.webp",
+        "bytes": 449758,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "135e4b62",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/ABEL_G-6418.jpg",
+        "bytes": 11121555,
+        "width": 5040,
+        "height": 3360,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/ABEL_G-6418.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/ABEL_G-6418.webp",
+        "bytes": 346442,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "aff842ee",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/ABEL_G-7783.jpg",
+        "bytes": 7496550,
+        "width": 5040,
+        "height": 3360,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/ABEL_G-7783.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/ABEL_G-7783.webp",
+        "bytes": 296786,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fa463b5e",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Black Back Jackal.jpg",
+        "bytes": 578147,
+        "width": 2048,
+        "height": 1365,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Black Back Jackal.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Black Back Jackal.webp",
+        "bytes": 416190,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "555fcd79",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Camp.jpg",
+        "bytes": 4522915,
+        "width": 3840,
+        "height": 1728,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Camp.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Camp.webp",
+        "bytes": 907300,
+        "width": 2400,
+        "height": 1080,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7a9762a9",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Cars on salt plain.jpg",
+        "bytes": 245108,
+        "width": 4032,
+        "height": 3024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Cars on salt plain.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Cars on salt plain.webp",
+        "bytes": 202662,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9297f218",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC02231.JPG",
+        "bytes": 4489216,
+        "width": 5456,
+        "height": 3632,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC02231.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC02231.webp",
+        "bytes": 245572,
+        "width": 2400,
+        "height": 1598,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "701d4c83",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC02248.JPG",
+        "bytes": 4784128,
+        "width": 5456,
+        "height": 3632,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC02248.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC02248.webp",
+        "bytes": 254234,
+        "width": 2400,
+        "height": 1598,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e887ff78",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC02305.JPG",
+        "bytes": 3702784,
+        "width": 5456,
+        "height": 3632,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC02305.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC02305.webp",
+        "bytes": 179360,
+        "width": 2400,
+        "height": 1598,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "dd650cea",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC02314.JPG",
+        "bytes": 3833856,
+        "width": 5456,
+        "height": 3632,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC02314.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC02314.webp",
+        "bytes": 174102,
+        "width": 2400,
+        "height": 1598,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fdd85290",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC02438.JPG",
+        "bytes": 4784128,
+        "width": 5456,
+        "height": 3632,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC02438.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC02438.webp",
+        "bytes": 279812,
+        "width": 2400,
+        "height": 1598,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "994c41c5",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC02620.JPG",
+        "bytes": 9437184,
+        "width": 5456,
+        "height": 3632,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC02620.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC02620.webp",
+        "bytes": 791918,
+        "width": 2400,
+        "height": 1598,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "cb11ce30",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_0111-2.jpg",
+        "bytes": 4101294,
+        "width": 5433,
+        "height": 3256,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_0111-2.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_0111-2.webp",
+        "bytes": 855080,
+        "width": 2400,
+        "height": 1438,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e394b25d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_0336.jpg",
+        "bytes": 1030269,
+        "width": 2302,
+        "height": 1413,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_0336.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_0336.webp",
+        "bytes": 664028,
+        "width": 2302,
+        "height": 1413,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f83138e3",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_0627.JPG",
+        "bytes": 1372555,
+        "width": 3008,
+        "height": 2000,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_0627.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_0627.webp",
+        "bytes": 486186,
+        "width": 2400,
+        "height": 1596,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1678fd36",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_0631.JPG",
+        "bytes": 1638384,
+        "width": 3008,
+        "height": 2000,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_0631.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_0631.webp",
+        "bytes": 143362,
+        "width": 2400,
+        "height": 1596,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8b18d6d0",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_1051a1.JPG",
+        "bytes": 1066012,
+        "width": 2397,
+        "height": 2000,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_1051a1.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_1051a1.webp",
+        "bytes": 495452,
+        "width": 2397,
+        "height": 2000,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "354a0526",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_1051a106.JPG",
+        "bytes": 1215660,
+        "width": 2884,
+        "height": 1719,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_1051a106.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_1051a106.webp",
+        "bytes": 250568,
+        "width": 2400,
+        "height": 1431,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "79ecc698",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_1051a178.JPG",
+        "bytes": 1565881,
+        "width": 3008,
+        "height": 2000,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_1051a178.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_1051a178.webp",
+        "bytes": 551484,
+        "width": 2400,
+        "height": 1596,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f44ff530",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_1051a2301.jpg",
+        "bytes": 477751,
+        "width": 1317,
+        "height": 1544,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_1051a2301.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_1051a2301.webp",
+        "bytes": 205062,
+        "width": 1317,
+        "height": 1544,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "73173b97",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_1051a315.JPG",
+        "bytes": 1313138,
+        "width": 3008,
+        "height": 2000,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_1051a315.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_1051a315.webp",
+        "bytes": 336908,
+        "width": 2400,
+        "height": 1596,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "24502a37",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_1051a331.JPG",
+        "bytes": 1554218,
+        "width": 3008,
+        "height": 2000,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_1051a331.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_1051a331.webp",
+        "bytes": 253050,
+        "width": 2400,
+        "height": 1596,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c345926c",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_1051a97.JPG",
+        "bytes": 1539530,
+        "width": 3008,
+        "height": 2000,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_1051a97.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_1051a97.webp",
+        "bytes": 603996,
+        "width": 2400,
+        "height": 1596,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "47f27c9e",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_6828.JPG",
+        "bytes": 3143761,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_6828.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_6828.webp",
+        "bytes": 454936,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d3abba26",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_6890.JPG",
+        "bytes": 3140788,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_6890.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_6890.webp",
+        "bytes": 202138,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3ada96bd",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_7046.JPG",
+        "bytes": 3103625,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_7046.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_7046.webp",
+        "bytes": 575912,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "802a0d71",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_7050.JPG",
+        "bytes": 3163014,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_7050.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_7050.webp",
+        "bytes": 736812,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1e309726",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_7070.JPG",
+        "bytes": 3031445,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_7070.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_7070.webp",
+        "bytes": 767316,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "62f0e57c",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_7097.JPG",
+        "bytes": 3107475,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_7097.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_7097.webp",
+        "bytes": 648052,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6fe0819a",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_7497.JPG",
+        "bytes": 3081596,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_7497.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_7497.webp",
+        "bytes": 682408,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f67ba4ce",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_7570.JPG",
+        "bytes": 3101725,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_7570.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_7570.webp",
+        "bytes": 732096,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "cb6c8e87",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_7700.JPG",
+        "bytes": 3202773,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_7700.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_7700.webp",
+        "bytes": 1041952,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5566ffc6",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_7716.JPG",
+        "bytes": 3162817,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_7716.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_7716.webp",
+        "bytes": 429828,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "61626360",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_7748.JPG",
+        "bytes": 3115302,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_7748.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_7748.webp",
+        "bytes": 454364,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d67a63e6",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_7827.JPG",
+        "bytes": 3104423,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_7827.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_7827.webp",
+        "bytes": 1313324,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5b3993c6",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_7837.JPG",
+        "bytes": 3121055,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_7837.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_7837.webp",
+        "bytes": 352076,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d82ae3c9",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_8344.jpg",
+        "bytes": 10789598,
+        "width": 5955,
+        "height": 3974,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_8344.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_8344.webp",
+        "bytes": 146824,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4063f082",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_8374.jpg",
+        "bytes": 26087493,
+        "width": 7360,
+        "height": 4912,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_8374.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_8374.webp",
+        "bytes": 329738,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3a61838a",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/DSC_8503.jpg",
+        "bytes": 5070910,
+        "width": 2580,
+        "height": 3866,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/DSC_8503.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/DSC_8503.webp",
+        "bytes": 246654,
+        "width": 1602,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "81fd5ff7",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Danakil Depression  Salt Mountain.JPG",
+        "bytes": 11915085,
+        "width": 5472,
+        "height": 3648,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Danakil Depression  Salt Mountain.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Danakil Depression  Salt Mountain.webp",
+        "bytes": 714672,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "17a50ab3",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/De brazza monkey.jpeg",
+        "bytes": 167031,
+        "width": 1170,
+        "height": 764,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/De brazza monkey.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/De brazza monkey.webp",
+        "bytes": 134086,
+        "width": 1170,
+        "height": 764,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e2800197",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Egg shaped Palace of Emperor Menilik in Addis Ababa.jpg",
+        "bytes": 6771446,
+        "width": 2560,
+        "height": 3413,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Egg shaped Palace of Emperor Menilik in Addis Ababa.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Egg shaped Palace of Emperor Menilik in Addis Ababa.webp",
+        "bytes": 999684,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9fce3bf6",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (108).jpg",
+        "bytes": 5571894,
+        "width": 3648,
+        "height": 2736,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (108).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (108).webp",
+        "bytes": 620926,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0cfee550",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (111).jpg",
+        "bytes": 5397371,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (111).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (111).webp",
+        "bytes": 498850,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "28282ebe",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (121).jpg",
+        "bytes": 4029720,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (121).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (121).webp",
+        "bytes": 249684,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b6783b96",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (143).jpg",
+        "bytes": 7027085,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (143).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (143).webp",
+        "bytes": 1017252,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f421f62b",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (175).jpg",
+        "bytes": 5707295,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (175).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (175).webp",
+        "bytes": 728136,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fa9adeca",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (178).jpg",
+        "bytes": 5673481,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (178).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (178).webp",
+        "bytes": 631976,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "45509ec6",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (183).jpg",
+        "bytes": 5672803,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (183).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (183).webp",
+        "bytes": 652602,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9563237d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (198).jpg",
+        "bytes": 6545416,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (198).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (198).webp",
+        "bytes": 558872,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "547f9442",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (204).jpg",
+        "bytes": 6587369,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (204).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (204).webp",
+        "bytes": 563550,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6631415c",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (205).jpg",
+        "bytes": 6777837,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (205).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (205).webp",
+        "bytes": 698706,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1ea66014",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (206).jpg",
+        "bytes": 6115195,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (206).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (206).webp",
+        "bytes": 444036,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7fe99f99",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (227).jpg",
+        "bytes": 4965731,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (227).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (227).webp",
+        "bytes": 125444,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "126e1413",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (23).jpg",
+        "bytes": 5810965,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (23).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (23).webp",
+        "bytes": 766500,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5d3b71d1",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (26).jpg",
+        "bytes": 5251512,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (26).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (26).webp",
+        "bytes": 495668,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1d8c3f77",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (271).jpg",
+        "bytes": 7285325,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (271).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (271).webp",
+        "bytes": 994514,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "38c1ed5d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (301).jpg",
+        "bytes": 6378692,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (301).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (301).webp",
+        "bytes": 489978,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "eecb0cc1",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (302).jpg",
+        "bytes": 6486640,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (302).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (302).webp",
+        "bytes": 563088,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "42c88d98",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (310).jpg",
+        "bytes": 6598314,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (310).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (310).webp",
+        "bytes": 567264,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fdf2bffc",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (319).jpg",
+        "bytes": 6679717,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (319).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (319).webp",
+        "bytes": 672220,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "41bd8280",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (320).jpg",
+        "bytes": 7137509,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (320).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (320).webp",
+        "bytes": 899938,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fab3a85d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (323).jpg",
+        "bytes": 7057711,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (323).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (323).webp",
+        "bytes": 879924,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0fd4d3a2",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (336).jpg",
+        "bytes": 6731081,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (336).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (336).webp",
+        "bytes": 786564,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7be86b10",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (344).jpg",
+        "bytes": 6805978,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (344).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (344).webp",
+        "bytes": 706186,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "19ffb50d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (345).jpg",
+        "bytes": 6813102,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (345).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (345).webp",
+        "bytes": 761006,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "dbc416bf",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (347).jpg",
+        "bytes": 6410237,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (347).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (347).webp",
+        "bytes": 476796,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a5c4f187",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (349).jpg",
+        "bytes": 6944984,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (349).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (349).webp",
+        "bytes": 880036,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "243125a2",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (35).jpg",
+        "bytes": 4928637,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (35).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (35).webp",
+        "bytes": 471156,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9eba0c95",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (365).jpg",
+        "bytes": 6885152,
+        "width": 2880,
+        "height": 3840,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (365).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (365).webp",
+        "bytes": 863812,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "99e7e180",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (387).jpg",
+        "bytes": 4540832,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (387).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (387).webp",
+        "bytes": 326362,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9d04493c",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (393).jpg",
+        "bytes": 5738718,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (393).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (393).webp",
+        "bytes": 205056,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b6435ee5",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (395).jpg",
+        "bytes": 6032787,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (395).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (395).webp",
+        "bytes": 414260,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0f692dd0",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (410).jpg",
+        "bytes": 5776070,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (410).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (410).webp",
+        "bytes": 307060,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "bf68ee68",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (422).jpg",
+        "bytes": 6239375,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (422).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (422).webp",
+        "bytes": 518500,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "25cc139d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (424).jpg",
+        "bytes": 6767543,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (424).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (424).webp",
+        "bytes": 822282,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a756e17b",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (434).jpg",
+        "bytes": 5232792,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (434).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (434).webp",
+        "bytes": 491774,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "93df74ea",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (468).jpg",
+        "bytes": 6129919,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (468).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (468).webp",
+        "bytes": 851704,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "795c802f",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (478).jpg",
+        "bytes": 4621939,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (478).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (478).webp",
+        "bytes": 335720,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a609c107",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (504).jpg",
+        "bytes": 5209151,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (504).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (504).webp",
+        "bytes": 434042,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "98695cdf",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (51).jpg",
+        "bytes": 4909387,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (51).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (51).webp",
+        "bytes": 455216,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "774d3076",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (529).jpg",
+        "bytes": 5392612,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (529).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (529).webp",
+        "bytes": 712390,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "aec4220c",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (539).jpg",
+        "bytes": 4796562,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (539).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (539).webp",
+        "bytes": 417832,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "39f6b372",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (56).jpg",
+        "bytes": 5412308,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (56).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (56).webp",
+        "bytes": 499452,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "abc0cf2a",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (574).jpg",
+        "bytes": 5473923,
+        "width": 3776,
+        "height": 2520,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (574).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (574).webp",
+        "bytes": 632860,
+        "width": 2400,
+        "height": 1602,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ede6fc9d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (581).jpg",
+        "bytes": 6273321,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (581).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (581).webp",
+        "bytes": 432054,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "dd626ea1",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (606).jpg",
+        "bytes": 5666809,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (606).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (606).webp",
+        "bytes": 828406,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f43671db",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (628).jpg",
+        "bytes": 6299569,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (628).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (628).webp",
+        "bytes": 481950,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fc9cbbd3",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (636).jpg",
+        "bytes": 6340101,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (636).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (636).webp",
+        "bytes": 434426,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f4fd755e",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (638).jpg",
+        "bytes": 5996497,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (638).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (638).webp",
+        "bytes": 270798,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6cef82d9",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (642).jpg",
+        "bytes": 6444726,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (642).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (642).webp",
+        "bytes": 635722,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "473aa51f",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (649).jpg",
+        "bytes": 6820093,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (649).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (649).webp",
+        "bytes": 756902,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "1017c723",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ethiopia 2011 (664).jpg",
+        "bytes": 6641228,
+        "width": 3840,
+        "height": 2880,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ethiopia 2011 (664).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ethiopia 2011 (664).webp",
+        "bytes": 656532,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "52403fe6",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Fan-tailed Widowbird.jpg",
+        "bytes": 304649,
+        "width": 1200,
+        "height": 800,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Fan-tailed Widowbird.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Fan-tailed Widowbird.webp",
+        "bytes": 61446,
+        "width": 1200,
+        "height": 800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "20ebb808",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Genna Lalibela.jpeg",
+        "bytes": 12576065,
+        "width": 6713,
+        "height": 4358,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Genna Lalibela.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Genna Lalibela.webp",
+        "bytes": 638684,
+        "width": 2400,
+        "height": 1558,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "89ad43c9",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Gheralta Mountain Tigray.jpg",
+        "bytes": 561995,
+        "width": 2048,
+        "height": 1365,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Gheralta Mountain Tigray.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Gheralta Mountain Tigray.webp",
+        "bytes": 406076,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "548474ad",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Gheralta mountains in Tigray.jpg",
+        "bytes": 661134,
+        "width": 2048,
+        "height": 1365,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Gheralta mountains in Tigray.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Gheralta mountains in Tigray.webp",
+        "bytes": 519184,
+        "width": 2048,
+        "height": 1365,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3cda2a12",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Gureza Monkey.jpg",
+        "bytes": 1096172,
+        "width": 2048,
+        "height": 1536,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Gureza Monkey.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Gureza Monkey.webp",
+        "bytes": 987880,
+        "width": 2048,
+        "height": 1536,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "214451ba",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Hyena feeder.png",
+        "bytes": 714160,
+        "width": 1145,
+        "height": 536,
+        "format": "png",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Hyena feeder.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Hyena feeder.webp",
+        "bytes": 57794,
+        "width": 1145,
+        "height": 536,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d78cc46e",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Hyena pic.png",
+        "bytes": 862435,
+        "width": 1342,
+        "height": 381,
+        "format": "png",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Hyena pic.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Hyena pic.webp",
+        "bytes": 75172,
+        "width": 1342,
+        "height": 381,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e192ac09",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_0052.jpg",
+        "bytes": 2100754,
+        "width": 3101,
+        "height": 3024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_0052.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_0052.webp",
+        "bytes": 1016364,
+        "width": 2400,
+        "height": 2340,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "bf42bf47",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_0226.jpg",
+        "bytes": 1808814,
+        "width": 4032,
+        "height": 3024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_0226.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_0226.webp",
+        "bytes": 654708,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3f6b7d5b",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_0276.jpg",
+        "bytes": 2064472,
+        "width": 4032,
+        "height": 3024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_0276.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_0276.webp",
+        "bytes": 773780,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "cd71bf8b",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_0362.jpg",
+        "bytes": 5445839,
+        "width": 5433,
+        "height": 3336,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_0362.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_0362.webp",
+        "bytes": 1031716,
+        "width": 2400,
+        "height": 1474,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b8c29788",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_0369.jpg",
+        "bytes": 1566292,
+        "width": 4032,
+        "height": 3024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_0369.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_0369.webp",
+        "bytes": 712236,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3721db67",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_0456.jpg",
+        "bytes": 1383164,
+        "width": 3353,
+        "height": 2512,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_0456.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_0456.webp",
+        "bytes": 635670,
+        "width": 2400,
+        "height": 1798,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "66ecc779",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_0458.jpg",
+        "bytes": 2136741,
+        "width": 3024,
+        "height": 4032,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_0458.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_0458.webp",
+        "bytes": 570818,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "121a8836",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_0783.jpg",
+        "bytes": 3264472,
+        "width": 4032,
+        "height": 3024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_0783.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_0783.webp",
+        "bytes": 987488,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f9908e78",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_1218.jpg",
+        "bytes": 1472030,
+        "width": 4032,
+        "height": 3024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_1218.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_1218.webp",
+        "bytes": 474816,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "98ef5209",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_1229.jpg",
+        "bytes": 1840269,
+        "width": 4032,
+        "height": 3024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_1229.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_1229.webp",
+        "bytes": 651660,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3462c123",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_1237.jpg",
+        "bytes": 861961,
+        "width": 3705,
+        "height": 2779,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_1237.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_1237.webp",
+        "bytes": 415194,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b713fe7f",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_1849.jpg",
+        "bytes": 11172991,
+        "width": 5184,
+        "height": 3456,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_1849.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_1849.webp",
+        "bytes": 592704,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "42576f36",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_2475.jpg",
+        "bytes": 2571012,
+        "width": 4424,
+        "height": 2950,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_2475.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_2475.webp",
+        "bytes": 429762,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3b677214",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_2486.jpg",
+        "bytes": 13077469,
+        "width": 5184,
+        "height": 3456,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_2486.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_2486.webp",
+        "bytes": 1072822,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "98320d1c",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_2552.jpg",
+        "bytes": 3739766,
+        "width": 3024,
+        "height": 4032,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_2552.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_2552.webp",
+        "bytes": 694774,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "52bf1ada",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_2606.jpg",
+        "bytes": 10325668,
+        "width": 5184,
+        "height": 3456,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_2606.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_2606.webp",
+        "bytes": 530246,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "552bc355",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_2831.jpg",
+        "bytes": 7574947,
+        "width": 5184,
+        "height": 3456,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_2831.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_2831.webp",
+        "bytes": 183548,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6d73f2b1",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_2931 copy.jpg",
+        "bytes": 3487334,
+        "width": 4032,
+        "height": 3024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_2931 copy.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_2931 copy.webp",
+        "bytes": 706954,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "44529349",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_2949.jpg",
+        "bytes": 9685904,
+        "width": 5184,
+        "height": 3456,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_2949.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_2949.webp",
+        "bytes": 745672,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "907ba724",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_3308.jpg",
+        "bytes": 4621464,
+        "width": 3631,
+        "height": 2417,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_3308.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_3308.webp",
+        "bytes": 552472,
+        "width": 2400,
+        "height": 1598,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4db5459d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_3403 21.jpg",
+        "bytes": 1255934,
+        "width": 2720,
+        "height": 1418,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_3403 21.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_3403 21.webp",
+        "bytes": 566884,
+        "width": 2400,
+        "height": 1251,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "419280b7",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_4213.JPG",
+        "bytes": 1945990,
+        "width": 3264,
+        "height": 2448,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_4213.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_4213.webp",
+        "bytes": 336664,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "434528d7",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_4216.JPG",
+        "bytes": 2251216,
+        "width": 3264,
+        "height": 2448,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_4216.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_4216.webp",
+        "bytes": 440282,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ff22ab1b",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_4224.JPG",
+        "bytes": 2091661,
+        "width": 3264,
+        "height": 2448,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_4224.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_4224.webp",
+        "bytes": 380634,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8385f45f",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_4265.JPG",
+        "bytes": 2236588,
+        "width": 3264,
+        "height": 2448,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_4265.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_4265.webp",
+        "bytes": 460962,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b6959c41",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_5384a.jpg",
+        "bytes": 8006149,
+        "width": 5184,
+        "height": 3456,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_5384a.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_5384a.webp",
+        "bytes": 327956,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a67bb0ca",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_5431.jpg",
+        "bytes": 7537317,
+        "width": 5184,
+        "height": 3456,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_5431.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_5431.webp",
+        "bytes": 520058,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "72970892",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_5716.JPG",
+        "bytes": 4037176,
+        "width": 4368,
+        "height": 2912,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_5716.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_5716.webp",
+        "bytes": 138206,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ea45f755",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_5760.jpg",
+        "bytes": 3999129,
+        "width": 3456,
+        "height": 2306,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_5760.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_5760.webp",
+        "bytes": 475438,
+        "width": 2400,
+        "height": 1601,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d42cfc7a",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_5907.JPG",
+        "bytes": 7268702,
+        "width": 4368,
+        "height": 2912,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_5907.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_5907.webp",
+        "bytes": 736142,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b57c3227",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_5912.JPG",
+        "bytes": 4668873,
+        "width": 2912,
+        "height": 4368,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_5912.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_5912.webp",
+        "bytes": 302174,
+        "width": 1600,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5c79f516",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_5913.jpg",
+        "bytes": 9425896,
+        "width": 4368,
+        "height": 2912,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_5913.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_5913.webp",
+        "bytes": 713876,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "0e6afcc6",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_6184.jpg",
+        "bytes": 10987772,
+        "width": 4368,
+        "height": 2912,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_6184.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_6184.webp",
+        "bytes": 981466,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "791660bf",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_6233.jpg",
+        "bytes": 5825838,
+        "width": 3378,
+        "height": 2252,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_6233.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_6233.webp",
+        "bytes": 582932,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c15bf30a",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_6256.JPG",
+        "bytes": 8169131,
+        "width": 4368,
+        "height": 2912,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_6256.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_6256.webp",
+        "bytes": 928946,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "987bebd0",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_6343.jpg",
+        "bytes": 11545378,
+        "width": 4368,
+        "height": 2912,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_6343.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_6343.webp",
+        "bytes": 1012968,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4c5bd8d8",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/IMG_9425.jpg",
+        "bytes": 2564972,
+        "width": 4032,
+        "height": 3024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/IMG_9425.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/IMG_9425.webp",
+        "bytes": 779738,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9f324888",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ian Johnson20170203_137 (1).JPG",
+        "bytes": 7333062,
+        "width": 5568,
+        "height": 3712,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ian Johnson20170203_137 (1).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ian Johnson20170203_137 (1).webp",
+        "bytes": 204260,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "5d27d690",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Ian Johnson20170203_469.JPG",
+        "bytes": 9729086,
+        "width": 4928,
+        "height": 3280,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Ian Johnson20170203_469.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Ian Johnson20170203_469.webp",
+        "bytes": 215636,
+        "width": 2400,
+        "height": 1597,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8510a7c1",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Image_20230428185336 (1).jpg",
+        "bytes": 16959371,
+        "width": 16384,
+        "height": 8440,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Image_20230428185336 (1).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Image_20230428185336 (1).webp",
+        "bytes": 301646,
+        "width": 2400,
+        "height": 1236,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "852c949a",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Inkedmap of Horn of Africa Ethiopia Highlihted_LI.jpg",
+        "bytes": 585323,
+        "width": 600,
+        "height": 600,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Inkedmap of Horn of Africa Ethiopia Highlihted_LI.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Inkedmap of Horn of Africa Ethiopia Highlihted_LI.webp",
+        "bytes": 12394,
+        "width": 600,
+        "height": 600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "91ed0d45",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Meskel Bonfire.jpeg",
+        "bytes": 5585263,
+        "width": 3718,
+        "height": 2477,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Meskel Bonfire.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Meskel Bonfire.webp",
+        "bytes": 315976,
+        "width": 2400,
+        "height": 1599,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "2e738f50",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Mobile Camps of Wild Expedtion Ethiopia on the map.jpg",
+        "bytes": 178435,
+        "width": 1033,
+        "height": 857,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Mobile Camps of Wild Expedtion Ethiopia on the map.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Mobile Camps of Wild Expedtion Ethiopia on the map.webp",
+        "bytes": 154474,
+        "width": 1033,
+        "height": 857,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d5a1c98d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Nuer tribe.jpg",
+        "bytes": 358715,
+        "width": 2048,
+        "height": 1362,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Nuer tribe.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Nuer tribe.webp",
+        "bytes": 254986,
+        "width": 2048,
+        "height": 1362,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4dee1c51",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/P1010273.JPG",
+        "bytes": 1106065,
+        "width": 2083,
+        "height": 3096,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/P1010273.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/P1010273.webp",
+        "bytes": 356196,
+        "width": 1615,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "94e18653",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/P1010279.JPG",
+        "bytes": 4664761,
+        "width": 3648,
+        "height": 2736,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/P1010279.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/P1010279.webp",
+        "bytes": 367038,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e8545e1e",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/P1100850.jpg",
+        "bytes": 5147922,
+        "width": 2736,
+        "height": 3648,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/P1100850.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/P1100850.webp",
+        "bytes": 342136,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a09fc7cb",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/P1110014.jpg",
+        "bytes": 5526879,
+        "width": 2736,
+        "height": 3648,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/P1110014.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/P1110014.webp",
+        "bytes": 324538,
+        "width": 1800,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "7b226dd4",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Palm Sunday Procession in Axum.JPG",
+        "bytes": 3993326,
+        "width": 4320,
+        "height": 2432,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Palm Sunday Procession in Axum.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Palm Sunday Procession in Axum.webp",
+        "bytes": 560812,
+        "width": 2400,
+        "height": 1351,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "34ef83dc",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Remote expedtion mobile tented camp in Afar.jpeg",
+        "bytes": 87399,
+        "width": 1000,
+        "height": 563,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Remote expedtion mobile tented camp in Afar.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Remote expedtion mobile tented camp in Afar.webp",
+        "bytes": 112166,
+        "width": 1000,
+        "height": 563,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4cf136e6",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Salt  Mountain.jpg",
+        "bytes": 1560591,
+        "width": 4864,
+        "height": 2736,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Salt  Mountain.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Salt  Mountain.webp",
+        "bytes": 217878,
+        "width": 2400,
+        "height": 1350,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a1e422e7",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Salt mining in Danakil depression.jpg",
+        "bytes": 4412677,
+        "width": 4864,
+        "height": 2736,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Salt mining in Danakil depression.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Salt mining in Danakil depression.webp",
+        "bytes": 396612,
+        "width": 2400,
+        "height": 1350,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "4393fcd3",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Sawla Clients grop picture in Lalibela.JPG",
+        "bytes": 130982,
+        "width": 960,
+        "height": 720,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Sawla Clients grop picture in Lalibela.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Sawla Clients grop picture in Lalibela.webp",
+        "bytes": 151128,
+        "width": 960,
+        "height": 720,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b7480c45",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Simien Mountains national park.JPG",
+        "bytes": 3142593,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Simien Mountains national park.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Simien Mountains national park.webp",
+        "bytes": 543890,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9a75a043",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Smoke from Erta Ale Danakil Depression.jpg",
+        "bytes": 325895,
+        "width": 2048,
+        "height": 1173,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Smoke from Erta Ale Danakil Depression.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Smoke from Erta Ale Danakil Depression.webp",
+        "bytes": 192704,
+        "width": 2048,
+        "height": 1173,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "60b6e54d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Special Prayer on Eve of Palm Sunday Axum.JPG",
+        "bytes": 11275161,
+        "width": 4928,
+        "height": 3280,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Special Prayer on Eve of Palm Sunday Axum.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Special Prayer on Eve of Palm Sunday Axum.webp",
+        "bytes": 700026,
+        "width": 2400,
+        "height": 1597,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "33cefdc6",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Sunrise over Bet Giorgis rock hewn church in Lalibela.jpg",
+        "bytes": 16959371,
+        "width": 16384,
+        "height": 8440,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Sunrise over Bet Giorgis rock hewn church in Lalibela.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Sunrise over Bet Giorgis rock hewn church in Lalibela.webp",
+        "bytes": 301646,
+        "width": 2400,
+        "height": 1236,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "76d88f49",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Sunset.jpg",
+        "bytes": 248616,
+        "width": 2048,
+        "height": 1366,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Sunset.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Sunset.webp",
+        "bytes": 129024,
+        "width": 2048,
+        "height": 1366,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "119e8132",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Suri Girls with body painting.jpeg",
+        "bytes": 211994,
+        "width": 923,
+        "height": 1024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Suri Girls with body painting.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Suri Girls with body painting.webp",
+        "bytes": 215706,
+        "width": 923,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fd15133c",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/View of Gheralta Mountain.jpg",
+        "bytes": 2128761,
+        "width": 4864,
+        "height": 2736,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/View of Gheralta Mountain.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/View of Gheralta Mountain.webp",
+        "bytes": 341154,
+        "width": 2400,
+        "height": 1350,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9a6585c2",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2022-01-10 at 8.02.21 PM (10).jpeg",
+        "bytes": 98555,
+        "width": 768,
+        "height": 1024,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2022-01-10 at 8.02.21 PM (10).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2022-01-10 at 8.02.21 PM (10).webp",
+        "bytes": 95040,
+        "width": 768,
+        "height": 1024,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "eb658140",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2022-01-10 at 8.02.21 PM (2).jpeg",
+        "bytes": 169222,
+        "width": 1024,
+        "height": 828,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2022-01-10 at 8.02.21 PM (2).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2022-01-10 at 8.02.21 PM (2).webp",
+        "bytes": 169330,
+        "width": 1024,
+        "height": 828,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d510a8f7",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2022-01-10 at 8.02.21 PM (4).jpeg",
+        "bytes": 107270,
+        "width": 1024,
+        "height": 768,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2022-01-10 at 8.02.21 PM (4).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2022-01-10 at 8.02.21 PM (4).webp",
+        "bytes": 105384,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3b001613",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2022-01-10 at 8.24.35 PM (3).jpeg",
+        "bytes": 134382,
+        "width": 1024,
+        "height": 768,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2022-01-10 at 8.24.35 PM (3).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2022-01-10 at 8.24.35 PM (3).webp",
+        "bytes": 136872,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b83a7c4d",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-05-18 at 4.40.30 PM.jpeg",
+        "bytes": 443652,
+        "width": 1600,
+        "height": 1071,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-05-18 at 4.40.30 PM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-05-18 at 4.40.30 PM.webp",
+        "bytes": 217166,
+        "width": 1600,
+        "height": 1071,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "eb049ad3",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-18 at 6.13.46 PM.jpeg",
+        "bytes": 298521,
+        "width": 960,
+        "height": 1280,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-18 at 6.13.46 PM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-18 at 6.13.46 PM.webp",
+        "bytes": 302436,
+        "width": 960,
+        "height": 1280,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "3085ff54",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-18 at 6.16.18 PM.jpeg",
+        "bytes": 189246,
+        "width": 1280,
+        "height": 960,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-18 at 6.16.18 PM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-18 at 6.16.18 PM.webp",
+        "bytes": 167370,
+        "width": 1280,
+        "height": 960,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ebcd36f0",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-18 at 6.16.43 PM.jpeg",
+        "bytes": 190908,
+        "width": 1280,
+        "height": 960,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-18 at 6.16.43 PM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-18 at 6.16.43 PM.webp",
+        "bytes": 163670,
+        "width": 1280,
+        "height": 960,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9d63bf66",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 11.32.03 AM.jpeg",
+        "bytes": 229301,
+        "width": 960,
+        "height": 1280,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 11.32.03 AM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-19 at 11.32.03 AM.webp",
+        "bytes": 213272,
+        "width": 960,
+        "height": 1280,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "9313de6e",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 11.59.11 AM.jpeg",
+        "bytes": 199721,
+        "width": 960,
+        "height": 1280,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 11.59.11 AM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-19 at 11.59.11 AM.webp",
+        "bytes": 171060,
+        "width": 960,
+        "height": 1280,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c4883afb",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.02.45 PM.jpeg",
+        "bytes": 151176,
+        "width": 1148,
+        "height": 837,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.02.45 PM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-19 at 2.02.45 PM.webp",
+        "bytes": 133688,
+        "width": 1148,
+        "height": 837,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "b3b4db34",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.03.02 PM.jpeg",
+        "bytes": 190344,
+        "width": 960,
+        "height": 1280,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.03.02 PM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-19 at 2.03.02 PM.webp",
+        "bytes": 171728,
+        "width": 960,
+        "height": 1280,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e65b81f5",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.03.29 PM.jpeg",
+        "bytes": 157440,
+        "width": 1024,
+        "height": 768,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.03.29 PM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-19 at 2.03.29 PM.webp",
+        "bytes": 159534,
+        "width": 1024,
+        "height": 768,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "e5377e11",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.03.48 PM.jpeg",
+        "bytes": 41232,
+        "width": 960,
+        "height": 1280,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.03.48 PM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-19 at 2.03.48 PM.webp",
+        "bytes": 23008,
+        "width": 960,
+        "height": 1280,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d4bdd7d4",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.04 PM.jpeg",
+        "bytes": 103541,
+        "width": 960,
+        "height": 1280,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.04 PM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.04 PM.webp",
+        "bytes": 77436,
+        "width": 960,
+        "height": 1280,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "673a6211",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.47 PM (1).jpeg",
+        "bytes": 128939,
+        "width": 1280,
+        "height": 720,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.47 PM (1).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.47 PM (1).webp",
+        "bytes": 107248,
+        "width": 1280,
+        "height": 720,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6646f751",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.47 PM.jpeg",
+        "bytes": 688613,
+        "width": 1600,
+        "height": 914,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.47 PM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.47 PM.webp",
+        "bytes": 503694,
+        "width": 1600,
+        "height": 914,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "aaf49256",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.49 PM (1).jpeg",
+        "bytes": 984578,
+        "width": 1200,
+        "height": 1600,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.49 PM (1).webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.49 PM (1).webp",
+        "bytes": 123356,
+        "width": 1200,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ed70425b",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.49 PM.jpeg",
+        "bytes": 201888,
+        "width": 960,
+        "height": 1280,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.49 PM.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/WhatsApp Image 2026-07-19 at 2.04.49 PM.webp",
+        "bytes": 194648,
+        "width": 960,
+        "height": 1280,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fa473f66",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/White Water Rafting.jpg",
+        "bytes": 350713,
+        "width": 2048,
+        "height": 1366,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/White Water Rafting.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/White Water Rafting.webp",
+        "bytes": 200466,
+        "width": 2048,
+        "height": 1366,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a52a2cef",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/Woodland king fisher.JPG",
+        "bytes": 4505610,
+        "width": 4272,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/Woodland king fisher.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/Woodland king fisher.webp",
+        "bytes": 219136,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "d14565b3",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/_MG_3102.JPG",
+        "bytes": 2142370,
+        "width": 3504,
+        "height": 2336,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/_MG_3102.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/_MG_3102.webp",
+        "bytes": 113268,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c85641e4",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/_MG_3112.JPG",
+        "bytes": 2262732,
+        "width": 3504,
+        "height": 2336,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/_MG_3112.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/_MG_3112.webp",
+        "bytes": 142464,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "83437aa5",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/_MG_3245.JPG",
+        "bytes": 2532946,
+        "width": 3504,
+        "height": 2336,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/_MG_3245.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/_MG_3245.webp",
+        "bytes": 190646,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f0ecaa44",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/_MG_3366.JPG",
+        "bytes": 2186809,
+        "width": 3504,
+        "height": 2336,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/_MG_3366.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/_MG_3366.webp",
+        "bytes": 130620,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "cca38c7f",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/_MG_3382.JPG",
+        "bytes": 1746337,
+        "width": 3504,
+        "height": 2336,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/_MG_3382.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/_MG_3382.webp",
+        "bytes": 50032,
+        "width": 2400,
+        "height": 1600,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a87bf9ed",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/_TEA9674.jpg",
+        "bytes": 9415102,
+        "width": 4059,
+        "height": 2701,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/_TEA9674.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/_TEA9674.webp",
+        "bytes": 328894,
+        "width": 2400,
+        "height": 1597,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "92b91b55",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/_TEA9701.jpg",
+        "bytes": 7367269,
+        "width": 4000,
+        "height": 2662,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/_TEA9701.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/_TEA9701.webp",
+        "bytes": 195020,
+        "width": 2400,
+        "height": 1597,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "f2d8e080",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/_TEA9726.jpg",
+        "bytes": 8258237,
+        "width": 3892,
+        "height": 2590,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/_TEA9726.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/_TEA9726.webp",
+        "bytes": 210714,
+        "width": 2400,
+        "height": 1597,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ae747a7e",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/afar camp.jpg",
+        "bytes": 6273437,
+        "width": 3872,
+        "height": 2592,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/afar camp.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/afar camp.webp",
+        "bytes": 701506,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ad51caad",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/architectural marvel of Yemranna Krestos.JPG",
+        "bytes": 3150165,
+        "width": 4288,
+        "height": 2848,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/architectural marvel of Yemranna Krestos.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/architectural marvel of Yemranna Krestos.webp",
+        "bytes": 388470,
+        "width": 2400,
+        "height": 1594,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6cbe98f9",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/at shrine entrance.jpg",
+        "bytes": 5778054,
+        "width": 3872,
+        "height": 2592,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/at shrine entrance.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/at shrine entrance.webp",
+        "bytes": 440866,
+        "width": 2400,
+        "height": 1607,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "6c107478",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/castello di Gondar P1100097.JPG",
+        "bytes": 4857241,
+        "width": 3648,
+        "height": 2736,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/castello di Gondar P1100097.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/castello di Gondar P1100097.webp",
+        "bytes": 346990,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "a73659fc",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/cave church 3.jpg",
+        "bytes": 4419761,
+        "width": 3648,
+        "height": 2736,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/cave church 3.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/cave church 3.webp",
+        "bytes": 477790,
+        "width": 2400,
+        "height": 1800,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "fcfe4c59",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/clay-knight-ai1yq01pzwg-unsplash.jpg",
+        "bytes": 3411600,
+        "width": 3744,
+        "height": 5616,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/clay-knight-ai1yq01pzwg-unsplash.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/clay-knight-ai1yq01pzwg-unsplash.webp",
+        "bytes": 564762,
+        "width": 1600,
+        "height": 2400,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "c0f80001",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/ethiopia-harar-hyenas-23.jpg",
+        "bytes": 465010,
+        "width": 2304,
+        "height": 1301,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/ethiopia-harar-hyenas-23.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/ethiopia-harar-hyenas-23.webp",
+        "bytes": 239762,
+        "width": 2304,
+        "height": 1301,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "ed5a7a27",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/ethiopia-harar-hyenas-25.jpg",
+        "bytes": 277496,
+        "width": 2304,
+        "height": 1258,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/ethiopia-harar-hyenas-25-jpg.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/ethiopia-harar-hyenas-25-jpg.webp",
+        "bytes": 121584,
+        "width": 2304,
+        "height": 1258,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "497ffe86",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/ethiopia-harar-hyenas-25.webp",
+        "bytes": 265426,
+        "width": 2304,
+        "height": 1536,
+        "format": "webp",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/ethiopia-harar-hyenas-25-webp.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/ethiopia-harar-hyenas-25-webp.webp",
+        "bytes": 160686,
+        "width": 2304,
+        "height": 1536,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "85f26366",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/trevor-cole-UQJP4eEqRV0-unsplash.jpg",
+        "bytes": 2031602,
+        "width": 4304,
+        "height": 2852,
+        "format": "mjpeg",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/trevor-cole-UQJP4eEqRV0-unsplash.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/trevor-cole-UQJP4eEqRV0-unsplash.webp",
+        "bytes": 289852,
+        "width": 2400,
+        "height": 1590,
+        "format": "webp"
+      }
+    },
+    {
+      "id": "8e8b46e7",
+      "status": "processed",
+      "category": "staged-2026-07",
+      "source": {
+        "path": "staged-2026-07/troops of hyenas.png",
+        "bytes": 973276,
+        "width": 1154,
+        "height": 550,
+        "format": "png",
+        "orientation": 1
+      },
+      "output": {
+        "path": "staged-2026-07/troops of hyenas.webp",
+        "publicPath": "/assets/untagged/staged-2026-07/troops of hyenas.webp",
+        "bytes": 69022,
+        "width": 1154,
+        "height": 550,
         "format": "webp"
       }
     }
