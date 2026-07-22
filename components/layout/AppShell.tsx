@@ -8,7 +8,7 @@ import MobileCtaBar from '@/components/layout/MobileCtaBar';
 import ScrollToTop from '@/components/ui/ScrollToTop';
 import ReadingProgress from '@/components/ui/ReadingProgress';
 
-const HIDDEN_CHROME_PATHS = ['/asset-labeler'];
+const HIDDEN_CHROME_PATHS = ['/asset-labeler', '/image-review'];
 
 export default function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();

@@ -24,3 +24,6 @@ next-env.d.ts
 
 # Uncompressed source photography — inputs to scripts/build-asset-manifest.mts
 public/assets/staged/
+
+# Local MongoDB exports — do not commit label data or manifests
+exports/
