@@ -95,7 +95,15 @@ export async function POST(request: Request, context: RouteContext) {
       await items.updateOne(
         { reviewId: project.reviewId, assetId, categoryId },
         {
-          $set: { role, updatedAt: now },
+          $set: {
+            role,
+            ...(text(body.slotKey) ? { slotKey: text(body.slotKey) } : {}),
+            ...(text(body.pagePath) ? { pagePath: text(body.pagePath) } : {}),
+            ...(Array.isArray(body.pageTargets) ? { pageTargets: body.pageTargets.map(String).filter(Boolean) } : {}),
+            ...(text(body.selectionReason) ? { selectionReason: text(body.selectionReason) } : {}),
+            ...(typeof body.qualityScore === "number" ? { qualityScore: body.qualityScore } : {}),
+            updatedAt: now,
+          },
           $setOnInsert: {
             reviewId: project.reviewId,
             assetId,

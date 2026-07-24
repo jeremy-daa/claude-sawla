@@ -71,6 +71,7 @@ export type ReviewDecision = "pending" | "keep" | "remove" | "add";
 
 export type ReviewProject = {
   reviewId: string;
+  seedKey?: string;
   title: string;
   clientName: string;
   status: ReviewProjectStatus;
@@ -86,6 +87,11 @@ export type ReviewItem = {
   reviewId: string;
   assetId: string;
   categoryId: string;
+  slotKey?: string;
+  pagePath?: string;
+  pageTargets?: string[];
+  selectionReason?: string;
+  qualityScore?: number;
   role: ReviewItemRole;
   decision: ReviewDecision;
   clientCategoryId?: string;
@@ -127,6 +133,7 @@ export async function ensureImageReviewIndexes(db: Db) {
 
   await Promise.all([
     projects.createIndex({ reviewId: 1 }, { unique: true }),
+    projects.createIndex({ seedKey: 1 }, { unique: true, sparse: true }),
     projects.createIndex({ updatedAt: -1 }),
     items.createIndex({ reviewId: 1, assetId: 1, categoryId: 1 }, { unique: true }),
     items.createIndex({ reviewId: 1, categoryId: 1, role: 1 }),
