@@ -258,6 +258,7 @@ function choose(candidates: Candidate[], currentSlot: Slot, used: Set<string>, a
 }
 
 export const INITIAL_REVIEW_SEED_KEY = "initial-130-selection-v1";
+const INITIAL_REVIEW_TITLE = "Sawla photography selection — initial client review";
 
 export type SeedImageReviewResult = {
   reviewId: string;
@@ -300,14 +301,26 @@ export async function seedInitialImageReview(db: Db): Promise<SeedImageReviewRes
     };
   }
 
-  const { project, token } = await createImageReview(db, "Sawla photography selection — initial client review", "");
+  // Remove only draft projects left by a failed run of this one-off seed.
+  // Published or client-facing reviews are never touched.
+  const incompleteProjects = await projects.find({
+    title: INITIAL_REVIEW_TITLE,
+    status: "draft",
+    seedKey: { $exists: false },
+  }).toArray();
+  for (const incomplete of incompleteProjects) {
+    await items.deleteMany({ reviewId: incomplete.reviewId });
+    await projects.deleteOne({ reviewId: incomplete.reviewId });
+  }
+
+  const { project, token } = await createImageReview(db, INITIAL_REVIEW_TITLE, "");
   const selectedIds = new Set<string>();
   const alternativeIds = new Set<string>();
   const reviewItems: ReviewItem[] = [];
   let position = 0;
 
   for (const currentSlot of slots) {
-    const picked = choose(candidates, currentSlot, selectedIds);
+    const picked = choose(candidates, currentSlot, new Set([...selectedIds, ...alternativeIds]));
     if (!picked) throw new Error(`No candidate found for ${currentSlot.slotKey}`);
     selectedIds.add(picked.candidate.label.assetId);
     position += 1;
