@@ -95,6 +95,7 @@ export type ReviewItem = {
   role: ReviewItemRole;
   decision: ReviewDecision;
   clientCategoryId?: string;
+  clientPagePath?: string;
   clientNote?: string;
   reuseOf?: string;
   position: number;
@@ -106,6 +107,11 @@ export type ReviewAsset = {
   assetId: string;
   title: string;
   altText: string;
+  description?: string;
+  tags?: string[];
+  seoKeywords?: string[];
+  suggestedUse?: string[];
+  subjectType?: string;
   sourcePath: string;
   publicPath: string | null;
   category: string | null;
@@ -113,6 +119,12 @@ export type ReviewAsset = {
   width: number | null;
   height: number | null;
   status: string;
+};
+
+export type ReviewPageTarget = {
+  path: string;
+  label: string;
+  categoryId: string;
 };
 
 export function createReviewToken() {
@@ -185,6 +197,11 @@ export async function getReviewAssets(db: Db, manifest: AssetManifest) {
       assetId: label.assetId,
       title: label.title,
       altText: label.altText,
+      description: label.description,
+      tags: label.tags,
+      seoKeywords: label.seoKeywords,
+      suggestedUse: label.suggestedUse,
+      subjectType: label.subjectType,
       sourcePath: label.sourcePath,
       publicPath: label.publicPath,
       category: label.category,
@@ -204,36 +221,22 @@ export async function reviewSnapshot(db: Db, project: ReviewProject, admin: bool
   const manifest = await readAssetManifest();
   const { items } = await ensureImageReviewIndexes(db);
   const reviewItems = await items.find({ reviewId: project.reviewId }).sort({ categoryId: 1, position: 1 }).toArray();
-  const assets = admin ? await getReviewAssets(db, manifest) : [];
+  const assets = await getReviewAssets(db, manifest);
   const assetMap = new Map(assets.map((asset) => [asset.assetId, asset]));
-
-  if (!admin) {
-    const labels = await db
-      .collection<AssetLabelRecord>(ASSET_LABEL_COLLECTION)
-      .find({ assetId: { $in: reviewItems.map((item) => item.assetId) } })
-      .toArray();
-    for (const label of labels) {
-      const asset = manifestAsset(manifest, label.assetId);
-      if (asset) {
-        assetMap.set(label.assetId, {
-          assetId: label.assetId,
-          title: label.title,
-          altText: label.altText,
-          sourcePath: label.sourcePath,
-          publicPath: label.publicPath,
-          category: label.category,
-          destination: label.destination,
-          width: label.width,
-          height: label.height,
-          status: label.status,
-        });
-      }
-    }
-  }
+  const pageTargets = Array.from(new Map(
+    reviewItems
+      .filter((item) => item.pagePath)
+      .map((item) => [item.pagePath as string, {
+        path: item.pagePath as string,
+        label: item.slotKey || item.pagePath as string,
+        categoryId: item.categoryId,
+      }]),
+  ).values());
 
   return {
     project: { ...project, accessHash: undefined },
     categories: project.categories,
+    pageTargets,
     items: reviewItems,
     assets: Array.from(assetMap.values()),
   };

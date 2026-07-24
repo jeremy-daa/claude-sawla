@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import {
   ArrowRightLeft,
   Check,
@@ -36,13 +37,25 @@ type Item = {
   role: "selected" | "alternative";
   decision: "pending" | "keep" | "remove" | "add";
   clientCategoryId?: string;
+  clientPagePath?: string;
   clientNote?: string;
+};
+
+type PageTarget = {
+  path: string;
+  label: string;
+  categoryId: string;
 };
 
 type Asset = {
   assetId: string;
   title: string;
   altText: string;
+  description?: string;
+  tags?: string[];
+  seoKeywords?: string[];
+  suggestedUse?: string[];
+  subjectType?: string;
   sourcePath: string;
   publicPath: string | null;
   category: string | null;
@@ -60,6 +73,7 @@ type ReviewState = {
     status: "draft" | "client-review" | "client-submitted" | "approved";
   };
   categories: Category[];
+  pageTargets: PageTarget[];
   items: Item[];
   assets: Asset[];
 };
@@ -240,7 +254,10 @@ export default function ReviewBoard({ reviewId, token, admin }: Props) {
 
             {!admin && <div className="mb-5 flex flex-wrap items-center justify-between gap-3 border border-gold/30 bg-gold-faint p-4 text-sm"><span>Move an image with the category menu on its card. Your changes are saved immediately.</span><button type="button" disabled={saving || state.project.status === "approved"} onClick={() => void action({ action: "client-submit" })} className="btn-primary px-4 py-2 text-xs"><Send size={14} /> Submit review</button></div>}
 
-            {admin ? <AdminCategoryView state={state} category={category} assets={filteredAssets.slice(0, assetLimit)} currentItemByAsset={currentItemByAsset} search={search} setSearch={setSearch} setAssetLimit={setAssetLimit} onAction={action} saving={saving} /> : <ClientCategoryView state={state} category={category} selectedItems={selectedItems} alternativeItems={alternativeItems} removedItems={removedItems} assetMap={assetMap} onAction={action} saving={saving} />}
+            {admin ? <AdminCategoryView state={state} category={category} assets={filteredAssets.slice(0, assetLimit)} currentItemByAsset={currentItemByAsset} search={search} setSearch={setSearch} setAssetLimit={setAssetLimit} onAction={action} saving={saving} /> : <>
+              <ClientLibrarySearch categories={state.categories} pageTargets={state.pageTargets} category={category!} assets={filteredAssets.slice(0, assetLimit)} items={state.items} search={search} setSearch={setSearch} setAssetLimit={setAssetLimit} onAction={action} saving={saving} />
+              <ClientCategoryView reviewId={reviewId} token={token} state={state} category={category} selectedItems={selectedItems} alternativeItems={alternativeItems} removedItems={removedItems} assetMap={assetMap} onAction={action} saving={saving} />
+            </>}
           </main>
         </div>
       </div>
@@ -275,7 +292,58 @@ function AdminCategoryView({ state, category, assets, currentItemByAsset, search
   </>;
 }
 
-function ClientCategoryView({ state, category, selectedItems, alternativeItems, removedItems, assetMap, onAction, saving }: {
+function ClientLibrarySearch({ categories, pageTargets, category, assets, items, search, setSearch, setAssetLimit, onAction, saving }: {
+  categories: Category[];
+  pageTargets: PageTarget[];
+  category: Category;
+  assets: Asset[];
+  items: Item[];
+  search: string;
+  setSearch: (value: string) => void;
+  setAssetLimit: (value: number | ((current: number) => number)) => void;
+  onAction: (body: Record<string, unknown>) => Promise<void>;
+  saving: boolean;
+}) {
+  const hasQuery = search.trim().length > 0;
+  const [assignmentCategoryId, setAssignmentCategoryId] = useState(category.id);
+  const [assignmentPagePath, setAssignmentPagePath] = useState("");
+  const assignmentCategory = categories.find((item) => item.id === assignmentCategoryId) ?? category;
+
+  useEffect(() => {
+    setAssignmentCategoryId(category.id);
+  }, [category.id]);
+
+  return <section className="mb-7 border border-gold/30 bg-gold-faint p-4 md:p-5">
+    <div className="flex flex-wrap items-start justify-between gap-3">
+      <div>
+        <h3 className="font-body text-lg font-semibold tracking-normal">Search the full labeled library</h3>
+        <p className="mt-1 max-w-2xl text-sm leading-6 text-warmgrey">Optional: search all labeled images and assign one to any group or single page. Your addition will be marked as a client suggestion.</p>
+      </div>
+      <span className="text-xs text-gold-ink">{hasQuery ? `${assets.length} matches` : "Optional"}</span>
+    </div>
+    <input value={search} onChange={(event) => { setSearch(event.target.value); setAssetLimit(30); }} placeholder="Search title, destination, tags, subject, or filename" className="form-input mt-4 bg-white" />
+    <div className="mt-3 grid gap-3 md:grid-cols-2">
+      <label className="text-xs text-warmgrey"><span className="mb-1 block font-medium text-charcoal">Assign to group</span><select value={assignmentCategoryId} onChange={(event) => setAssignmentCategoryId(event.target.value)} className="form-input bg-white"><option value={category.id}>{category.title}</option>{categories.filter((item) => item.id !== category.id).map((item) => <option key={item.id} value={item.id}>{item.title}</option>)}</select></label>
+      <label className="text-xs text-warmgrey"><span className="mb-1 block font-medium text-charcoal">Assign to page (optional)</span><select value={assignmentPagePath} onChange={(event) => setAssignmentPagePath(event.target.value)} className="form-input bg-white"><option value="">Group-level assignment</option>{pageTargets.map((target) => <option key={target.path} value={target.path}>{target.label} · {target.path}</option>)}</select></label>
+    </div>
+    <label className="mt-3 block text-xs text-warmgrey"><span className="mb-1 block font-medium text-charcoal">Or enter a page path</span><input value={assignmentPagePath && !pageTargets.some((target) => target.path === assignmentPagePath) ? assignmentPagePath : ""} onChange={(event) => setAssignmentPagePath(event.target.value)} placeholder="/your-page-path" className="form-input bg-white" /></label>
+    {!hasQuery ? <p className="mt-3 text-xs text-warmgrey">Search only appears here when you choose to browse beyond the curated selections.</p> : assets.length === 0 ? <p className="mt-4 border border-dashed border-sand bg-white p-5 text-center text-sm text-warmgrey">No labeled images match that search.</p> : <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+      {assets.map((asset) => {
+        const item = items.find((candidate) => candidate.assetId === asset.assetId && candidate.categoryId === assignmentCategory.id);
+        const alreadyIncluded = item && item.decision !== "remove" && (item.role === "selected" || item.decision === "add");
+        return <article key={asset.assetId} className="border border-sand bg-white">
+          <div className="aspect-[4/3] bg-charcoal">{asset.publicPath ? <img src={asset.publicPath} alt={asset.altText || asset.title} className="h-full w-full object-cover" loading="lazy" /> : <div className="flex h-full items-center justify-center text-xs text-ivory">No preview</div>}</div>
+          <div className="p-3"><p className="line-clamp-2 text-sm font-semibold">{asset.title || asset.sourcePath}</p><p className="mt-1 line-clamp-1 text-xs text-warmgrey">{asset.destination || asset.category || asset.sourcePath}</p><button type="button" disabled={saving || Boolean(alreadyIncluded)} onClick={() => void onAction({ action: "client-add-item", assetId: asset.assetId, categoryId: assignmentCategory.id, clientPagePath: assignmentPagePath })} className="btn-primary mt-3 w-full justify-center px-3 py-2 text-xs">{alreadyIncluded ? "Already included" : item?.role === "alternative" ? "Add alternative" : `Assign to ${assignmentCategory.title}`}</button></div>
+        </article>;
+      })}
+    </div>}
+    {hasQuery && assets.length >= 30 && <button type="button" onClick={() => setAssetLimit((current) => current + 30)} className="btn-ghost mx-auto mt-5 flex px-4 py-2 text-xs">Load more matches</button>}
+  </section>;
+}
+
+function ClientCategoryView({ reviewId, token, state, category, selectedItems, alternativeItems, removedItems, assetMap, onAction, saving }: {
+  reviewId: string;
+  token: string;
   state: ReviewState;
   category?: Category;
   selectedItems: Item[];
@@ -286,10 +354,12 @@ function ClientCategoryView({ state, category, selectedItems, alternativeItems, 
   saving: boolean;
 }) {
   if (!category) return null;
-  return <div className="space-y-7"><ReviewGroup title="Selected for the site" description="These are the current recommendations." items={selectedItems} state={state} category={category} assetMap={assetMap} onAction={onAction} saving={saving} selected /><ReviewGroup title="Alternatives you can add" description="These are the only additional images included for this category." items={alternativeItems} state={state} category={category} assetMap={assetMap} onAction={onAction} saving={saving} />{removedItems.length > 0 && <ReviewGroup title="Removed in this review" description="You can restore any image you removed." items={removedItems} state={state} category={category} assetMap={assetMap} onAction={onAction} saving={saving} removed />}</div>;
+  return <div className="space-y-7"><ReviewGroup reviewId={reviewId} token={token} title="Selected for the site" description="These are the current recommendations." items={selectedItems} state={state} category={category} assetMap={assetMap} onAction={onAction} saving={saving} selected /><ReviewGroup reviewId={reviewId} token={token} title="Alternatives you can add" description="These are the additional images included for this category." items={alternativeItems} state={state} category={category} assetMap={assetMap} onAction={onAction} saving={saving} />{removedItems.length > 0 && <ReviewGroup reviewId={reviewId} token={token} title="Removed in this review" description="You can restore any image you removed." items={removedItems} state={state} category={category} assetMap={assetMap} onAction={onAction} saving={saving} removed />}</div>;
 }
 
-function ReviewGroup({ title, description, items, state, category, assetMap, onAction, saving, selected, removed }: {
+function ReviewGroup({ reviewId, token, title, description, items, state, category, assetMap, onAction, saving, selected, removed }: {
+  reviewId: string;
+  token: string;
   title: string;
   description: string;
   items: Item[];
@@ -301,10 +371,12 @@ function ReviewGroup({ title, description, items, state, category, assetMap, onA
   selected?: boolean;
   removed?: boolean;
 }) {
-  return <section><div className="mb-3 flex flex-wrap items-end justify-between gap-3"><div><h3 className="font-body text-lg font-semibold tracking-normal">{title} <span className="text-warmgrey">({items.length})</span></h3><p className="mt-1 text-sm text-warmgrey">{description}</p></div></div>{items.length === 0 ? <div className="border border-dashed border-sand bg-white p-8 text-center text-sm text-warmgrey">No images in this group yet.</div> : <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{items.map((item) => <ReviewCard key={itemKey(item)} item={item} state={state} category={category} asset={assetMap.get(item.assetId)} onAction={onAction} saving={saving} selected={selected} removed={removed} />)}</div>}</section>;
+  return <section><div className="mb-3 flex flex-wrap items-end justify-between gap-3"><div><h3 className="font-body text-lg font-semibold tracking-normal">{title} <span className="text-warmgrey">({items.length})</span></h3><p className="mt-1 text-sm text-warmgrey">{description}</p></div></div>{items.length === 0 ? <div className="border border-dashed border-sand bg-white p-8 text-center text-sm text-warmgrey">No images in this group yet.</div> : <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{items.map((item) => <ReviewCard key={itemKey(item)} reviewId={reviewId} token={token} item={item} state={state} category={category} asset={assetMap.get(item.assetId)} onAction={onAction} saving={saving} selected={selected} removed={removed} />)}</div>}</section>;
 }
 
-function ReviewCard({ item, state, category, asset, onAction, saving, selected, removed }: {
+function ReviewCard({ reviewId, token, item, state, category, asset, onAction, saving, selected, removed }: {
+  reviewId: string;
+  token: string;
   item: Item;
   state: ReviewState;
   category: Category;
@@ -318,5 +390,7 @@ function ReviewCard({ item, state, category, asset, onAction, saving, selected, 
   const decision = item.decision;
   const nextAction = selected ? "remove" : removed ? "keep" : "add";
   const nextLabel = selected ? "Remove" : removed ? "Restore" : "Add to selection";
-  return <article className={`border bg-white ${decision !== "pending" ? "border-gold" : "border-sand"}`}><div className="relative aspect-[4/3] bg-charcoal">{asset.publicPath && <img src={asset.publicPath} alt={asset.altText || asset.title} className="h-full w-full object-cover" loading="lazy" />}<span className="absolute left-2 top-2 bg-white/90 px-2 py-1 text-[10px] font-medium uppercase tracking-[0.08em] text-charcoal">{decision === "pending" ? item.role : decision}</span></div><div className="p-4"><h4 className="line-clamp-2 font-body text-base font-semibold tracking-normal">{asset.title || asset.sourcePath}</h4><p className="mt-1 line-clamp-2 text-xs leading-5 text-warmgrey">{asset.destination || asset.category || asset.sourcePath}</p>{(item.pagePath || item.slotKey) && <p className="mt-2 line-clamp-2 border-t border-sand pt-2 text-[11px] leading-5 text-gold-ink">Intended for: {item.pagePath || item.slotKey}</p>}<div className="mt-4 grid gap-2"><button type="button" disabled={saving || state.project.status === "approved"} onClick={() => void onAction({ action: "client-update-item", assetId: item.assetId, categoryId: item.categoryId, nextCategoryId: item.categoryId, decision: nextAction })} className={`inline-flex items-center justify-center gap-2 border px-3 py-2 text-xs font-medium ${selected ? "border-red-200 text-red-700 hover:bg-red-50" : "border-gold bg-gold-faint text-gold-ink hover:bg-gold/20"}`}>{selected ? <X size={14} /> : removed ? <Undo2 size={14} /> : <Plus size={14} />} {nextLabel}</button><label className="flex items-center gap-2 text-xs text-warmgrey"><ArrowRightLeft size={14} /><span className="sr-only">Move category</span><select disabled={saving || state.project.status === "approved"} value={item.categoryId} onChange={(event) => void onAction({ action: "client-update-item", assetId: item.assetId, categoryId: item.categoryId, nextCategoryId: event.target.value, decision })} className="h-9 min-w-0 flex-1 border border-sand bg-ivory px-2 text-xs outline-none focus:border-gold"><option value={category.id}>Keep in {category.title}</option>{state.categories.filter((other) => other.id !== category.id).map((other) => <option key={other.id} value={other.id}>Move to {other.title}</option>)}</select><ChevronDown size={13} /></label><textarea defaultValue={item.clientNote ?? ""} disabled={saving || state.project.status === "approved"} onBlur={(event) => { if (event.target.value !== (item.clientNote ?? "")) void onAction({ action: "client-update-item", assetId: item.assetId, categoryId: item.categoryId, nextCategoryId: item.categoryId, decision, clientNote: event.target.value }); }} rows={2} placeholder="Optional note" className="form-input resize-none text-xs" /></div></div></article>;
+  const pagePath = item.clientPagePath || item.pagePath || "";
+  const previewHref = `/image-review/${reviewId}/${token}/preview?assetId=${encodeURIComponent(item.assetId)}&pagePath=${encodeURIComponent(pagePath || "/")}&categoryId=${encodeURIComponent(item.categoryId)}`;
+  return <article className={`border bg-white ${decision !== "pending" ? "border-gold" : "border-sand"}`}><div className="relative aspect-[4/3] bg-charcoal">{asset.publicPath && <img src={asset.publicPath} alt={asset.altText || asset.title} className="h-full w-full object-cover" loading="lazy" />}<span className="absolute left-2 top-2 bg-white/90 px-2 py-1 text-[10px] font-medium uppercase tracking-[0.08em] text-charcoal">{decision === "pending" ? item.role : decision}</span></div><div className="p-4"><h4 className="line-clamp-2 font-body text-base font-semibold tracking-normal">{asset.title || asset.sourcePath}</h4><p className="mt-1 line-clamp-2 text-xs leading-5 text-warmgrey">{asset.destination || asset.category || asset.sourcePath}</p><p className="mt-2 line-clamp-2 border-t border-sand pt-2 text-[11px] leading-5 text-gold-ink">Assigned page: {pagePath || "Group-level"}</p><div className="mt-4 grid gap-2"><Link href={previewHref} target="_blank" className="btn-ghost justify-center px-3 py-2 text-xs"><ExternalLink size={14} /> Preview with this image</Link><button type="button" disabled={saving || state.project.status === "approved"} onClick={() => void onAction({ action: "client-update-item", assetId: item.assetId, categoryId: item.categoryId, nextCategoryId: item.categoryId, decision: nextAction })} className={`inline-flex items-center justify-center gap-2 border px-3 py-2 text-xs font-medium ${selected ? "border-red-200 text-red-700 hover:bg-red-50" : "border-gold bg-gold-faint text-gold-ink hover:bg-gold/20"}`}>{selected ? <X size={14} /> : removed ? <Undo2 size={14} /> : <Plus size={14} />} {nextLabel}</button><label className="flex items-center gap-2 text-xs text-warmgrey"><ArrowRightLeft size={14} /><span className="sr-only">Move category</span><select disabled={saving || state.project.status === "approved"} value={item.categoryId} onChange={(event) => void onAction({ action: "client-update-item", assetId: item.assetId, categoryId: item.categoryId, nextCategoryId: event.target.value, decision })} className="h-9 min-w-0 flex-1 border border-sand bg-ivory px-2 text-xs outline-none focus:border-gold"><option value={category.id}>Keep in {category.title}</option>{state.categories.filter((other) => other.id !== category.id).map((other) => <option key={other.id} value={other.id}>Move to {other.title}</option>)}</select><ChevronDown size={13} /></label><label className="text-xs text-warmgrey"><span className="mb-1 block font-medium text-charcoal">Assign page</span><select disabled={saving || state.project.status === "approved"} value={pagePath} onChange={(event) => void onAction({ action: "client-update-item", assetId: item.assetId, categoryId: item.categoryId, nextCategoryId: item.categoryId, decision, clientPagePath: event.target.value })} className="form-input bg-ivory"><option value="">Group-level assignment</option>{state.pageTargets.map((target) => <option key={target.path} value={target.path}>{target.label} · {target.path}</option>)}</select></label><input defaultValue={state.pageTargets.some((target) => target.path === pagePath) ? "" : pagePath} disabled={saving || state.project.status === "approved"} onBlur={(event) => { if (event.target.value !== pagePath) void onAction({ action: "client-update-item", assetId: item.assetId, categoryId: item.categoryId, nextCategoryId: item.categoryId, decision, clientPagePath: event.target.value }); }} placeholder="Or enter an exact page path" className="form-input text-xs" /><textarea defaultValue={item.clientNote ?? ""} disabled={saving || state.project.status === "approved"} onBlur={(event) => { if (event.target.value !== (item.clientNote ?? "")) void onAction({ action: "client-update-item", assetId: item.assetId, categoryId: item.categoryId, nextCategoryId: item.categoryId, decision, clientNote: event.target.value }); }} rows={2} placeholder="Optional note" className="form-input resize-none text-xs" /></div></div></article>;
 }

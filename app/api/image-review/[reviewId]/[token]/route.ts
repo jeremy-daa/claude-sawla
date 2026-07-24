@@ -2,11 +2,13 @@ import { NextResponse } from "next/server";
 import {
   categoryById,
   ensureImageReviewIndexes,
+  getReviewAssets,
   getAuthenticatedReview,
   reviewSnapshot,
   type ReviewDecision,
   type ReviewItemRole,
 } from "@/lib/image-review";
+import { readAssetManifest } from "@/lib/asset-labeling";
 import { getSawlaToursDb } from "@/lib/mongodb";
 
 export const runtime = "nodejs";
@@ -129,6 +131,43 @@ export async function POST(request: Request, context: RouteContext) {
       return NextResponse.json({ ok: true });
     }
 
+    if (action === "client-add-item") {
+      const assetId = text(body.assetId);
+      const categoryId = text(body.categoryId);
+      if (!assetId || !categoryById(project.categories, categoryId)) {
+        return NextResponse.json({ error: "assetId and categoryId are required" }, { status: 400 });
+      }
+
+      const assets = await getReviewAssets(db, await readAssetManifest());
+      if (!assets.some((asset) => asset.assetId === assetId)) {
+        return NextResponse.json({ error: "That image is not available in the labeled library" }, { status: 400 });
+      }
+
+      const existing = await items.findOne({ reviewId: project.reviewId, assetId, categoryId });
+      if (existing) {
+        await items.updateOne(
+          { reviewId: project.reviewId, assetId, categoryId },
+          { $set: { decision: "add", clientCategoryId: categoryId, clientPagePath: text(body.clientPagePath).slice(0, 300), updatedAt: now } },
+        );
+      } else {
+        const lastItem = await items.find({ reviewId: project.reviewId, categoryId }).sort({ position: -1 }).limit(1).next();
+        await items.insertOne({
+          reviewId: project.reviewId,
+          assetId,
+          categoryId,
+          role: "selected",
+          decision: "add",
+          clientCategoryId: categoryId,
+          clientPagePath: text(body.clientPagePath).slice(0, 300),
+          position: (lastItem?.position ?? 0) + 1,
+          createdAt: now,
+          updatedAt: now,
+        });
+      }
+      await projects.updateOne({ reviewId: project.reviewId }, { $set: { updatedAt: now } });
+      return NextResponse.json({ ok: true });
+    }
+
     if (action === "client-update-item") {
       const assetId = text(body.assetId);
       const categoryId = text(body.categoryId);
@@ -140,6 +179,9 @@ export async function POST(request: Request, context: RouteContext) {
 
       const item = await items.findOne({ reviewId: project.reviewId, assetId, categoryId });
       if (!item) return NextResponse.json({ error: "Review item not found" }, { status: 404 });
+      const hasClientPagePath = Object.prototype.hasOwnProperty.call(body, "clientPagePath");
+      const clientPagePath = text(body.clientPagePath).slice(0, 300);
+      const pageUpdate = hasClientPagePath ? { clientPagePath } : {};
 
       if (nextCategoryId !== categoryId) {
         const existing = await items.findOne({ reviewId: project.reviewId, assetId, categoryId: nextCategoryId });
@@ -147,18 +189,18 @@ export async function POST(request: Request, context: RouteContext) {
           await items.deleteOne({ reviewId: project.reviewId, assetId, categoryId });
           await items.updateOne(
             { reviewId: project.reviewId, assetId, categoryId: nextCategoryId },
-            { $set: { decision, clientNote: text(body.clientNote), clientCategoryId: nextCategoryId, updatedAt: now } },
+            { $set: { decision, clientNote: text(body.clientNote), clientCategoryId: nextCategoryId, ...pageUpdate, updatedAt: now } },
           );
         } else {
           await items.updateOne(
             { reviewId: project.reviewId, assetId, categoryId },
-            { $set: { categoryId: nextCategoryId, decision, clientNote: text(body.clientNote), clientCategoryId: nextCategoryId, updatedAt: now } },
+            { $set: { categoryId: nextCategoryId, decision, clientNote: text(body.clientNote), clientCategoryId: nextCategoryId, ...pageUpdate, updatedAt: now } },
           );
         }
       } else {
         await items.updateOne(
           { reviewId: project.reviewId, assetId, categoryId },
-          { $set: { decision, clientNote: text(body.clientNote), updatedAt: now } },
+          { $set: { decision, clientNote: text(body.clientNote), ...pageUpdate, updatedAt: now } },
         );
       }
       await projects.updateOne({ reviewId: project.reviewId }, { $set: { updatedAt: now } });
